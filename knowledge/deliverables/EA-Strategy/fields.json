@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1",
+  "deliverable_id": "DEL-DOC-004",
+  "scaffold_status": "v0.1_pending_review",
+  "design_anchor": "Primary spec page 6 only — supporting guides intentionally deferred to S2.",
+  "containers": [
+    {
+      "key": "metadata",
+      "name_ar": "بيانات تعريف الوثيقة",
+      "kind": "boilerplate",
+      "fields": [
+        {"key": "document_title", "name_ar": "عنوان الوثيقة", "type": "text"},
+        {"key": "version", "name_ar": "إصدار الوثيقة", "type": "text"},
+        {"key": "issue_date", "name_ar": "تاريخ الإصدار", "type": "date"},
+        {"key": "authoring_unit", "name_ar": "الوحدة المُعِدّة", "type": "text"},
+        {"key": "language", "name_ar": "لغة الوثيقة", "type": "text"}
+      ]
+    },
+    {
+      "key": "identity",
+      "name_ar": "الهوية الاستراتيجية",
+      "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم",
+      "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1},
+      "fields": [
+        {"key": "vision", "name_ar": "الرؤية", "type": "text"},
+        {"key": "mission", "name_ar": "الرسالة", "type": "text"},
+        {"key": "values", "name_ar": "القيم", "type": "list_of_text"},
+        {"key": "pillars", "name_ar": "الركائز", "type": "list_of_text"}
+      ]
+    },
+    {
+      "key": "strategic_goals",
+      "name_ar": "الأهداف الاستراتيجية ومؤشراتها",
+      "source_quote_ar": "الأهداف، المؤشرات",
+      "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1},
+      "fields": [
+        {
+          "key": "goals",
+          "name_ar": "قائمة الأهداف الاستراتيجية",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "goal_id", "name_ar": "رمز الهدف", "type": "text"},
+            {"key": "title_ar", "name_ar": "عنوان الهدف", "type": "text"},
+            {"key": "description_ar", "name_ar": "وصف الهدف", "type": "text"},
+            {
+              "key": "kpis",
+              "name_ar": "مؤشرات أداء الهدف",
+              "type": "list_of_objects",
+              "item_fields": [
+                {"key": "kpi_id", "name_ar": "رمز المؤشر", "type": "text"},
+                {"key": "title_ar", "name_ar": "اسم المؤشر", "type": "text"},
+                {"key": "measurement_unit", "name_ar": "وحدة القياس", "type": "text"},
+                {"key": "baseline", "name_ar": "الخط الأساس", "type": "text"},
+                {"key": "target", "name_ar": "المستهدف", "type": "text"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "strategic_alignment",
+      "name_ar": "تقاطعات الأهداف الاستراتيجية",
+      "source_quote_ar": "تقاطعات الأهداف الاستراتيجية للبنية المؤسسية مع الأهداف الاستراتيجية للأعمال، والتحول الرقمي، والاستراتيجيات الرقمية ذات الصلة",
+      "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 2},
+      "fields": [
+        {
+          "key": "intersections_with_business_strategy",
+          "name_ar": "التقاطع مع الأهداف الاستراتيجية للأعمال",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
+            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
+            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+          ]
+        },
+        {
+          "key": "intersections_with_digital_transformation_strategy",
+          "name_ar": "التقاطع مع استراتيجية التحول الرقمي",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
+            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
+            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+          ]
+        },
+        {
+          "key": "intersections_with_related_digital_strategies",
+          "name_ar": "التقاطع مع الاستراتيجيات الرقمية ذات الصلة",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
+            {"key": "related_strategy_name_ar", "name_ar": "اسم الاستراتيجية الرقمية", "type": "text"},
+            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
+            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kpi_alignment",
+      "name_ar": "ارتباط مؤشرات الأداء الاستراتيجية",
+      "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
+      "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3},
+      "fields": [
+        {
+          "key": "linkage_to_business_kpis",
+          "name_ar": "الارتباط بمؤشرات أداء الأعمال",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
+            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
+            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+          ]
+        },
+        {
+          "key": "linkage_to_digital_transformation_kpis",
+          "name_ar": "الارتباط بمؤشرات أداء التحول الرقمي",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
+            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
+            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+          ]
+        },
+        {
+          "key": "linkage_to_other_digital_strategy_kpis",
+          "name_ar": "الارتباط بمؤشرات الاستراتيجيات الرقمية الأخرى",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
+            {"key": "related_strategy_name_ar", "name_ar": "اسم الاستراتيجية الرقمية", "type": "text"},
+            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
+            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "focus_areas",
+      "name_ar": "محاور التركيز للبنية المؤسسية",
+      "source_quote_ar": "تعريف محاور التركيز المحورية والداعمة من قدرات الجهة + تعريف محاور تركيز واضحة للبنية المؤسسية تدعم المؤشرات الوطنية",
+      "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": "4-5"},
+      "fields": [
+        {
+          "key": "core_capability_axes",
+          "name_ar": "محاور التركيز المحورية من قدرات الجهة",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
+            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
+            {"key": "description_ar", "name_ar": "وصف المحور", "type": "text"},
+            {"key": "linked_capability_ref", "name_ar": "القدرة المرتبطة", "type": "text"}
+          ]
+        },
+        {
+          "key": "supporting_capability_axes",
+          "name_ar": "محاور التركيز الداعمة من قدرات الجهة",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
+            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
+            {"key": "description_ar", "name_ar": "وصف المحور", "type": "text"},
+            {"key": "linked_capability_ref", "name_ar": "القدرة المرتبطة", "type": "text"}
+          ]
+        },
+        {
+          "key": "national_indicator_axes",
+          "name_ar": "محاور التركيز الداعمة للمؤشرات الوطنية",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
+            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
+            {"key": "national_indicator_ref", "name_ar": "المؤشر الوطني المرتبط", "type": "text"},
+            {"key": "support_description_ar", "name_ar": "آلية الدعم", "type": "text"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "governance",
+      "name_ar": "حوكمة الاعتماد",
+      "source_quote_ar": "لجنة التحول الرقمي / التعاملات الإلكترونية + لجنة حوكمة البنية المؤسسية",
+      "source_ref": {"file": "primary-spec", "page": 6, "column": "مستوى الاعتماد"},
+      "fields": [
+        {"key": "approval_authorities", "name_ar": "جهات الاعتماد", "type": "list_of_text"},
+        {"key": "approval_status", "name_ar": "حالة الاعتماد", "type": "enum", "allowed_values": ["draft", "in_review", "approved", "rejected"]},
+        {"key": "approval_date", "name_ar": "تاريخ الاعتماد", "type": "date"},
+        {"key": "approval_minutes_ref", "name_ar": "مرجع محضر الاعتماد", "type": "text"}
+      ]
+    }
+  ],
+  "out_of_scope_v01": [
+    "scoring weights for containers/fields",
+    "validation rules (must-have / should-have / nice-to-have)",
+    "dependency edges to upstream (B) and downstream (D/E/F) deliverables",
+    "evidence requirements per field",
+    "deeper field expansion driven by supporting guides (تأسيس الممارسة + المنهجية الوطنية)"
+  ],
+  "design_decisions_v0_1": {
+    "approved_at": "2026-04-27",
+    "approved_by": "Zidan (RMG Consulting)",
+    "decisions": [
+      {
+        "id": "DD-1",
+        "topic": "strategic_goals + kpi_alignment separation",
+        "decision": "Keep as two separate top-level containers. strategic_goals owns goals→KPIs nesting; kpi_alignment owns cross-strategy KPI linkage matrix.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-2",
+        "topic": "focus_areas axis taxonomy",
+        "decision": "Three axis types are sufficient: core_capability_axes, supporting_capability_axes, national_indicator_axes.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-3",
+        "topic": "governance container placement",
+        "decision": "Keep governance as its own top-level container, not nested under metadata.",
+        "applies_to": "all deliverables (project convention)"
+      },
+      {
+        "id": "DD-4",
+        "topic": "field key naming convention",
+        "decision": "All field/container keys use snake_case English; every leaf and container carries name_ar with the original Arabic label.",
+        "applies_to": "all deliverables (project convention)"
+      }
+    ]
+  }
+}
