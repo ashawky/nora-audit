@@ -1,0 +1,4860 @@
+{
+  "meta": {
+    "generated_at": "2026-04-25T18:53:57+00:00",
+    "items_count": 49,
+    "layer_a_source": "knowledge/dep_suggestions_ab.json",
+    "layer_b_source": "knowledge/dep_suggestions_ab.json",
+    "layer_c1_source": "knowledge/dep_suggestions_c.json",
+    "layer_c2_source": "knowledge/dep_suggestions_c_inferential.json",
+    "method": "phase_rules + content_text + nlm_literal + nlm_inferential"
+  },
+  "items": {
+    "DEL-PRE-001": {
+      "id": "DEL-PRE-001",
+      "name_ar": "اشتراطات التقييم",
+      "phase": "A",
+      "category_id": "PRE",
+      "candidates": {
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. قرار تشكيل لجنة حوكمة البنية المؤسسية [1]\n2. وثيقة الهيكل التنظيمي للجهة [2]\n3. وثيقة النموذج التشغيلي للبنية المؤسسية [3]\n4. عقود تشغيلية / عقود استشارية [4]\n5. بطاقات الوصف الوظيفي [4]\n6. محاضر اجتماعات اللجان الرقمية [1]\n7. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [434، 461]"
+    },
+    "DEL-PRE-002": {
+      "id": "DEL-PRE-002",
+      "name_ar": "اشتراطات لجنة حوكمة البنية المؤسسية",
+      "phase": "A",
+      "category_id": "PRE",
+      "candidates": {
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [],
+      "nlm_literal_answer": "لا يعتمد على غيره [1].",
+      "nlm_inferential_answer": "1. قرار تشكيل لجنة حوكمة البنية المؤسسية [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2, 3].\n3. محاضر اجتماعات اللجان الرقمية [1].\n4. قرار تعميم ونشر نموذج الحوكمة [4].\n5. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [1].\n6. وثيقة سياسة البنية المؤسسية [5]."
+    },
+    "DEL-PRE-003": {
+      "id": "DEL-PRE-003",
+      "name_ar": "اشتراطات عامة",
+      "phase": "A",
+      "category_id": "PRE",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة الهيكل التنظيمي للجهة [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة خطة تطوير القدرات والمهارات [3].\n4. عقود تشغيلية / عقود استشارية [4].\n5. بطاقات الوصف الوظيفي [5]."
+    },
+    "DEL-PRE-004": {
+      "id": "DEL-PRE-004",
+      "name_ar": "اشتراطات فريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "phase": "A",
+      "category_id": "PRE",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة الهيكل التنظيمي للجهة [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة الخطة التشغيلية للبنية المؤسسية [3].\n4. وثيقة خطة تطوير القدرات والمهارات [4].\n5. بطاقات الوصف الوظيفي [5].\n6. عقود تشغيلية عقود استشارية [5]."
+    },
+    "DEL-DOC-001": {
+      "id": "DEL-DOC-001",
+      "name_ar": "وثيقة استراتيجية الأعمال",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1].\n2. وثيقة استراتيجية التحول الرقمي [2].\n3. وثائق الاستراتيجيات الرقمية (استراتيجية الأمن السيبراني، استراتيجية البيانات، استراتيجية الحوسبة السحابية، استراتيجية تقنية المعلومات) [2].\n4. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [3, 4].\n5. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [5, 6].\n6. وثيقة الهيكل التنظيمي للجهة [7].\n7. وثيقة خارطة الطريق للتحول الرقمي [8]."
+    },
+    "DEL-DOC-002": {
+      "id": "DEL-DOC-002",
+      "name_ar": "وثيقة استراتيجية التحول الرقمي",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية الأعمال [1].\n2. وثائق الاستراتيجيات الرقمية (استراتيجية الأمن السيبراني، استراتيجية البيانات، استراتيجية الحوسبة السحابية، استراتيجية تقنية المعلومات) [1].\n3. وثيقة استراتيجية البنية المؤسسية [2].\n4. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [3, 4].\n5. وثيقة خارطة الطريق للتحول الرقمي [5].\n6. التقرير السنوي لحالة إنجاز أعمال البنية المؤسسية [6, 7].\n7. محاضر اجتماعات اللجان الرقمية (لجنة التحول الرقمي) [8]."
+    },
+    "DEL-DOC-003": {
+      "id": "DEL-DOC-003",
+      "name_ar": "وثائق الاستراتيجيات الرقمية",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1].\n2. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [2, 3].\n3. وثيقة خارطة الطريق للتحول الرقمي [4].\n4. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [5, 6].\n5. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [6, 7].\n6. تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية [8]."
+    },
+    "DEL-DOC-004": {
+      "id": "DEL-DOC-004",
+      "name_ar": "وثيقة استراتيجية البنية المؤسسية",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "B"
+          ],
+          "a_phase": "B",
+          "b_phrase": "الهيكل التنظيمي للجهة"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية األعمال [1]\n2. وثائق االستراتيجيات الرقمية (استراتيجية األمن السيبراني، استراتيجية البيانات، استراتيجية الحوسبة السحابية، استراتيجية تقنية المعلومات) [1]\n3. وثيقة خارطة الطريق للتحول الرقمي [2]\n4. وثيقة سياسة البنية المؤسسية [1]\n5. وثيقة مبادئ البنية المؤسسية [3]\n6. وثيقة النموذج العام لمكونات البنية المؤسسية [3]\n7. وثيقة النموذج التشغيلي للبنية المؤسسية [4]\n8. وثيقة الخطة التشغيلية للبنية المؤسسية [5]\n9. وثيقة متطلبات البنية المؤسسية [6]\n10. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [7]\n11. التقرير الربعي لحالة إنجاز أعمال البنية المؤسسية [8, 9]\n12. التقرير السنوي لحالة إنجاز أعمال البنية المؤسسية [9, 10]"
+    },
+    "DEL-DOC-005": {
+      "id": "DEL-DOC-005",
+      "name_ar": "وثيقة الهيكل التنظيمي للجهة",
+      "phase": "B",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1].\n2. بطاقات الوصف الوظيفي [2].\n3. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [3].\n4. قرار تعيين كبير مهندسي البنية المؤسسية [3].\n5. قرارات تعيين قرارات تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية [3].\n6. قرار تشكيل لجنة حوكمة البنية المؤسسية [4].\n7. وثيقة استراتيجية البنية المؤسسية [5].\n8. وثيقة سياسة البنية المؤسسية [6].\n9. وثيقة خطة تطوير القدرات والمهارات [7].\n10. وثيقة الخطة التشغيلية للبنية المؤسسية [8]."
+    },
+    "DEL-DOC-006": {
+      "id": "DEL-DOC-006",
+      "name_ar": "وثيقة سياسة البنية المؤسسية",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-EVI-003": {
+          "layers": [
+            "B"
+          ],
+          "b_phrase": "خدمات البنية المؤسسية"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية األعمال [1].\n2. وثائق االستراتيجيات الرقمية [1].\n3. وثيقة الهيكل التنظيمي للجهة [1].\n4. وثيقة استراتيجية البنية المؤسسية [2].\n5. وثيقة النموذج التشغيلي للبنية المؤسسية [3].\n6. وثيقة مبادئ البنية المؤسسية [4].\n7. قرار تشكيل لجنة حوكمة البنية المؤسسية [5]."
+    },
+    "DEL-DOC-007": {
+      "id": "DEL-DOC-007",
+      "name_ar": "وثيقة النموذج التشغيلي للبنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية األعمال [1].\n2. وثائق االستراتيجيات الرقمية [1].\n3. وثيقة سياسة البنية المؤسسية [1].\n4. وثيقة الهيكل التنظيمي للجهة [1].\n5. وثيقة استراتيجية البنية المؤسسية [2].\n6. وثيقة الخطة التشغيلية للبنية المؤسسية [3].\n7. وثيقة خطة تعزيز الوعي [4].\n8. وثيقة خطة تطوير القدرات والمهارات [5].\n9. وثيقة مبادئ البنية المؤسسية [5].\n10. قرار تشكيل لجنة حوكمة البنية المؤسسية [6].\n11. قرار تعميم ونشر نموذج الحوكمة [7].\n12. سجل أصحاب المصلحة الداخليين والخارجيين [8].\n13. بطاقات الوصف الوظيفي [9]."
+    },
+    "DEL-DOC-008": {
+      "id": "DEL-DOC-008",
+      "name_ar": "وثيقة الخطة التشغيلية للبنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-010": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة خطة تعزيز الوعي [3].\n4. وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة [3].\n5. وثيقة خطة تطوير القدرات والمهارات [4].\n6. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [5].\n7. وثيقة خارطة الطريق للتحول الرقمي [6].\n8. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [7].\n9. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [8, 9]."
+    },
+    "DEL-DOC-009": {
+      "id": "DEL-DOC-009",
+      "name_ar": "وثيقة خطة تعزيز الوعي",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1, 2]\n2. وثيقة الهيكل التنظيمي للجهة [1, 3]\n3. وثيقة النموذج التشغيلي للبنية المؤسسية [1, 4, 5]\n4. سجل أصحاب المصلحة الداخليين والخارجيين [6]\n5. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [7]\n6. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [8, 9]\n7. شواهد إنجاز خطة تعزيز الوعي [10]"
+    },
+    "DEL-DOC-010": {
+      "id": "DEL-DOC-010",
+      "name_ar": "وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-005": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية األعمال [1].\n2. وثائق االستراتيجيات الرقمية [1].\n3. وثيقة استراتيجية البنية المؤسسية [2].\n4. وثيقة النموذج التشغيلي للبنية المؤسسية [3].\n5. وثيقة مبادئ البنية المؤسسية [4].\n6. وثيقة خارطة الطريق للتحول الرقمي [5].\n7. وثيقة متطلبات البنية المؤسسية [6].\n8. تقرير حاالت دراسية لتطبيقات التقنيات الناشئة والحديثة [7]."
+    },
+    "DEL-DOC-011": {
+      "id": "DEL-DOC-011",
+      "name_ar": "وثيقة خطة تطوير القدرات والمهارات",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1].\n2. بطاقات الوصف الوظيفي [2].\n3. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [3].\n4. وثيقة الهيكل التنظيمي للجهة [4, 5]."
+    },
+    "DEL-DOC-012": {
+      "id": "DEL-DOC-012",
+      "name_ar": "وثيقة مبادئ البنية المؤسسية",
+      "phase": "C",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1].\n2. وثيقة استراتيجية الأعمال [2].\n3. وثائق الاستراتيجيات الرقمية [2].\n4. وثيقة سياسة البنية المؤسسية [2].\n5. نموذج حوكمة البنية المؤسسية [3].\n6. وثيقة متطلبات البنية المؤسسية [4].\n7. تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية [5].\n8. تقرير االمتثال لمبادئ البنية المؤسسية [6]."
+    },
+    "DEL-DOC-013": {
+      "id": "DEL-DOC-013",
+      "name_ar": "وثيقة النموذج العام لمكونات البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-018": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة مناظير البنية المؤسسية [1]\n2. نماذج موحدة لحصر بيانات مكونات البنية المؤسسية [2]\n3. وثيقة النماذج المرجعية للبنية المؤسسية [3]\n4. وثيقة مبادئ البنية المؤسسية [4]\n5. وثيقة دورة تطوير مكونات البنية المؤسسية [5]\n6. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [6]\n7. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [1]\n8. وثيقة استراتيجية البنية المؤسسية [7]\n9. وثيقة متطلبات البنية المؤسسية [8]\n10. تقرير انتهاء دورات تطوير مكونات البنية المؤسسية [9]\n11. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [10]"
+    },
+    "DEL-DOC-014": {
+      "id": "DEL-DOC-014",
+      "name_ar": "وثيقة مناظير البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "B"
+          ],
+          "a_phase": "C",
+          "b_phrase": "استراتيجية الأعمال"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-018": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره [1].",
+      "nlm_inferential_answer": "1. وثيقة النموذج العام لمكونات البنية المؤسسية [1]\n2. وثيقة مبادئ البنية المؤسسية [1]\n3. وثيقة استراتيجية البنية المؤسسية [2]\n4. وثيقة النماذج المرجعية للبنية المؤسسية [3]\n5. وثيقة متطلبات البنية المؤسسية [4]\n6. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [5]\n7. وثيقة دورة تطوير مكونات البنية المؤسسية [6]\n8. نماذج موحدة لحصر بيانات مكونات البنية المؤسسية [7]"
+    },
+    "DEL-DOC-015": {
+      "id": "DEL-DOC-015",
+      "name_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-004": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1].\n2. وثيقة استراتيجية األعمال [2].\n3. وثائق االستراتيجيات الرقمية [2].\n4. وثيقة متطلبات البنية المؤسسية [3].\n5. وثيقة النموذج العام لمكونات البنية المؤسسية [4].\n6. وثيقة مناظير البنية المؤسسية [5].\n7. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [6].\n8. وثيقة دورة تطوير مكونات البنية المؤسسية [7].\n9. تقرير انتهاء دورات تطوير مكونات البنية المؤسسية [8]."
+    },
+    "DEL-DOC-016": {
+      "id": "DEL-DOC-016",
+      "name_ar": "وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [1].\n2. وثيقة دورة تطوير مكونات البنية المؤسسية [2].\n3. وثيقة متطلبات البنية المؤسسية [3].\n4. وثيقة النموذج العام لمكونات البنية المؤسسية [4].\n5. وثيقة مناظير البنية المؤسسية [1].\n6. وثيقة الهيكل التنظيمي للجهة [5].\n7. سجل أصحاب المصلحة الداخليين والخارجيين [6].\n8. وثيقة النموذج التشغيلي للبنية المؤسسية [7].\n9. وثيقة استراتيجية األعمال [5].\n10. تقرير انتهاء دورات تطوير مكونات البنية المؤسسية [8].\n11. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [9]."
+    },
+    "DEL-DOC-017": {
+      "id": "DEL-DOC-017",
+      "name_ar": "وثيقة دورة تطوير مكونات البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-018": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-004": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره [1].",
+      "nlm_inferential_answer": "1. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [1, 2].\n2. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [3, 4].\n3. وثيقة النموذج العام لمكونات البنية المؤسسية [3, 5, 6].\n4. وثيقة مناظير البنية المؤسسية [3, 6].\n5. وثيقة متطلبات البنية المؤسسية [1, 7, 8].\n6. وثيقة مبادئ البنية المؤسسية [5].\n7. وثيقة النماذج المرجعية للبنية المؤسسية [2].\n8. وثيقة خارطة الطريق للتحول الرقمي [2, 7].\n9. وثيقة استراتيجية البنية المؤسسية [4, 9].\n10. وثيقة استراتيجية التحول الرقمي [4, 10].\n11. وثيقة استراتيجية األعمال [4, 11].\n12. وثائق االستراتيجيات الرقمية [4, 11].\n13. تقرير انتهاء دورات تطوير مكونات البنية المؤسسية [12, 13].\n14. تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية [1, 13]."
+    },
+    "DEL-DOC-018": {
+      "id": "DEL-DOC-018",
+      "name_ar": "وثيقة النماذج المرجعية للبنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية األعمال [1].\n2. وثائق االستراتيجيات الرقمية [1].\n3. وثيقة سياسة البنية المؤسسية [1].\n4. وثيقة استراتيجية البنية المؤسسية [2].\n5. وثيقة نموذج حوكمة البنية المؤسسية [3].\n6. وثيقة مبادئ البنية المؤسسية [4].\n7. وثيقة النموذج العام لمكونات البنية المؤسسية [4].\n8. وثيقة مناظير البنية المؤسسية [5].\n9. وثيقة دورة تطوير مكونات البنية المؤسسية [6].\n10. وثيقة متطلبات البنية المؤسسية [7].\n11. نماذج موحدة لحصر بيانات مكونات البنية المؤسسية [8]."
+    },
+    "DEL-DOC-019": {
+      "id": "DEL-DOC-019",
+      "name_ar": "وثيقة خارطة الطريق للتحول الرقمي",
+      "phase": "E",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-010": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-018": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "D"
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "A",
+            "B",
+            "C2"
+          ],
+          "a_phase": "D",
+          "b_phrase": "متطلبات البنية المؤسسية"
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية التحول الرقمي [1].\n2. وثيقة استراتيجية الأعمال [2].\n3. وثائق الاستراتيجيات الرقمية [2].\n4. وثيقة استراتيجية البنية المؤسسية [3].\n5. وثيقة دورة تطوير مكونات البنية المؤسسية [508، 509].\n6. وثيقة متطلبات البنية المؤسسية [4].\n7. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [513، 514]."
+    },
+    "DEL-DOC-020": {
+      "id": "DEL-DOC-020",
+      "name_ar": "وثيقة متطلبات البنية المؤسسية",
+      "phase": "D",
+      "category_id": "DOC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DEC-005": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "B"
+        },
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية البنية المؤسسية [1, 2].\n2. وثيقة دورة تطوير مكونات البنية المؤسسية [2, 3].\n3. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [4].\n4. وثيقة خارطة الطريق للتحول الرقمي [2, 5].\n5. تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية [6].\n6. وثيقة استراتيجية األعمال [2, 7].\n7. وثائق االستراتيجيات الرقمية [2, 7].\n8. وثيقة مبادئ البنية المؤسسية [8].\n9. وثيقة النموذج العام لمكونات البنية المؤسسية [2, 8].\n10. سجل أصحاب المصلحة الداخليين والخارجيين [2, 9].\n11. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [10]."
+    },
+    "DEL-RPT-001": {
+      "id": "DEL-RPT-001",
+      "name_ar": "التقرير الشهري لحالة انجاز أعمال البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1-3]\n2. وثيقة الخطة التشغيلية للبنية المؤسسية [3, 4]\n3. وثيقة النموذج العام لمكونات البنية المؤسسية [5-7]\n4. وثيقة مناظير البنية المؤسسية [6, 7]\n5. وثيقة دورة تطوير مكونات البنية المؤسسية [7, 8]"
+    },
+    "DEL-RPT-002": {
+      "id": "DEL-RPT-002",
+      "name_ar": "التقرير الربعي لحالة انجاز أعمال البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "C1",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A",
+            "C1",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A",
+            "B",
+            "C1",
+            "C2"
+          ],
+          "a_phase": "E",
+          "b_phrase": "خارطة الطريق للتحول الرقمي"
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C1",
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "خطة تطوير القدرات والمهارات [1].\nخطة تعزيز الوعي [1].\nالخطة التشغيلية [2].\nمؤشرات أداء البنية المؤسسية االستراتيجية [2].\nخارطة الطريق للتحول الرقمي [2].",
+      "nlm_inferential_answer": "1. وثيقة خطة تطوير القدرات والمهارات [1].\n2. وثيقة خطة تعزيز الوعي [2].\n3. وثيقة الخطة التشغيلية للبنية المؤسسية [3].\n4. وثيقة استراتيجية البنية المؤسسية [4].\n5. وثيقة خارطة الطريق للتحول الرقمي [5].\n6. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [6].\n7. وثيقة متطلبات البنية المؤسسية [7]."
+    },
+    "DEL-RPT-003": {
+      "id": "DEL-RPT-003",
+      "name_ar": "التقرير السنوي لحالة انجاز أعمال البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "B",
+            "C2"
+          ],
+          "a_phase": "C",
+          "b_phrase": "خطة تعزيز الوعي"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-EVI-002": {
+          "layers": [
+            "B"
+          ],
+          "b_phrase": "خطة تعزيز الوعي"
+        },
+        "DEL-EVI-003": {
+          "layers": [
+            "B"
+          ],
+          "b_phrase": "خدمات البنية المؤسسية"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-010": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-005": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة استراتيجية الأعمال [1].\n2. وثائق الاستراتيجيات الرقمية (استراتيجية الأمن السيبراني، استراتيجية البيانات، استراتيجية الحوسبة السحابية، استراتيجية تقنية المعلومات) [1].\n3. وثيقة سياسة البنية المؤسسية [1].\n4. وثيقة استراتيجية البنية المؤسسية [2].\n5. وثيقة النموذج التشغيلي للبنية المؤسسية [3].\n6. وثيقة الخطة التشغيلية للبنية المؤسسية [4].\n7. وثيقة خطة تعزيز الوعي [5].\n8. وثيقة خطة تطوير القدرات والمهارات [6].\n9. وثيقة خارطة الطريق للتحول الرقمي [7].\n10. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [8].\n11. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [9].\n12. وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة [5].\n13. تقرير حالات دراسية لتطبيقات التقنيات الناشئة والحديثة [10]."
+    },
+    "DEL-RPT-004": {
+      "id": "DEL-RPT-004",
+      "name_ar": "تقرير انتهاء دورات تطوير مكونات البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "B",
+            "C1",
+            "C2"
+          ],
+          "a_phase": "C",
+          "b_phrase": "مبادئ البنية المؤسسية"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-015": {
+          "layers": [
+            "C1",
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C1",
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "تفاصيل الميثاق العام لدورات تطوير مكونات البنية المؤسسية [1].\nنتائج توثيق الوضع الراهن [1].\nنتائج تطوير الوضع المستقبلي [1].\nنتائج دراسة الفجوات [1].\nقائمة المبادرات والمشاريع لتطبيق الحلول المقترحة [1].\nنتائج دراسة أثر التغيير على متطلبات أو مبادئ البنية المؤسسية [1].\nالتغذية الراجعة على وحدات البناء من دورة تطوير مكونات البنية المؤسسية [1].\nالتغذية الراجعة على سمات وحدات البناء من دورة تطوير مكونات البنية المؤسسية [2].\nالتغذية الراجعة على المناظير من دورة تطوير مكونات البنية المؤسسية [2].",
+      "nlm_inferential_answer": "1. وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية [482، 493]\n2. وثيقة دورة تطوير مكونات البنية المؤسسية [484، 493]\n3. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [485، 493]\n4. تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية [493، 494]\n5. تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية [493، 495]\n6. وثيقة النموذج العام لمكونات البنية المؤسسية [481، 493]\n7. وثيقة مناظير البنية المؤسسية [482، 494]\n8. وثيقة خارطة الطريق للتحول الرقمي [486، 493]\n9. وثيقة مبادئ البنية المؤسسية [481، 493]\n10. وثيقة متطلبات البنية المؤسسية [487، 493]"
+    },
+    "DEL-RPT-005": {
+      "id": "DEL-RPT-005",
+      "name_ar": "تقرير حالات دراسية لتطبيقات التقنيات الناشئة والحديثة",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-010": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة\n2. تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية\n3. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية\n4. وثيقة دورة تطوير مكونات البنية المؤسسية\n5. وثيقة استراتيجية التحول الرقمي\n6. وثيقة استراتيجية البنية المؤسسية\n7. وثيقة خارطة الطريق للتحول الرقمي\n8. محاضر اعتماد مخرجات ممارسة البنية المؤسسية"
+    },
+    "DEL-RPT-006": {
+      "id": "DEL-RPT-006",
+      "name_ar": "تقرير دراسة مقارنة معيارية وتحديد أداة البنية المؤسسية وتقييمها",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة متطلبات البنية المؤسسية [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة النموذج العام لمكونات البنية المؤسسية [3].\n4. وثيقة مناظير البنية المؤسسية [4].\n5. وثيقة مبادئ البنية المؤسسية [3].\n6. وثيقة استراتيجية البنية المؤسسية [5]."
+    },
+    "DEL-RPT-007": {
+      "id": "DEL-RPT-007",
+      "name_ar": "تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة متطلبات البنية المؤسسية [1-3].\n2. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [1, 2, 4].\n3. وثيقة دورة تطوير مكونات البنية المؤسسية [1, 2, 5].\n4. وثيقة خارطة الطريق للتحول الرقمي [6, 7].\n5. وثيقة مبادئ البنية المؤسسية [8, 9].\n6. وثيقة النموذج التشغيلي للبنية المؤسسية [7, 10].\n7. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [11]."
+    },
+    "DEL-RPT-008": {
+      "id": "DEL-RPT-008",
+      "name_ar": "تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-010": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة مبادئ البنية المؤسسية [1]\n2. وثائق الاستراتيجيات الرقمية [2]\n3. وثيقة دورة تطوير مكونات البنية المؤسسية [3]\n4. تقرير انتهاء دورات تطوير مكونات البنية المؤسسية [4]\n5. وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة [5]\n6. وثيقة النموذج العام لمكونات البنية المؤسسية [1]\n7. تقرير االمتثال لمبادئ البنية المؤسسية [6]"
+    },
+    "DEL-RPT-009": {
+      "id": "DEL-RPT-009",
+      "name_ar": "تقرير الامتثال لمبادئ البنية المؤسسية",
+      "phase": "F",
+      "category_id": "RPT",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة مبادئ البنية المؤسسية [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2-4].\n3. وثيقة النموذج العام لمكونات البنية المؤسسية [1].\n4. وثيقة دورة تطوير مكونات البنية المؤسسية [5].\n5. وثيقة متطلبات البنية المؤسسية [6].\n6. تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية [7].\n7. قرار تشكيل لجنة حوكمة البنية المؤسسية [8].\n8. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [8].\n9. محاضر اجتماعات اللجان الرقمية [8]."
+    },
+    "DEL-DEC-001": {
+      "id": "DEL-DEC-001",
+      "name_ar": "قرارات تعيين و/أو تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "phase": "B",
+      "category_id": "DEC",
+      "candidates": {
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [1]\n2. قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية) [1]\n3. وثيقة الهيكل التنظيمي للجهة [2]\n4. وثيقة النموذج التشغيلي للبنية المؤسسية [3]\n5. بطاقات الوصف الوظيفي [4]\n6. عقود تشغيلية عقود استشارية [4]"
+    },
+    "DEL-DEC-002": {
+      "id": "DEL-DEC-002",
+      "name_ar": "قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية)",
+      "phase": "B",
+      "category_id": "DEC",
+      "candidates": {
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. بطاقات الوصف الوظيفي [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة الهيكل التنظيمي للجهة [3, 4].\n4. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [5].\n5. عقود تشغيلية / عقود استشارية [6]."
+    },
+    "DEL-DEC-003": {
+      "id": "DEL-DEC-003",
+      "name_ar": "قرار تأسيس الوحدة التنظيمية للبنية المؤسسية",
+      "phase": "B",
+      "category_id": "DEC",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة الهيكل التنظيمي للجهة [1].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2].\n3. وثيقة الخطة التشغيلية للبنية المؤسسية [3].\n4. قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية) [4].\n5. قرارات تعيين أو تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية [4].\n6. بطاقات الوصف الوظيفي [5].\n7. عقود تشغيلية أو عقود استشارية لفريق عمل الوحدة التنظيمية للبنية المؤسسية [5].\n8. قرار تشكيل لجنة حوكمة البنية المؤسسية [6]."
+    },
+    "DEL-DEC-004": {
+      "id": "DEL-DEC-004",
+      "name_ar": "قرار تشكيل لجنة حوكمة البنية المؤسسية",
+      "phase": "B",
+      "category_id": "DEC",
+      "candidates": {
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1-3].\n2. وثيقة سياسة البنية المؤسسية [4].\n3. وثيقة الهيكل التنظيمي للجهة [4, 5].\n4. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [6].\n5. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [7].\n6. محاضر اجتماعات اللجان الرقمية [7, 8]."
+    },
+    "DEL-DEC-005": {
+      "id": "DEL-DEC-005",
+      "name_ar": "قرار تعميم ونشر نموذج الحوكمة",
+      "phase": "B",
+      "category_id": "DEC",
+      "candidates": {
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1-3].\n2. وثيقة سياسة البنية المؤسسية [4].\n3. قرار تشكيل لجنة حوكمة البنية المؤسسية [5].\n4. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [5].\n5. محاضر اجتماعات اللجان الرقمية [5].\n6. وثيقة الهيكل التنظيمي للجهة [4, 6]."
+    },
+    "DEL-MIN-001": {
+      "id": "DEL-MIN-001",
+      "name_ar": "محاضر اعتماد مخرجات ممارسة البنية المؤسسية",
+      "phase": "F",
+      "category_id": "MIN",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1]",
+      "nlm_inferential_answer": "1. قرار تشكيل لجنة حوكمة البنية المؤسسية [1]\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [2, 3]\n3. وثيقة سياسة البنية المؤسسية [4]\n4. الوثائق والمخرجات المعتمدة والمرفقة مع المحضر [5]"
+    },
+    "DEL-MIN-002": {
+      "id": "DEL-MIN-002",
+      "name_ar": "محاضر اجتماعات اللجان الرقمية (آخر 4 اجتماعات لكل لجنة)",
+      "phase": "F",
+      "category_id": "MIN",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "B"
+          ],
+          "a_phase": "C",
+          "b_phrase": "خطة تعزيز الوعي"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-EVI-002": {
+          "layers": [
+            "B"
+          ],
+          "b_phrase": "خطة تعزيز الوعي"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية\n2. قرار تشكيل لجنة حوكمة البنية المؤسسية\n3. محاضر اعتماد مخرجات ممارسة البنية المؤسسية\n4. تقرير االمتثال لمبادئ البنية المؤسسية\n5. وثيقة الهيكل التنظيمي للجهة\n6. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية\n7. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية\n8. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية"
+    },
+    "DEL-EVI-001": {
+      "id": "DEL-EVI-001",
+      "name_ar": "إنجاز خطة تطوير القدرات والمهارات",
+      "phase": "F",
+      "category_id": "EVI",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة خطة تطوير القدرات والمهارات\n2. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية\n3. وثيقة النموذج التشغيلي للبنية المؤسسية\n4. بطاقات الوصف الوظيفي\n5. وثيقة الهيكل التنظيمي للجهة"
+    },
+    "DEL-EVI-002": {
+      "id": "DEL-EVI-002",
+      "name_ar": "إنجاز خطة تعزيز الوعي",
+      "phase": "F",
+      "category_id": "EVI",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة خطة تعزيز الوعي [1].\n2. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [2].\n3. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [3]، [4].\n4. وثيقة الخطة التشغيلية للبنية المؤسسية [5].\n5. وثيقة استراتيجية البنية المؤسسية [6].\n6. وثيقة النموذج التشغيلي للبنية المؤسسية [7].\n7. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [8]."
+    },
+    "DEL-EVI-003": {
+      "id": "DEL-EVI-003",
+      "name_ar": "رقمنة خدمات البنية المؤسسية",
+      "phase": "F",
+      "category_id": "EVI",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-006": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1, 2]",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [495، 496].\n2. وثيقة الخطة التشغيلية للبنية المؤسسية [1].\n3. شواهد رقمنة اجراءات عمل البنية المؤسسية [2].\n4. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [3].\n5. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [508، 510].\n6. تقرير دراسة مقارنة معيارية وتحديد أداة البنية المؤسسية وتقييمه [4].\n7. سجل أصحاب المصلحة الداخليين والخارجيين [5]."
+    },
+    "DEL-EVI-004": {
+      "id": "DEL-EVI-004",
+      "name_ar": "رقمنة إجراءات عمل البنية المؤسسية",
+      "phase": "F",
+      "category_id": "EVI",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-EVI-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-EVI-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1, 2]",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1].\n2. رقمنة خدمات البنية المؤسسية [2].\n3. وثيقة الخطة التشغيلية للبنية المؤسسية [3].\n4. وثيقة سياسة البنية المؤسسية [4].\n5. وثيقة استراتيجية البنية المؤسسية [5].\n6. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [6].\n7. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [7].\n8. انجاز أعمال البنية المؤسسية عبر التكامل مع الوحدات التنظيمية [8].\n9. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [9]."
+    },
+    "DEL-EVI-005": {
+      "id": "DEL-EVI-005",
+      "name_ar": "انجاز أعمال البنية المؤسسية عبر التكامل مع الوحدات التنظيمية",
+      "phase": "F",
+      "category_id": "EVI",
+      "candidates": {
+        "DEL-DOC-001": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-002": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-003": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-004": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-006": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "A",
+            "C2"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-012": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "C"
+        },
+        "DEL-DOC-019": {
+          "layers": [
+            "A"
+          ],
+          "a_phase": "E"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-002": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره. [1, 2]",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1].\n2. سجل أصحاب المصلحة الداخليين والخارجيين [2].\n3. وثيقة خطة تعزيز الوعي [3].\n4. التقرير الربعي لحالة انجاز أعمال البنية المؤسسية [4].\n5. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [5].\n6. محاضر اجتماعات اللجان الرقمية [6].\n7. وثيقة استراتيجية البنية المؤسسية [7]."
+    },
+    "DEL-OTH-001": {
+      "id": "DEL-OTH-001",
+      "name_ar": "عقود تشغيلية و/أو استشارية لفريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "phase": "B",
+      "category_id": "OTH",
+      "candidates": {
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-008": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-OTH-004": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة الهيكل التنظيمي للجهة [1, 2].\n2. وثيقة النموذج التشغيلي للبنية المؤسسية [3].\n3. وثيقة الخطة التشغيلية للبنية المؤسسية [4].\n4. قرارات تعيين قرارات تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية [5].\n5. قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية) [5].\n6. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [5].\n7. بطاقات الوصف الوظيفي [6]."
+    },
+    "DEL-OTH-002": {
+      "id": "DEL-OTH-002",
+      "name_ar": "سجل أصحاب المصلحة الداخليين والخارجيين",
+      "phase": "B",
+      "category_id": "OTH",
+      "candidates": {
+        "DEL-OTH-004": {
+          "layers": [
+            "B"
+          ],
+          "b_phrase": "الوصف الوظيفي"
+        },
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-009": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-016": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-020": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-MIN-001": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1, 2].\n2. وثيقة خطة تعزيز الوعي [3].\n3. وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية [4, 5].\n4. وثيقة دورة تطوير مكونات البنية المؤسسية [4, 6].\n5. وثيقة متطلبات البنية المؤسسية [7, 8].\n6. محاضر اعتماد مخرجات ممارسة البنية المؤسسية [9-11]."
+    },
+    "DEL-OTH-003": {
+      "id": "DEL-OTH-003",
+      "name_ar": "نماذج موحدة لحصر بيانات مكونات البنية المؤسسية",
+      "phase": "B",
+      "category_id": "OTH",
+      "candidates": {
+        "DEL-DOC-013": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-014": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-018": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-017": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-001": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-RPT-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "",
+      "nlm_inferential_answer": "1. وثيقة النموذج العام لمكونات البنية المؤسسية [1].\n2. وثيقة مناظير البنية المؤسسية [2].\n3. وثيقة النماذج المرجعية للبنية المؤسسية [3].\n4. وثيقة دورة تطوير مكونات البنية المؤسسية [4].\n5. التقرير الشهري لحالة انجاز أعمال البنية المؤسسية [5].\n6. التقرير السنوي لحالة انجاز أعمال البنية المؤسسية [6]."
+    },
+    "DEL-OTH-004": {
+      "id": "DEL-OTH-004",
+      "name_ar": "بطاقات الوصف الوظيفي",
+      "phase": "B",
+      "category_id": "OTH",
+      "candidates": {
+        "DEL-DOC-007": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-005": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DOC-011": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-PRE-004": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-002": {
+          "layers": [
+            "C2"
+          ]
+        },
+        "DEL-DEC-003": {
+          "layers": [
+            "C2"
+          ]
+        }
+      },
+      "prerequisites": [
+        "DEL-PRE-001",
+        "DEL-PRE-002",
+        "DEL-PRE-003",
+        "DEL-PRE-004"
+      ],
+      "nlm_literal_answer": "لا يعتمد على غيره.",
+      "nlm_inferential_answer": "1. وثيقة النموذج التشغيلي للبنية المؤسسية [1].\n2. وثيقة الهيكل التنظيمي للجهة [474، 475].\n3. وثيقة خطة تطوير القدرات والمهارات [2].\n4. قرارات تعيين \\ تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية [3].\n5. قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية) [3].\n6. قرار تأسيس الوحدة التنظيمية للبنية المؤسسية [3]."
+    }
+  }
+}

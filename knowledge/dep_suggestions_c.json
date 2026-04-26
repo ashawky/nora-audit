@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "source_index": "knowledge/deliverables-index.json",
+    "items_total": 49,
+    "notebook_id": "070c4be2-0022-4ec6-9a8f-618904da8166",
+    "last_updated": "2026-04-25T15:15:24+00:00",
+    "completed": 48,
+    "reparsed_at": "2026-04-25T15:48:37+00:00",
+    "matcher_version": "v2_phrase_score_lamalef"
+  },
+  "results": {
+    "DEL-PRE-001": {
+      "name_ar": "اشتراطات التقييم",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-PRE-002": {
+      "name_ar": "اشتراطات لجنة حوكمة البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره [1].",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-PRE-003": {
+      "name_ar": "اشتراطات عامة",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-PRE-004": {
+      "name_ar": "اشتراطات فريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-001": {
+      "name_ar": "وثيقة استراتيجية الأعمال",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-002": {
+      "name_ar": "وثيقة استراتيجية التحول الرقمي",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-003": {
+      "name_ar": "وثائق الاستراتيجيات الرقمية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-004": {
+      "name_ar": "وثيقة استراتيجية البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-005": {
+      "name_ar": "وثيقة الهيكل التنظيمي للجهة",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-006": {
+      "name_ar": "وثيقة سياسة البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-007": {
+      "name_ar": "وثيقة النموذج التشغيلي للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-008": {
+      "name_ar": "وثيقة الخطة التشغيلية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-009": {
+      "name_ar": "وثيقة خطة تعزيز الوعي",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-010": {
+      "name_ar": "وثيقة خطة تنفيذ دراسة جدوى تبني التقنيات الحديثة والناشئة",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-011": {
+      "name_ar": "وثيقة خطة تطوير القدرات والمهارات",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DOC-012": {
+      "name_ar": "وثيقة مبادئ البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-013": {
+      "name_ar": "وثيقة النموذج العام لمكونات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-014": {
+      "name_ar": "وثيقة مناظير البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره [1].",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DOC-015": {
+      "name_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-016": {
+      "name_ar": "وثيقة ميثاق دورة تطوير مكونات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DOC-017": {
+      "name_ar": "وثيقة دورة تطوير مكونات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره [1].",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DOC-018": {
+      "name_ar": "وثيقة النماذج المرجعية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DOC-019": {
+      "name_ar": "وثيقة خارطة الطريق للتحول الرقمي",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DOC-020": {
+      "name_ar": "وثيقة متطلبات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-001": {
+      "name_ar": "التقرير الشهري لحالة انجاز أعمال البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-002": {
+      "name_ar": "التقرير الربعي لحالة انجاز أعمال البنية المؤسسية",
+      "raw_answer": "خطة تطوير القدرات والمهارات [1].\nخطة تعزيز الوعي [1].\nالخطة التشغيلية [2].\nمؤشرات أداء البنية المؤسسية االستراتيجية [2].\nخارطة الطريق للتحول الرقمي [2].",
+      "matched_ids": [
+        "DEL-DOC-011",
+        "DEL-DOC-009",
+        "DEL-DOC-008",
+        "DEL-DOC-019"
+      ],
+      "matched_details": [
+        {
+          "id": "DEL-DOC-011",
+          "matched": "خطة تطوير القدرات والمهارات",
+          "name_ar": "وثيقة خطة تطوير القدرات والمهارات",
+          "match_kind": "substring"
+        },
+        {
+          "id": "DEL-DOC-009",
+          "matched": "خطة تعزيز الوعي",
+          "name_ar": "وثيقة خطة تعزيز الوعي",
+          "match_kind": "substring"
+        },
+        {
+          "id": "DEL-DOC-008",
+          "matched": "الخطة التشغيلية",
+          "name_ar": "وثيقة الخطة التشغيلية للبنية المؤسسية",
+          "match_kind": "substring_rev"
+        },
+        {
+          "id": "DEL-DOC-019",
+          "matched": "خارطة الطريق للتحول الرقمي",
+          "name_ar": "وثيقة خارطة الطريق للتحول الرقمي",
+          "match_kind": "substring"
+        }
+      ],
+      "n_references": 13
+    },
+    "DEL-RPT-003": {
+      "name_ar": "التقرير السنوي لحالة انجاز أعمال البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-004": {
+      "name_ar": "تقرير انتهاء دورات تطوير مكونات البنية المؤسسية",
+      "raw_answer": "تفاصيل الميثاق العام لدورات تطوير مكونات البنية المؤسسية [1].\nنتائج توثيق الوضع الراهن [1].\nنتائج تطوير الوضع المستقبلي [1].\nنتائج دراسة الفجوات [1].\nقائمة المبادرات والمشاريع لتطبيق الحلول المقترحة [1].\nنتائج دراسة أثر التغيير على متطلبات أو مبادئ البنية المؤسسية [1].\nالتغذية الراجعة على وحدات البناء من دورة تطوير مكونات البنية المؤسسية [1].\nالتغذية الراجعة على سمات وحدات البناء من دورة تطوير مكونات البنية المؤسسية [2].\nالتغذية الراجعة على المناظير من دورة تطوير مكونات البنية المؤسسية [2].",
+      "matched_ids": [
+        "DEL-DOC-015",
+        "DEL-DOC-012",
+        "DEL-DOC-017"
+      ],
+      "matched_details": [
+        {
+          "id": "DEL-DOC-015",
+          "matched": "تفاصيل الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+          "name_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+          "match_kind": "substring"
+        },
+        {
+          "id": "DEL-DOC-012",
+          "matched": "نتائج دراسة أثر التغيير على متطلبات أو مبادئ البنية المؤسسية",
+          "name_ar": "وثيقة مبادئ البنية المؤسسية",
+          "match_kind": "substring"
+        },
+        {
+          "id": "DEL-DOC-017",
+          "matched": "التغذية الراجعة على وحدات البناء من دورة تطوير مكونات البنية المؤسسية",
+          "name_ar": "وثيقة دورة تطوير مكونات البنية المؤسسية",
+          "match_kind": "substring"
+        }
+      ],
+      "n_references": 16
+    },
+    "DEL-RPT-005": {
+      "name_ar": "تقرير حالات دراسية لتطبيقات التقنيات الناشئة والحديثة",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-006": {
+      "name_ar": "تقرير دراسة مقارنة معيارية وتحديد أداة البنية المؤسسية وتقييمها",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-007": {
+      "name_ar": "تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-RPT-008": {
+      "name_ar": "تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-RPT-009": {
+      "name_ar": "تقرير الامتثال لمبادئ البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-DEC-001": {
+      "name_ar": "قرارات تعيين و/أو تكليف رسمي لفريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DEC-002": {
+      "name_ar": "قرار تعيين كبير مهندسي البنية المؤسسية (مدير الوحدة التنظيمية)",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DEC-003": {
+      "name_ar": "قرار تأسيس الوحدة التنظيمية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DEC-004": {
+      "name_ar": "قرار تشكيل لجنة حوكمة البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-DEC-005": {
+      "name_ar": "قرار تعميم ونشر نموذج الحوكمة",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-MIN-001": {
+      "name_ar": "محاضر اعتماد مخرجات ممارسة البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 4
+    },
+    "DEL-MIN-002": {
+      "name_ar": "محاضر اجتماعات اللجان الرقمية (آخر 4 اجتماعات لكل لجنة)",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-EVI-001": {
+      "name_ar": "إنجاز خطة تطوير القدرات والمهارات",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-EVI-002": {
+      "name_ar": "إنجاز خطة تعزيز الوعي",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-EVI-003": {
+      "name_ar": "رقمنة خدمات البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1, 2]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 9
+    },
+    "DEL-EVI-004": {
+      "name_ar": "رقمنة إجراءات عمل البنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره. [1, 2]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 8
+    },
+    "DEL-EVI-005": {
+      "name_ar": "انجاز أعمال البنية المؤسسية عبر التكامل مع الوحدات التنظيمية",
+      "raw_answer": "لا يعتمد على غيره. [1, 2]",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 8
+    },
+    "DEL-OTH-001": {
+      "name_ar": "عقود تشغيلية و/أو استشارية لفريق عمل الوحدة التنظيمية للبنية المؤسسية",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-OTH-002": {
+      "name_ar": "سجل أصحاب المصلحة الداخليين والخارجيين",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    },
+    "DEL-OTH-003": {
+      "name_ar": "نماذج موحدة لحصر بيانات مكونات البنية المؤسسية",
+      "error": "Chat request timed out: "
+    },
+    "DEL-OTH-004": {
+      "name_ar": "بطاقات الوصف الوظيفي",
+      "raw_answer": "لا يعتمد على غيره.",
+      "matched_ids": [],
+      "matched_details": [],
+      "n_references": 0
+    }
+  }
+}

@@ -1,0 +1,2663 @@
+{
+  "meta": {
+    "source": "knowledge/deliverables-index.json",
+    "items_count": 49,
+    "generated_at": "2026-04-25T13:24:59+00:00",
+    "method": "phase_rules + content_text_matching",
+    "notes": "layer_a from plan §5.0; layer_b conservative substring match (filters too-common phrases)"
+  },
+  "layer_a_phase_rules": {
+    "DEL-PRE-001": {
+      "depends_on": [],
+      "prerequisites": []
+    },
+    "DEL-PRE-002": {
+      "depends_on": [],
+      "prerequisites": []
+    },
+    "DEL-PRE-003": {
+      "depends_on": [],
+      "prerequisites": []
+    },
+    "DEL-PRE-004": {
+      "depends_on": [],
+      "prerequisites": []
+    },
+    "DEL-DOC-001": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-002": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-003": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-004": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-005": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-006": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-007": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-008": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-009": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-010": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-011": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-012": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-013": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-014": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-015": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-016": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-017": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-018": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-019": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-007",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-008",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-010",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-013",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-014",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-015",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-016",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-017",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-018",
+          "from_phase": "D"
+        },
+        {
+          "target_id": "DEL-DOC-020",
+          "from_phase": "D"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DOC-020": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DEC-005",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-001",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-002",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-003",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-OTH-004",
+          "from_phase": "B"
+        },
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-001": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-002": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-003": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-004": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-005": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-006": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-007": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-008": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-RPT-009": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DEC-001": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DEC-002": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DEC-003": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DEC-004": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-DEC-005": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-MIN-001": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-MIN-002": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-EVI-001": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-EVI-002": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-EVI-003": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-EVI-004": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-EVI-005": {
+      "depends_on": [
+        {
+          "target_id": "DEL-DOC-001",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-002",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-003",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-004",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-006",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-009",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-011",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-012",
+          "from_phase": "C"
+        },
+        {
+          "target_id": "DEL-DOC-019",
+          "from_phase": "E"
+        }
+      ],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-OTH-001": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-OTH-002": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-OTH-003": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    },
+    "DEL-OTH-004": {
+      "depends_on": [],
+      "prerequisites": [
+        {
+          "target_id": "DEL-PRE-001"
+        },
+        {
+          "target_id": "DEL-PRE-002"
+        },
+        {
+          "target_id": "DEL-PRE-003"
+        },
+        {
+          "target_id": "DEL-PRE-004"
+        }
+      ]
+    }
+  },
+  "layer_b_text_signals": {
+    "DEL-PRE-001": [],
+    "DEL-PRE-002": [],
+    "DEL-PRE-003": [],
+    "DEL-PRE-004": [],
+    "DEL-DOC-001": [],
+    "DEL-DOC-002": [],
+    "DEL-DOC-003": [],
+    "DEL-DOC-004": [
+      {
+        "target_id": "DEL-DOC-005",
+        "matched_phrase": "الهيكل التنظيمي للجهة"
+      }
+    ],
+    "DEL-DOC-005": [],
+    "DEL-DOC-006": [
+      {
+        "target_id": "DEL-EVI-003",
+        "matched_phrase": "خدمات البنية المؤسسية"
+      }
+    ],
+    "DEL-DOC-007": [],
+    "DEL-DOC-008": [],
+    "DEL-DOC-009": [],
+    "DEL-DOC-010": [],
+    "DEL-DOC-011": [],
+    "DEL-DOC-012": [],
+    "DEL-DOC-013": [],
+    "DEL-DOC-014": [
+      {
+        "target_id": "DEL-DOC-001",
+        "matched_phrase": "استراتيجية الأعمال"
+      }
+    ],
+    "DEL-DOC-015": [],
+    "DEL-DOC-016": [],
+    "DEL-DOC-017": [],
+    "DEL-DOC-018": [],
+    "DEL-DOC-019": [
+      {
+        "target_id": "DEL-DOC-020",
+        "matched_phrase": "متطلبات البنية المؤسسية"
+      }
+    ],
+    "DEL-DOC-020": [],
+    "DEL-RPT-001": [],
+    "DEL-RPT-002": [
+      {
+        "target_id": "DEL-DOC-019",
+        "matched_phrase": "خارطة الطريق للتحول الرقمي"
+      }
+    ],
+    "DEL-RPT-003": [
+      {
+        "target_id": "DEL-DOC-009",
+        "matched_phrase": "خطة تعزيز الوعي"
+      },
+      {
+        "target_id": "DEL-EVI-002",
+        "matched_phrase": "خطة تعزيز الوعي"
+      },
+      {
+        "target_id": "DEL-EVI-003",
+        "matched_phrase": "خدمات البنية المؤسسية"
+      }
+    ],
+    "DEL-RPT-004": [
+      {
+        "target_id": "DEL-DOC-012",
+        "matched_phrase": "مبادئ البنية المؤسسية"
+      }
+    ],
+    "DEL-RPT-005": [],
+    "DEL-RPT-006": [],
+    "DEL-RPT-007": [],
+    "DEL-RPT-008": [],
+    "DEL-RPT-009": [],
+    "DEL-DEC-001": [],
+    "DEL-DEC-002": [],
+    "DEL-DEC-003": [],
+    "DEL-DEC-004": [],
+    "DEL-DEC-005": [],
+    "DEL-MIN-001": [],
+    "DEL-MIN-002": [
+      {
+        "target_id": "DEL-DOC-009",
+        "matched_phrase": "خطة تعزيز الوعي"
+      },
+      {
+        "target_id": "DEL-EVI-002",
+        "matched_phrase": "خطة تعزيز الوعي"
+      }
+    ],
+    "DEL-EVI-001": [],
+    "DEL-EVI-002": [],
+    "DEL-EVI-003": [],
+    "DEL-EVI-004": [],
+    "DEL-EVI-005": [],
+    "DEL-OTH-001": [],
+    "DEL-OTH-002": [
+      {
+        "target_id": "DEL-OTH-004",
+        "matched_phrase": "الوصف الوظيفي"
+      }
+    ],
+    "DEL-OTH-003": [],
+    "DEL-OTH-004": []
+  }
+}

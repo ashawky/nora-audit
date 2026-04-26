@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-04-23T22:20:48+00:00",
+  "notebook_id": "070c4be2-0022-4ec6-9a8f-618904da8166",
+  "question": "من وثيقة 'مخرجات ممارسة البنية المؤسسية - مارس 2026'، فئة «الاشتراطات» (القسم .01) مقسمة لأقسام فرعية بأرقام 1.X. أدرج جميع هذه الأقسام الفرعية بصيغة مرقمة، كل بند يحوي: (1) رقم القسم الفرعي (مثل 1.1)، (2) عنوان القسم كما ورد حرفيا، (3) ملخص من جملة واحدة لمحتواه. مهم: لا تخلط بين الاشتراطات والوثائق.",
+  "answer": "1. **1.1 اشتراطات التقييم**: تتضمن معايير تقييم الارتباط التنظيمي للجنة ومستوى تمثيل رئيسها وتفعيل مهامها ضمن قرار التشكيل [1].\n2. **1.2 اشتراطات لجنة حوكمة البنية المؤسسية**: تحدد آليات التواصل الرسمي والتي تقتصر على البريد الإلكتروني مع ضرورة إنشاء مجموعة بريدية موحدة لفريق البنية المؤسسية [1].\n3. **1.3 اشتراطات عامة**: تؤكد على أن المخرجات المطلوبة تهدف بالأساس إلى تأسيس وتشغيل الممارسة فعلياً في الجهة وليست مجرد متطلب خاص باجتياز التقييم [2].\n4. **1.4 أبرز اشتراطات فريق عمل الوحدة التنظيمية للبنية المؤسسية**: تفصّل شروط التعيين والتكليف لمدير الوحدة والحد الأدنى المطلوب لعدد أعضاء فريق العمل استناداً إلى كل مستوى من مستويات النضج [2].",
+  "conversation_id": "22d7fb5b-67e6-4c30-928b-b39ced57f542",
+  "turn_number": 1,
+  "references": [
+    {
+      "chunk_id": "cf965282-2ef2-460f-82dd-e6e52f8bf9ba",
+      "citation_number": 1,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "73634e80-e009-4dc5-877c-fdb3993c2813",
+      "citation_number": 2,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "289ccbc2-f2c6-4e94-9c53-2f89856fa65f",
+      "citation_number": 3,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "bcf592eb-eabe-4bfb-87dd-c6c9d591b73f",
+      "citation_number": 4,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "a5b0f36d-fdb5-4f61-8158-e10750e9ffb3",
+      "citation_number": 5,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "021bda71-37e5-4407-aefb-874a09e971fc",
+      "citation_number": 6,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "d543aa60-78c1-4cd4-8244-3977d03234dd",
+      "citation_number": 7,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    },
+    {
+      "chunk_id": "4de512cd-b4d0-4741-84d8-efb603cf27b9",
+      "citation_number": 8,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "11a7a1c7-89e0-4e5c-b17e-2724a48ae697",
+      "citation_number": 9,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    },
+    {
+      "chunk_id": "f1531d90-cceb-4c46-ad3a-4d8db32f503c",
+      "citation_number": 10,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "ab1dcb5d-78fe-421c-bd55-e94cfbf824b4",
+      "citation_number": 11,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    },
+    {
+      "chunk_id": "af3157f6-d742-4b19-aa78-021ce0e8d8b7",
+      "citation_number": 12,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "da59f22b-def5-4407-9a85-bce5408d45b9",
+      "citation_number": 13,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    },
+    {
+      "chunk_id": "af3157f6-d742-4b19-aa78-021ce0e8d8b7",
+      "citation_number": 14,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "da59f22b-def5-4407-9a85-bce5408d45b9",
+      "citation_number": 15,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    },
+    {
+      "chunk_id": "af3157f6-d742-4b19-aa78-021ce0e8d8b7",
+      "citation_number": 16,
+      "cited_text": "االشتراطات01.",
+      "start_char": 2171,
+      "end_char": 2185
+    },
+    {
+      "chunk_id": "da59f22b-def5-4407-9a85-bce5408d45b9",
+      "citation_number": 17,
+      "cited_text": ":اشتراطات عامة1.3",
+      "start_char": 2720,
+      "end_char": 2738
+    }
+  ]
+}

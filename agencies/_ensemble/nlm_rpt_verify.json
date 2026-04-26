@@ -1,0 +1,843 @@
+{
+  "timestamp": "2026-04-23T22:22:03+00:00",
+  "notebook_id": "070c4be2-0022-4ec6-9a8f-618904da8166",
+  "question": "من وثيقة 'مخرجات ممارسة البنية المؤسسية - مارس 2026'، أدرج جميع المخرجات المذكورة ضمن فئة «التقارير» (القسم .03). أعطني القائمة بصيغة مرقمة، كل بند يحوي: (1) اسم التقرير كما ورد حرفيا، (2) جهة الاعتماد، (3) الرقم التسلسلي إن وجد. مهم: لا تخلط بين التقارير والوثائق والقرارات.",
+  "answer": "بناءً على وثيقة \"مخرجات ممارسة البنية المؤسسية - مارس 2026\"، إليك جميع المخرجات المذكورة ضمن فئة «التقارير» (القسم 03) مرتبة حسب ورودها:\n\n1. **التقرير الشهري لحالة انجاز أعمال البنية المؤسسية**\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [327، 328].\n   * **الرقم التسلسلي:** 1 [1].\n\n2. **التقرير الربعي لحالة انجاز أعمال البنية المؤسسية**\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [328، 329].\n   * **الرقم التسلسلي:** 2 [2].\n\n3. **التقرير السنوي لحالة انجاز أعمال البنية المؤسسية**\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [329، 331].\n   * **الرقم التسلسلي:** 3 [3].\n\n4. **تقرير انتهاء دورات تطوير مكونات البنية المؤسسية**\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [332، 333].\n   * **الرقم التسلسلي:** 4 [4].\n\n5. **تقرير حاالت دراسية لتطبيقات التقنيات الناشة والحديثة** (كما وردت إملائياً في المصدر)\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [331، 332].\n   * **الرقم التسلسلي:** 5 [5].\n\n6. **تقرير دراسة مقارنة معيارية وتحديد أداة البنية المؤسسية وتقييمه**\n   * **جهة الاعتماد:** ال تحتاج الى اعتماد [333، 334].\n   * **الرقم التسلسلي:** 6 [6].\n\n7. **تقرير دراسة أثر التغيير على متطلبات البنية المؤسسية**\n   * **جهة الاعتماد:** لجنة حوكمة البنية المؤسسية [4].\n   * **الرقم التسلسلي:** 7 [4].\n\n8. **تقرير دراسة أثر التغيير على مبادئ البنية المؤسسية**\n   * **جهة الاعتماد:** مدير البنية المؤسسية / لجنة حوكمة البنية المؤسسية (في حالة التصعيد أو طلب من لجنة) [334، 335].\n   * **الرقم التسلسلي:** 9 [7]. *(ملاحظة: لم يرد تقرير يحمل الرقم التسلسلي 8 في النصوص المستخرجة من المصدر).*",
+  "conversation_id": "ead2ba18-d9a5-4a0f-8850-3a3e4685c48f",
+  "turn_number": 1,
+  "references": [
+    {
+      "chunk_id": "4f3e6ef1-89b4-4c3b-8c3e-8b6eb2362747",
+      "citation_number": 1,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "9c600a6a-b5b2-4f65-a0ef-f1f36efd394f",
+      "citation_number": 2,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "6f82d96c-5012-4e94-8de2-70fd0c5a33d9",
+      "citation_number": 3,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "56a42b7f-6b3d-4836-9d06-ffc666a0f57c",
+      "citation_number": 4,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "9ef33959-1108-4095-af95-8402654397dc",
+      "citation_number": 5,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "ecc0918c-8989-44f1-bef6-b36c5ec57a65",
+      "citation_number": 6,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "99795bba-5e7f-44f7-9e4c-162a43230ddd",
+      "citation_number": 7,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "1d25f0b4-186f-4324-8141-fcffa1c7648a",
+      "citation_number": 8,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "bc92eab1-48b7-479e-910f-a3ebd7e477d1",
+      "citation_number": 9,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "753c458e-a83a-4485-900f-f144565dca44",
+      "citation_number": 10,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "b31fe09b-20df-4732-bedd-bba644333e76",
+      "citation_number": 11,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "3e350c08-75c4-4dd1-a874-f07091c129b6",
+      "citation_number": 12,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "929266c9-c416-49f5-b4af-a0fe0a6e9a19",
+      "citation_number": 13,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "0afedc25-1d34-4ceb-924f-a3412727f199",
+      "citation_number": 14,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "46cec0d3-f048-49ee-8326-0832e6a7ab0a",
+      "citation_number": 15,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "5801b1ae-b6dc-4aec-b96e-e2f1096031d7",
+      "citation_number": 16,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "83b4ffe0-bffd-454f-9a19-7e186965cbe7",
+      "citation_number": 17,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "b4af3475-3c43-4c26-a03b-d7ded6dcc38b",
+      "citation_number": 18,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "c5ec7172-1b68-43ad-9e9e-fff95da6d6a1",
+      "citation_number": 19,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "9cc17f90-a8f9-467b-9f0e-0104dbbeb435",
+      "citation_number": 20,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "f8257b88-a3f6-49ea-aeaa-b2001ad3dc46",
+      "citation_number": 21,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "2a977bad-966b-4e2a-9620-9113e1d7d631",
+      "citation_number": 22,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "d705a1f1-7e6b-491f-ab0f-1b3ec633cf69",
+      "citation_number": 23,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "3700df67-2991-4069-a902-40d932fa5224",
+      "citation_number": 24,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "b5ca1048-43e3-4f48-a2f8-ad7b09c160e6",
+      "citation_number": 25,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "e1f8dfe4-f22a-4cb3-b420-4c4ce66bb4cd",
+      "citation_number": 26,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "d1a02c8e-aa62-4487-afbc-a4ae035e730f",
+      "citation_number": 27,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "efbc19a1-872e-4906-92cf-3cbfb1a80c10",
+      "citation_number": 28,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "c474770e-8485-4271-a54f-29f18f234342",
+      "citation_number": 29,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "2d9dd17c-365d-47cb-95d2-5db6f6e705cd",
+      "citation_number": 30,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "fac82e0d-ff75-41a2-a6c9-080f1267b396",
+      "citation_number": 31,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "7fd57cba-9d77-4372-9177-ec1f9a4a8476",
+      "citation_number": 32,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "20d9acf8-4b0f-4541-a8de-1388f568c277",
+      "citation_number": 33,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "94a8dd95-46d1-459c-8c20-f47022c25654",
+      "citation_number": 34,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "28b37956-1494-479e-83e2-20ad9b9e7d5e",
+      "citation_number": 35,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "117743a9-01cc-482c-8ce0-017840d08d39",
+      "citation_number": 36,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "981bf512-325e-4896-8487-11f03c2ac89b",
+      "citation_number": 37,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "b5c5106e-a1ea-480e-9324-c43092dc7fcd",
+      "citation_number": 38,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "20315c90-2539-49a5-b8ab-dbb681dbca16",
+      "citation_number": 39,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "96da6210-d05c-4bfc-a421-b83ae3b88903",
+      "citation_number": 40,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "b65546bf-e39f-458c-8e9b-101910952e3f",
+      "citation_number": 41,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "e2087032-3c87-4e45-8d8d-342e5fcf263c",
+      "citation_number": 42,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "b532dba7-96ee-4b7d-9399-f4421972ed53",
+      "citation_number": 43,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "3442f3a8-cd99-4331-85ce-730171678117",
+      "citation_number": 44,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "7196ae0d-aa87-49df-b417-8ed060ef82a4",
+      "citation_number": 45,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "6f95e976-df3c-4e14-8eed-063b82762e85",
+      "citation_number": 46,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "9548fe02-baac-4b06-987a-c61292d5784a",
+      "citation_number": 47,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "a219c612-d639-47d4-94ba-bea8ce86adfc",
+      "citation_number": 48,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "63684540-c5be-493a-a557-fd8ce32d2994",
+      "citation_number": 49,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "90a7bb04-a352-42df-afe4-5fe35068c657",
+      "citation_number": 50,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "40c1bba4-e03d-433a-a57b-f988c8e9c646",
+      "citation_number": 51,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "4e26d70c-40c6-4569-876e-998b08bc3a65",
+      "citation_number": 52,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "7f66e118-6803-4b8e-bc9a-bec2dfed064c",
+      "citation_number": 53,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "1ec08b40-bac1-4f08-81bd-39ab95f40584",
+      "citation_number": 54,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "f9bbf3e0-c23e-4f9e-9a2a-8793103d37c2",
+      "citation_number": 55,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "65acece5-30fa-4990-be54-6589697b1d61",
+      "citation_number": 56,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "f3fb493a-1008-49b8-8410-cfc106ee42e6",
+      "citation_number": 57,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "22fb0b12-42da-4c01-aac7-37551b762d92",
+      "citation_number": 58,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "84e37d59-a19e-4c40-958c-5c7e69b038ce",
+      "citation_number": 59,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "77958e21-e1a7-41ca-b058-a8c4d247aeb9",
+      "citation_number": 60,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "cd1aa2b8-75ee-45a6-a9f0-d1e503f94724",
+      "citation_number": 61,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "443f20bf-bb16-434c-b530-f04e04026d23",
+      "citation_number": 62,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "0a40affb-c507-44fa-a28f-fbf67fe623b8",
+      "citation_number": 63,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "9a473f86-cf17-4b61-8ddc-aa52c87712bd",
+      "citation_number": 64,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "4a6641b2-ad22-4a57-a8a1-30e3afe4b05c",
+      "citation_number": 65,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "7114916a-8f54-4a11-b5a5-275ae0deb081",
+      "citation_number": 66,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "6f5e2097-c533-4b9a-9254-63003b660905",
+      "citation_number": 67,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "353f13e0-1f7b-4cb3-bfa8-ee75328eeaba",
+      "citation_number": 68,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "81fe906e-1b05-4cf8-9434-72c72a17a7d4",
+      "citation_number": 69,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "b8441c50-8d3d-4995-81ad-11e29d088a8a",
+      "citation_number": 70,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "bb6a3b72-7fd3-42cf-bdf0-b19755f6835d",
+      "citation_number": 71,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "e25c5e8d-c89e-41b0-87bb-b684344e6c92",
+      "citation_number": 72,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "0a4ab98f-e61a-4a19-8acb-406ea64f404f",
+      "citation_number": 73,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "9c1b3f84-36eb-451d-aebb-8c2cb450c78c",
+      "citation_number": 74,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "0cd63289-55aa-478b-8bbf-903bcf405f92",
+      "citation_number": 75,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "4864b6fa-964a-4def-9c85-6099944a8be8",
+      "citation_number": 76,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "21375569-f167-4836-be30-7e92d5d8c617",
+      "citation_number": 77,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "3cb0f2bd-75ec-4645-8d65-d1a7230e80c8",
+      "citation_number": 78,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "c56b5be7-1e10-4429-b69b-1a48e316d492",
+      "citation_number": 79,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "3cdd3b80-f02d-4fea-bb46-b7127c7060f5",
+      "citation_number": 80,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "72ddca37-fddf-44c2-ae84-79d925aa8884",
+      "citation_number": 81,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "0007bc3b-60ef-48aa-a81f-0d5f3cf17542",
+      "citation_number": 82,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "f4a77a50-18db-4697-b2c4-3d55093d2662",
+      "citation_number": 83,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "936a6b32-210f-48be-bb58-6f4b40de6ac6",
+      "citation_number": 84,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    },
+    {
+      "chunk_id": "b146fc35-053e-4c2e-9698-a4307c0956c2",
+      "citation_number": 85,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "03059e24-6e0a-4ce4-922f-069c701f08ef",
+      "citation_number": 86,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "770b70c8-2bc4-4498-9e34-71e98234f670",
+      "citation_number": 87,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "4e0aa0cb-b033-405d-9c24-635005483209",
+      "citation_number": 88,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "3fbbcc36-e569-4679-b56c-0e8d38ef4203",
+      "citation_number": 89,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "7e952c58-238b-49d7-bf59-ea1eeccc114c",
+      "citation_number": 90,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "1f7f79b2-3892-4ba9-88bf-91d8dc0a0fce",
+      "citation_number": 91,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    },
+    {
+      "chunk_id": "ba0ee341-cbb8-4264-9fc9-4d4839239a65",
+      "citation_number": 92,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "f41e8ddb-375e-4580-82da-69d1175ff4db",
+      "citation_number": 93,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "ad57c492-2782-4204-a4c4-76554302f792",
+      "citation_number": 94,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "71d9cc71-cd99-4e69-a7d4-18228130918c",
+      "citation_number": 95,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "c51eabe6-3819-4ea6-ae31-45daf8c2da2b",
+      "citation_number": 96,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "c0164fe1-d320-4244-873e-37a227f52306",
+      "citation_number": 97,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "139b6e01-a6a2-4baf-a37c-3fc70f809e57",
+      "citation_number": 98,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    },
+    {
+      "chunk_id": "f377a7e4-e1ef-4de1-963e-ad6a5df87f9c",
+      "citation_number": 99,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "43d4efa7-8834-462a-877a-b3e358105eba",
+      "citation_number": 100,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "ce391d69-005f-45aa-93ce-65f92a841414",
+      "citation_number": 101,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "149a318c-b621-46a8-93e9-b203d2ba144f",
+      "citation_number": 102,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "8fcabb71-8e8d-4261-a3e1-6e72ae1faafc",
+      "citation_number": 103,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "17d7a7a0-cbe0-4acf-8fd2-4aa6d953d1e9",
+      "citation_number": 104,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "4e29815a-5fde-4c29-98c9-933344574dce",
+      "citation_number": 105,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    },
+    {
+      "chunk_id": "f377a7e4-e1ef-4de1-963e-ad6a5df87f9c",
+      "citation_number": 106,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "43d4efa7-8834-462a-877a-b3e358105eba",
+      "citation_number": 107,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "ce391d69-005f-45aa-93ce-65f92a841414",
+      "citation_number": 108,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "149a318c-b621-46a8-93e9-b203d2ba144f",
+      "citation_number": 109,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "8fcabb71-8e8d-4261-a3e1-6e72ae1faafc",
+      "citation_number": 110,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "17d7a7a0-cbe0-4acf-8fd2-4aa6d953d1e9",
+      "citation_number": 111,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "4e29815a-5fde-4c29-98c9-933344574dce",
+      "citation_number": 112,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    },
+    {
+      "chunk_id": "f377a7e4-e1ef-4de1-963e-ad6a5df87f9c",
+      "citation_number": 113,
+      "cited_text": ".التكلفة اإلجمالية لتنفيذ الخدمة•",
+      "start_char": 11230,
+      "end_char": 11264
+    },
+    {
+      "chunk_id": "43d4efa7-8834-462a-877a-b3e358105eba",
+      "citation_number": 114,
+      "cited_text": ".نسبة إنجاز الخطة•",
+      "start_char": 11771,
+      "end_char": 11790
+    },
+    {
+      "chunk_id": "ce391d69-005f-45aa-93ce-65f92a841414",
+      "citation_number": 115,
+      "cited_text": "مال نتائج الخطة التشغيلية لتحسين أع✓ .ةالوحدة التنظيمية للبنية المؤسسي",
+      "start_char": 12812,
+      "end_char": 12883
+    },
+    {
+      "chunk_id": "149a318c-b621-46a8-93e9-b203d2ba144f",
+      "citation_number": 116,
+      "cited_text": "التغذية الراجعة على سمات وحدات البناء • .ةمن دورة تطوير مكونات البنية المؤسسي",
+      "start_char": 13872,
+      "end_char": 13950
+    },
+    {
+      "chunk_id": "8fcabb71-8e8d-4261-a3e1-6e72ae1faafc",
+      "citation_number": 117,
+      "cited_text": "مسببات ودواعي تطبيق الحالة •",
+      "start_char": 13325,
+      "end_char": 13354
+    },
+    {
+      "chunk_id": "17d7a7a0-cbe0-4acf-8fd2-4aa6d953d1e9",
+      "citation_number": 118,
+      "cited_text": ".معايير ومتطلبات الجهة•",
+      "start_char": 14413,
+      "end_char": 14437
+    },
+    {
+      "chunk_id": "4e29815a-5fde-4c29-98c9-933344574dce",
+      "citation_number": 119,
+      "cited_text": ":حاالت إصدار التقرير االجراءات والخدمات والدراسات لممارسة",
+      "start_char": 15508,
+      "end_char": 15566
+    }
+  ]
+}
