@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Secrets / local-only ---
+.env
+.env.local
+*.local
+.secrets/
+
+# --- Logs / runtime ---
+*.log
+logs/
+
+# --- Claude Code project shares (commit skills/commands/agents) ---
+# (auto-memory lives outside the repo at ~/.claude/projects/<hash>/memory/)
+.claude/settings.local.json
