@@ -1,0 +1,54 @@
+================================================================================
+PDF Extraction Library Comparison
+================================================================================
+
+[pdfplumber]
+  pages processed    : 16
+  elapsed (sec)      : 1.88
+  chars              : 19,666
+  lines              : 629
+  arabic chars       : 14,860
+  latin chars        : 200
+  arabic digits ٠-٩  : 0
+  english digits 0-9 : 176
+  tables detected    : 1
+  first pages w/tbl  : [5]
+  ligatures preserved: {'ﻻ': 0, 'ﻷ': 0, 'ﻵ': 0, 'ﻹ': 0}
+  known words FWD    : {'البنية': 0, 'المؤسسية': 0, 'الحوكمة': 0, 'الاستراتيجية': 0, 'المخرجات': 0}
+  known words REV    : {'ةينبلا': 131, 'ةيسسؤملا': 145, 'ةمكوحلا': 2, 'ةيجيتارتسالا': 0, 'تاجرخملا': 2}  (if>0 = RTL reversed!)
+
+[pymupdf]
+  pages processed    : 16
+  elapsed (sec)      : 1.28
+  chars              : 19,916
+  lines              : 1,114
+  arabic chars       : 14,857
+  latin chars        : 200
+  arabic digits ٠-٩  : 0
+  english digits 0-9 : 176
+  tables detected    : 1
+  first pages w/tbl  : [5]
+  ligatures preserved: {'ﻻ': 0, 'ﻷ': 0, 'ﻵ': 0, 'ﻹ': 0}
+  known words FWD    : {'البنية': 119, 'المؤسسية': 116, 'الحوكمة': 2, 'الاستراتيجية': 0, 'المخرجات': 2}
+  known words REV    : {'ةينبلا': 0, 'ةيسسؤملا': 0, 'ةمكوحلا': 0, 'ةيجيتارتسالا': 0, 'تاجرخملا': 0}  (if>0 = RTL reversed!)
+
+[pdfminer.six]
+  pages processed    : 16
+  elapsed (sec)      : 4.43
+  chars              : 21,265
+  lines              : 2,650
+  arabic chars       : 14,860
+  latin chars        : 136
+  arabic digits ٠-٩  : 0
+  english digits 0-9 : 153
+  tables detected    : —
+  ligatures preserved: {'ﻻ': 0, 'ﻷ': 0, 'ﻵ': 0, 'ﻹ': 0}
+  known words FWD    : {'البنية': 0, 'المؤسسية': 0, 'الحوكمة': 0, 'الاستراتيجية': 0, 'المخرجات': 0}
+  known words REV    : {'ةينبلا': 119, 'ةيسسؤملا': 116, 'ةمكوحلا': 2, 'ةيجيتارتسالا': 0, 'تاجرخملا': 2}  (if>0 = RTL reversed!)
+
+================================================================================
+Verdict hints:
+  - 'known_words_forward' > 0 AND 'known_words_reversed' == 0  →  RTL logical order ✓
+  - ligatures > 0  →  ligatures preserved (may need normalization)
+  - tables_detected > 0  →  table extraction supported
+================================================================================

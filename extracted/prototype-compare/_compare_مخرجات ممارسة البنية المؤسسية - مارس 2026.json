@@ -1,0 +1,105 @@
+[
+  {
+    "chars": 19666,
+    "lines": 629,
+    "arabic_chars": 14860,
+    "latin_chars": 200,
+    "arabic_digits": 0,
+    "english_digits": 176,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 0,
+      "المؤسسية": 0,
+      "الحوكمة": 0,
+      "الاستراتيجية": 0,
+      "المخرجات": 0
+    },
+    "known_words_reversed": {
+      "ةينبلا": 131,
+      "ةيسسؤملا": 145,
+      "ةمكوحلا": 2,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 2
+    },
+    "library": "pdfplumber",
+    "elapsed_sec": 1.88,
+    "pages_processed": 16,
+    "tables_detected": 1,
+    "pages_with_tables": [
+      5
+    ]
+  },
+  {
+    "chars": 19916,
+    "lines": 1114,
+    "arabic_chars": 14857,
+    "latin_chars": 200,
+    "arabic_digits": 0,
+    "english_digits": 176,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 119,
+      "المؤسسية": 116,
+      "الحوكمة": 2,
+      "الاستراتيجية": 0,
+      "المخرجات": 2
+    },
+    "known_words_reversed": {
+      "ةينبلا": 0,
+      "ةيسسؤملا": 0,
+      "ةمكوحلا": 0,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 0
+    },
+    "library": "pymupdf",
+    "elapsed_sec": 1.28,
+    "pages_processed": 16,
+    "tables_detected": 1,
+    "pages_with_tables": [
+      5
+    ]
+  },
+  {
+    "chars": 21265,
+    "lines": 2650,
+    "arabic_chars": 14860,
+    "latin_chars": 136,
+    "arabic_digits": 0,
+    "english_digits": 153,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 0,
+      "المؤسسية": 0,
+      "الحوكمة": 0,
+      "الاستراتيجية": 0,
+      "المخرجات": 0
+    },
+    "known_words_reversed": {
+      "ةينبلا": 119,
+      "ةيسسؤملا": 116,
+      "ةمكوحلا": 2,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 2
+    },
+    "library": "pdfminer.six",
+    "elapsed_sec": 4.43,
+    "pages_processed": 16,
+    "tables_detected": null,
+    "pages_with_tables": []
+  }
+]

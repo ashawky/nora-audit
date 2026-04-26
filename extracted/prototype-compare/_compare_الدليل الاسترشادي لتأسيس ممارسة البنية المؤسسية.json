@@ -1,0 +1,123 @@
+[
+  {
+    "chars": 156602,
+    "lines": 2608,
+    "arabic_chars": 127203,
+    "latin_chars": 1872,
+    "arabic_digits": 0,
+    "english_digits": 945,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 0,
+      "المؤسسية": 0,
+      "الحوكمة": 0,
+      "الاستراتيجية": 0,
+      "المخرجات": 0
+    },
+    "known_words_reversed": {
+      "ةينبلا": 679,
+      "ةيسسؤملا": 537,
+      "ةمكوحلا": 51,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 19
+    },
+    "library": "pdfplumber",
+    "elapsed_sec": 36.08,
+    "pages_processed": 100,
+    "tables_detected": 230,
+    "pages_with_tables": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16,
+      17,
+      19
+    ]
+  },
+  {
+    "chars": 163389,
+    "lines": 5859,
+    "arabic_chars": 126078,
+    "latin_chars": 1872,
+    "arabic_digits": 0,
+    "english_digits": 945,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 672,
+      "المؤسسية": 617,
+      "الحوكمة": 56,
+      "الاستراتيجية": 0,
+      "المخرجات": 19
+    },
+    "known_words_reversed": {
+      "ةينبلا": 0,
+      "ةيسسؤملا": 0,
+      "ةمكوحلا": 0,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 0
+    },
+    "library": "pymupdf",
+    "elapsed_sec": 30.87,
+    "pages_processed": 100,
+    "tables_detected": 86,
+    "pages_with_tables": [
+      6,
+      7,
+      8,
+      9,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20
+    ]
+  },
+  {
+    "chars": 173721,
+    "lines": 13297,
+    "arabic_chars": 127203,
+    "latin_chars": 1472,
+    "arabic_digits": 0,
+    "english_digits": 753,
+    "ligatures_preserved": {
+      "ﻻ": 0,
+      "ﻷ": 0,
+      "ﻵ": 0,
+      "ﻹ": 0
+    },
+    "known_words_forward": {
+      "البنية": 0,
+      "المؤسسية": 0,
+      "الحوكمة": 0,
+      "الاستراتيجية": 0,
+      "المخرجات": 0
+    },
+    "known_words_reversed": {
+      "ةينبلا": 672,
+      "ةيسسؤملا": 617,
+      "ةمكوحلا": 56,
+      "ةيجيتارتسالا": 0,
+      "تاجرخملا": 19
+    },
+    "library": "pdfminer.six",
+    "elapsed_sec": 25.38,
+    "pages_processed": 99,
+    "tables_detected": null,
+    "pages_with_tables": []
+  }
+]
