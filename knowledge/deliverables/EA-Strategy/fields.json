@@ -1,19 +1,66 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "deliverable_id": "DEL-DOC-004",
-  "scaffold_status": "v0.2_pending_review",
-  "design_anchor": "Primary spec page 6 + practice-establishment guide pages 10-22, 27-34, 52-53 (S2.2 deep read).",
+  "scaffold_status": "v0.3_pending_review",
+  "design_anchor": "Primary spec page 6 + practice-establishment guide pages 10-22, 27-34, 52-53 (S2.2 deep read). v0.3 adds field-level severity tags + container weights summing to 100 (S2.3, judgment-weighted with primary_spec/guide source anchoring where present).",
   "containers": [
     {
       "key": "metadata",
       "name_ar": "بيانات تعريف الوثيقة",
       "kind": "boilerplate",
+      "weight": 8,
+      "weight_rationale_ar": "العنصر بمعظمه تعريفي/إجرائي (boilerplate)، إلا أنه يحمل بيان الغايات الثلاث للوثيقة (definitional). الوزن 8 يعكس الأهمية كأساس مرجعي للتدقيق دون أن يطغى على المحتوى الإستراتيجي الجوهري.",
       "fields": [
-        {"key": "document_title", "name_ar": "عنوان الوثيقة", "type": "text"},
-        {"key": "version", "name_ar": "إصدار الوثيقة", "type": "text"},
-        {"key": "issue_date", "name_ar": "تاريخ الإصدار", "type": "date"},
-        {"key": "authoring_unit", "name_ar": "الوحدة المُعِدّة", "type": "text"},
-        {"key": "language", "name_ar": "لغة الوثيقة", "type": "text"},
+        {
+          "key": "document_title",
+          "name_ar": "عنوان الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "بدون عنوان لا يمكن تعريف الوثيقة."
+          }
+        },
+        {
+          "key": "version",
+          "name_ar": "إصدار الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "لا يصح تدقيق وثيقة بلا تتبّع إصدار."
+          }
+        },
+        {
+          "key": "issue_date",
+          "name_ar": "تاريخ الإصدار",
+          "type": "date",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "مطلوب لتتبّع مسار الاعتماد والحوكمة الزمني."
+          }
+        },
+        {
+          "key": "authoring_unit",
+          "name_ar": "الوحدة المُعِدّة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "يحدّد المسؤولية والمساءلة عن إعداد الوثيقة."
+          }
+        },
+        {
+          "key": "language",
+          "name_ar": "لغة الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "حقل إفصاح شائع لكنه ليس عنصر محتوى؛ غيابه لا يُسقط الوثيقة. (DD-19)"
+          }
+        },
         {
           "key": "document_purpose_statement",
           "name_ar": "بيان غرض الوثيقة (الغايات الإستراتيجية الثلاث)",
@@ -21,24 +68,52 @@
           "added_in": "v0.2",
           "source_quote_ar": "ويهدف تعريف استراتيجية البنية المؤسسية إلى تحقيق الغايات الآتية",
           "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"},
+          "validation": {
+            "severity": "must",
+            "severity_source": "guide",
+            "rationale_ar": "الغايات الثلاث مذكورة صراحةً في الدليل ص.10 §5.1.1 كأساس تعريفي للوثيقة.",
+            "source_quote_ar": "ويهدف تعريف استراتيجية البنية المؤسسية إلى تحقيق الغايات الآتية",
+            "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"}
+          },
           "item_fields": [
             {
               "key": "shared_agreement_on_objectives",
               "name_ar": "الاتفاق المشترك حول الأهداف والتطلعات",
               "type": "text",
-              "fixed_intent_ar": "الوصول إلى اتفاق مشترك حول الأهداف والتطلعات الإستراتيجية من تطبيق ممارسة البنية المؤسسية في الجهة"
+              "fixed_intent_ar": "الوصول إلى اتفاق مشترك حول الأهداف والتطلعات الإستراتيجية من تطبيق ممارسة البنية المؤسسية في الجهة",
+              "validation": {
+                "severity": "must",
+                "severity_source": "guide",
+                "rationale_ar": "غاية 1 من 3 المعرّفة صراحةً في الدليل ص.10 §5.1.1.",
+                "source_quote_ar": "الوصول إلى اتفاق مشترك حول الأهداف والتطلعات الإستراتيجية من تطبيق ممارسة البنية المؤسسية في الجهة",
+                "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"}
+              }
             },
             {
               "key": "continuous_alignment",
               "name_ar": "الموائمة المستمرة مع التوجهات والمبادرات",
               "type": "text",
-              "fixed_intent_ar": "ضمان الموائمة المستمرة مع التوجهات والأهداف الإستراتيجية والمبادرات التي ترتبط بأعمال البنية المؤسسية"
+              "fixed_intent_ar": "ضمان الموائمة المستمرة مع التوجهات والأهداف الإستراتيجية والمبادرات التي ترتبط بأعمال البنية المؤسسية",
+              "validation": {
+                "severity": "must",
+                "severity_source": "guide",
+                "rationale_ar": "غاية 2 من 3 المعرّفة صراحةً في الدليل ص.10 §5.1.1.",
+                "source_quote_ar": "ضمان الموائمة المستمرة مع التوجهات والأهداف الإستراتيجية والمبادرات التي ترتبط بأعمال البنية المؤسسية",
+                "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"}
+              }
             },
             {
               "key": "operational_efficiency",
               "name_ar": "الكفاءة التشغيلية لممارسة البنية المؤسسية",
               "type": "text",
-              "fixed_intent_ar": "تحقيق الكفاءة التشغيلية لممارسة البنية المؤسسية عن طريق تركيز الجهود حول التوجهات الإستراتيجية للجهة"
+              "fixed_intent_ar": "تحقيق الكفاءة التشغيلية لممارسة البنية المؤسسية عن طريق تركيز الجهود حول التوجهات الإستراتيجية للجهة",
+              "validation": {
+                "severity": "must",
+                "severity_source": "guide",
+                "rationale_ar": "غاية 3 من 3 المعرّفة صراحةً في الدليل ص.10 §5.1.1.",
+                "source_quote_ar": "تحقيق الكفاءة التشغيلية لممارسة البنية المؤسسية عن طريق تركيز الجهود حول التوجهات الإستراتيجية للجهة",
+                "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"}
+              }
             }
           ]
         }
@@ -47,26 +122,81 @@
     {
       "key": "identity",
       "name_ar": "الهوية الاستراتيجية",
+      "weight": 14,
+      "weight_rationale_ar": "البيت الإستراتيجي = الجوهر التعريفي للوثيقة؛ غياب الرؤية/الرسالة/الركائز/القيم يُسقط الأساس الذي تُبنى عليه باقي العناصر. وزن 14 يعكس الأهمية الجوهرية مع مراعاة أن أغلب المحتوى الإستراتيجي الموسّع (الأهداف والمؤشرات وتقاطعاتها) يقع في حاويات أخرى.",
       "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1},
       "fields": [
-        {"key": "vision", "name_ar": "الرؤية", "type": "text"},
-        {"key": "mission", "name_ar": "الرسالة", "type": "text"},
-        {"key": "values", "name_ar": "القيم", "type": "list_of_text"},
-        {"key": "pillars", "name_ar": "الركائز", "type": "list_of_text"},
+        {
+          "key": "vision",
+          "name_ar": "الرؤية",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند صريح في ص.6 ضمن محتوى الوثيقة، وركن من البيت الإستراتيجي.",
+            "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+          }
+        },
+        {
+          "key": "mission",
+          "name_ar": "الرسالة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند صريح في ص.6 ضمن محتوى الوثيقة، وركن من البيت الإستراتيجي.",
+            "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+          }
+        },
+        {
+          "key": "values",
+          "name_ar": "القيم",
+          "type": "list_of_text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند صريح في ص.6 ضمن محتوى الوثيقة (وإن لم يُذكر في البيت الإستراتيجي بالدليل).",
+            "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+          }
+        },
+        {
+          "key": "pillars",
+          "name_ar": "الركائز",
+          "type": "list_of_text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند صريح في ص.6 ضمن محتوى الوثيقة، وركن من البيت الإستراتيجي.",
+            "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+          }
+        },
         {
           "key": "success_factors",
           "name_ar": "عوامل النجاح",
           "type": "list_of_text",
           "added_in": "v0.2",
           "source_quote_ar": "تطوير مكونات البيت الإستراتيجي والتي تشمل على الرؤية، والرسالة، والركائز الإستراتيجية، والأهداف الإستراتيجية، وعوامل النجاح",
-          "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"}
+          "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"},
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "عنصر تعريفي ضمن البيت الإستراتيجي بالدليل ص.13، لكنه غير مذكور في ص.6 — الـ primary_spec يحدّد سقف الـ must (DD-20).",
+            "source_quote_ar": "تطوير مكونات البيت الإستراتيجي والتي تشمل على الرؤية، والرسالة، والركائز الإستراتيجية، والأهداف الإستراتيجية، وعوامل النجاح",
+            "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"}
+          }
         }
       ]
     },
     {
       "key": "strategic_goals",
       "name_ar": "الأهداف الاستراتيجية ومؤشراتها",
+      "weight": 22,
+      "weight_rationale_ar": "أكبر حاوية محتوى في الوثيقة: تحوي بند 1 الصريح من ص.6 (الأهداف والمؤشرات) + 3 حاويات تمهيد جوهرية من الدليل (تقييم الوضع، المقارنة المعيارية، تحليل التوجهات). وزن 22 يعكس مركزيتها كقلب الإستراتيجية، مع إفساح المجال لحاويات التقاطع والمحاور.",
       "source_quote_ar": "الأهداف، المؤشرات",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1},
       "fields": [
@@ -77,15 +207,47 @@
           "added_in": "v0.2",
           "source_quote_ar": "تحليل الوضع الراهن لفهم الجوانب الخاصة بالجهة لتفعيل ممارسة البنية المؤسسية",
           "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"},
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "الدليل ص.11 §5.1.2.2 يصفه كمدخل تمهيدي لفهم الجهة، لا كمخرج وثائقي مذكور صراحةً في ص.6.",
+            "source_quote_ar": "تحليل الوضع الراهن لفهم الجوانب الخاصة بالجهة لتفعيل ممارسة البنية المؤسسية",
+            "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"}
+          },
           "item_fields": [
             {
               "key": "document_review",
               "name_ar": "مراجعة الوثائق ذات الصلة",
               "type": "object",
               "source_quote_ar": "مراجعة الوثائق ذات الصلة مثل: نتائج قياس للتحول الرقمي، نتائج التقييم الذاتي لمستوى نضج ممارسة البنية المؤسسية",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "خطوة فرعية في تقييم الوضع الراهن — توجيه دون مُلطِّفات.",
+                "source_quote_ar": "مراجعة الوثائق ذات الصلة مثل: نتائج قياس للتحول الرقمي، نتائج التقييم الذاتي لمستوى نضج ممارسة البنية المؤسسية",
+                "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"}
+              },
               "fields": [
-                {"key": "reviewed_documents", "name_ar": "الوثائق المُراجَعة", "type": "list_of_text"},
-                {"key": "key_findings_ar", "name_ar": "أهم النتائج", "type": "text"}
+                {
+                  "key": "reviewed_documents",
+                  "name_ar": "الوثائق المُراجَعة",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "guide",
+                    "rationale_ar": "قائمة الوثائق المُراجَعة هي السند المرجعي لاحقاً."
+                  }
+                },
+                {
+                  "key": "key_findings_ar",
+                  "name_ar": "أهم النتائج",
+                  "type": "text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "guide",
+                    "rationale_ar": "ملخص النتائج هو القيمة المضافة من المراجعة."
+                  }
+                }
               ]
             },
             {
@@ -93,9 +255,34 @@
               "name_ar": "اجتماعات أصحاب المصلحة",
               "type": "object",
               "source_quote_ar": "عقد اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية بما يخص ممارسات البنية المؤسسية",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "خطوة فرعية في تقييم الوضع الراهن — توجيه دون مُلطِّفات.",
+                "source_quote_ar": "عقد اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية بما يخص ممارسات البنية المؤسسية",
+                "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"}
+              },
               "fields": [
-                {"key": "stakeholders_consulted", "name_ar": "أصحاب المصلحة المُستَشارون", "type": "list_of_text"},
-                {"key": "challenges_identified_ar", "name_ar": "التحديات المُحدَّدة", "type": "list_of_text"}
+                {
+                  "key": "stakeholders_consulted",
+                  "name_ar": "أصحاب المصلحة المُستَشارون",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "guide",
+                    "rationale_ar": "قائمة المستشارين سند تدقيقي للتمثيلية."
+                  }
+                },
+                {
+                  "key": "challenges_identified_ar",
+                  "name_ar": "التحديات المُحدَّدة",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "guide",
+                    "rationale_ar": "ناتج جوهري من الاجتماعات يدعم تحليل الفجوات لاحقاً."
+                  }
+                }
               ]
             },
             {
@@ -103,11 +290,58 @@
               "name_ar": "التحليل الرباعي (SWOT)",
               "type": "object",
               "source_quote_ar": "ومن الممكن استخدام أداة التحليل الرباعي (SWOT Analysis) لتحديد نقاط القوة والضعف الداخلية، بالإضافة إلى التهديدات والفرص التحسينية الخارجية",
+              "validation": {
+                "severity": "nice",
+                "severity_source": "guide",
+                "rationale_ar": "الدليل يستخدم 'ومن الممكن' كصيغة اختيار صريحة (انظر DD-21 لمعالجة الشدّة الداخلية).",
+                "source_quote_ar": "ومن الممكن استخدام أداة التحليل الرباعي (SWOT Analysis) لتحديد نقاط القوة والضعف الداخلية، بالإضافة إلى التهديدات والفرص التحسينية الخارجية",
+                "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"}
+              },
               "fields": [
-                {"key": "strengths_ar", "name_ar": "نقاط القوة", "type": "list_of_text"},
-                {"key": "weaknesses_ar", "name_ar": "نقاط الضعف", "type": "list_of_text"},
-                {"key": "opportunities_ar", "name_ar": "الفرص", "type": "list_of_text"},
-                {"key": "threats_ar", "name_ar": "التهديدات", "type": "list_of_text"}
+                {
+                  "key": "strengths_ar",
+                  "name_ar": "نقاط القوة",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "nice",
+                    "severity_source": "guide",
+                    "rationale_ar": "ركن من أركان SWOT الأربعة.",
+                    "conditional_note_ar": "إذا أُجري SWOT فالأركان الأربعة جميعها مطلوبة لاكتمال التحليل (DD-21)."
+                  }
+                },
+                {
+                  "key": "weaknesses_ar",
+                  "name_ar": "نقاط الضعف",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "nice",
+                    "severity_source": "guide",
+                    "rationale_ar": "ركن من أركان SWOT الأربعة.",
+                    "conditional_note_ar": "إذا أُجري SWOT فالأركان الأربعة جميعها مطلوبة لاكتمال التحليل (DD-21)."
+                  }
+                },
+                {
+                  "key": "opportunities_ar",
+                  "name_ar": "الفرص",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "nice",
+                    "severity_source": "guide",
+                    "rationale_ar": "ركن من أركان SWOT الأربعة.",
+                    "conditional_note_ar": "إذا أُجري SWOT فالأركان الأربعة جميعها مطلوبة لاكتمال التحليل (DD-21)."
+                  }
+                },
+                {
+                  "key": "threats_ar",
+                  "name_ar": "التهديدات",
+                  "type": "list_of_text",
+                  "validation": {
+                    "severity": "nice",
+                    "severity_source": "guide",
+                    "rationale_ar": "ركن من أركان SWOT الأربعة.",
+                    "conditional_note_ar": "إذا أُجري SWOT فالأركان الأربعة جميعها مطلوبة لاكتمال التحليل (DD-21)."
+                  }
+                }
               ]
             }
           ]
@@ -117,17 +351,73 @@
           "name_ar": "دراسة المقارنة المعيارية",
           "type": "object",
           "added_in": "v0.2",
-          "optional_per_guide": true,
           "source_quote_ar": "عمل دراسة مقارنة معيارية لأفضل الممارسات في مجال البنية المؤسسية (خطوة اختيارية للجهة)",
           "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.3"},
+          "validation": {
+            "severity": "nice",
+            "severity_source": "guide",
+            "rationale_ar": "الدليل ص.12 يصفها صراحةً بـ 'خطوة اختيارية للجهة'. مهاجَرة من العَلَم optional_per_guide في v0.2 (DD-18).",
+            "source_quote_ar": "عمل دراسة مقارنة معيارية لأفضل الممارسات في مجال البنية المؤسسية (خطوة اختيارية للجهة)",
+            "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.3"}
+          },
           "item_fields": [
-            {"key": "study_status", "name_ar": "حالة الدراسة", "type": "enum", "allowed_values": ["not_conducted", "in_progress", "completed"]},
-            {"key": "selected_entities", "name_ar": "الجهات المختارة للمقارنة", "type": "list_of_text"},
-            {"key": "selection_criteria", "name_ar": "معايير اختيار الجهات", "type": "list_of_text",
-             "default_options_ar": ["الموقع الجغرافي (DGI مرتفع)", "درجة النضج الرقمي محلياً", "ملاءمة طبيعة الأنشطة والقطاع"]},
-            {"key": "study_domains", "name_ar": "مجالات الدراسة", "type": "list_of_text",
-             "default_options_ar": ["استراتيجية البنية المؤسسية", "خدمات البنية المؤسسية", "مؤشرات قياس الأداء", "الهيكل التنظيمي والأدوار", "عوامل النجاح"]},
-            {"key": "key_takeaways_ar", "name_ar": "أهم المخرجات والاستفادات", "type": "text"}
+            {
+              "key": "study_status",
+              "name_ar": "حالة الدراسة",
+              "type": "enum",
+              "allowed_values": ["not_conducted", "in_progress", "completed"],
+              "validation": {
+                "severity": "should",
+                "severity_source": "judgment",
+                "rationale_ar": "حتى لو كانت الدراسة اختيارية، فإن تسجيل حالتها (=not_conducted كحدّ أدنى) هو مرساة التدقيق التي ترفع هذا الحقل عن مستوى الأب."
+              }
+            },
+            {
+              "key": "selected_entities",
+              "name_ar": "الجهات المختارة للمقارنة",
+              "type": "list_of_text",
+              "validation": {
+                "severity": "nice",
+                "severity_source": "guide",
+                "rationale_ar": "تُورَث nice من الأب الاختياري.",
+                "conditional_note_ar": "مطلوبة إذا study_status ≠ not_conducted (DD-21)."
+              }
+            },
+            {
+              "key": "selection_criteria",
+              "name_ar": "معايير اختيار الجهات",
+              "type": "list_of_text",
+              "default_options_ar": ["الموقع الجغرافي (DGI مرتفع)", "درجة النضج الرقمي محلياً", "ملاءمة طبيعة الأنشطة والقطاع"],
+              "validation": {
+                "severity": "nice",
+                "severity_source": "guide",
+                "rationale_ar": "تُورَث nice من الأب الاختياري.",
+                "conditional_note_ar": "مطلوبة إذا study_status ≠ not_conducted (DD-21)."
+              }
+            },
+            {
+              "key": "study_domains",
+              "name_ar": "مجالات الدراسة",
+              "type": "list_of_text",
+              "default_options_ar": ["استراتيجية البنية المؤسسية", "خدمات البنية المؤسسية", "مؤشرات قياس الأداء", "الهيكل التنظيمي والأدوار", "عوامل النجاح"],
+              "validation": {
+                "severity": "nice",
+                "severity_source": "guide",
+                "rationale_ar": "تُورَث nice من الأب الاختياري.",
+                "conditional_note_ar": "مطلوبة إذا study_status ≠ not_conducted (DD-21)."
+              }
+            },
+            {
+              "key": "key_takeaways_ar",
+              "name_ar": "أهم المخرجات والاستفادات",
+              "type": "text",
+              "validation": {
+                "severity": "nice",
+                "severity_source": "guide",
+                "rationale_ar": "تُورَث nice من الأب الاختياري.",
+                "conditional_note_ar": "مطلوبة إذا study_status ≠ not_conducted (DD-21)."
+              }
+            }
           ]
         },
         {
@@ -137,36 +427,184 @@
           "added_in": "v0.2",
           "source_quote_ar": "تحليل التوجهات الإستراتيجية الحالية في الجهة - مراجعة استراتيجية الأعمال في الجهة والاستراتيجيات الأخرى",
           "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.4"},
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "تحليل تمهيدي للتقاطعات (الدليل ص.12 §5.1.2.4)؛ التقاطعات نفسها must لكن السند الورقي للمُدخلات يظل should — الـ primary_spec floor لا ينتقل إلى المُدخلات (DD-22).",
+            "source_quote_ar": "تحليل التوجهات الإستراتيجية الحالية في الجهة - مراجعة استراتيجية الأعمال في الجهة والاستراتيجيات الأخرى",
+            "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.4"}
+          },
           "item_fields": [
-            {"key": "entity_strategic_directions_ar", "name_ar": "التوجهات الإستراتيجية للجهة", "type": "list_of_text"},
-            {"key": "current_strategic_projects", "name_ar": "المشاريع الإستراتيجية الحالية", "type": "list_of_objects",
-             "fields": [
-               {"key": "project_name_ar", "name_ar": "اسم المشروع", "type": "text"},
-               {"key": "complexity_level", "name_ar": "مستوى التعقيد", "type": "enum", "allowed_values": ["low", "medium", "high"]},
-               {"key": "ea_relevance_ar", "name_ar": "صلة المشروع بالبنية المؤسسية", "type": "text"}
-             ]},
-            {"key": "reviewed_strategies", "name_ar": "الاستراتيجيات المُراجَعة", "type": "list_of_text",
-             "default_options_ar": ["استراتيجية الأعمال", "استراتيجية تحول الأعمال", "استراتيجية التحول الرقمي", "استراتيجية إدارة البيانات", "استراتيجية الأمن السيبراني", "استراتيجية التقنيات الناشئة"]}
+            {
+              "key": "entity_strategic_directions_ar",
+              "name_ar": "التوجهات الإستراتيجية للجهة",
+              "type": "list_of_text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "المحتوى الجوهري للتحليل."
+              }
+            },
+            {
+              "key": "current_strategic_projects",
+              "name_ar": "المشاريع الإستراتيجية الحالية",
+              "type": "list_of_objects",
+              "validation": {
+                "severity": "should",
+                "severity_source": "judgment",
+                "rationale_ar": "قائمة المشاريع تُمكّن الربط بالأثر التشغيلي للإستراتيجية."
+              },
+              "fields": [
+                {
+                  "key": "project_name_ar",
+                  "name_ar": "اسم المشروع",
+                  "type": "text",
+                  "validation": {
+                    "severity": "must",
+                    "severity_source": "judgment",
+                    "rationale_ar": "قيد قائمة: مشروع بلا اسم لا يُسجَّل."
+                  }
+                },
+                {
+                  "key": "complexity_level",
+                  "name_ar": "مستوى التعقيد",
+                  "type": "enum",
+                  "allowed_values": ["low", "medium", "high"],
+                  "validation": {
+                    "severity": "nice",
+                    "severity_source": "judgment",
+                    "rationale_ar": "تفصيل تحليلي مفيد لكنه ليس جوهر السجل."
+                  }
+                },
+                {
+                  "key": "ea_relevance_ar",
+                  "name_ar": "صلة المشروع بالبنية المؤسسية",
+                  "type": "text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "judgment",
+                    "rationale_ar": "تبرير الإدراج — قيمة السجل."
+                  }
+                }
+              ]
+            },
+            {
+              "key": "reviewed_strategies",
+              "name_ar": "الاستراتيجيات المُراجَعة",
+              "type": "list_of_text",
+              "default_options_ar": ["استراتيجية الأعمال", "استراتيجية تحول الأعمال", "استراتيجية التحول الرقمي", "استراتيجية إدارة البيانات", "استراتيجية الأمن السيبراني", "استراتيجية التقنيات الناشئة"],
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "قائمة الاستراتيجيات المُراجَعة سند للتقاطعات اللاحقة."
+              }
+            }
           ]
         },
         {
           "key": "goals",
           "name_ar": "قائمة الأهداف الاستراتيجية",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 1 ص.6 يسمّي 'الأهداف' صراحةً ضمن محتوى الوثيقة.",
+            "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+          },
           "item_fields": [
-            {"key": "goal_id", "name_ar": "رمز الهدف", "type": "text"},
-            {"key": "title_ar", "name_ar": "عنوان الهدف", "type": "text"},
-            {"key": "description_ar", "name_ar": "وصف الهدف", "type": "text"},
+            {
+              "key": "goal_id",
+              "name_ar": "رمز الهدف",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "هدف بلا معرّف لا يمكن الإحالة إليه في مصفوفات التقاطع/المؤشرات."
+              }
+            },
+            {
+              "key": "title_ar",
+              "name_ar": "عنوان الهدف",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "هدف بلا اسم غير قابل للاستخدام."
+              }
+            },
+            {
+              "key": "description_ar",
+              "name_ar": "وصف الهدف",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "judgment",
+                "rationale_ar": "يوسّع الفهم لكن العنوان يحمل الجوهر."
+              }
+            },
             {
               "key": "kpis",
               "name_ar": "مؤشرات أداء الهدف",
               "type": "list_of_objects",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "بند 1 ص.6 يسمّي 'المؤشرات' صراحةً.",
+                "source_quote_ar": "الرؤية، الركائز، الرسالة، القيم، الأهداف، المؤشرات",
+                "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1}
+              },
               "item_fields": [
-                {"key": "kpi_id", "name_ar": "رمز المؤشر", "type": "text"},
-                {"key": "title_ar", "name_ar": "اسم المؤشر", "type": "text"},
-                {"key": "measurement_unit", "name_ar": "وحدة القياس", "type": "text"},
-                {"key": "baseline", "name_ar": "الخط الأساس", "type": "text"},
-                {"key": "target", "name_ar": "المستهدف", "type": "text"}
+                {
+                  "key": "kpi_id",
+                  "name_ar": "رمز المؤشر",
+                  "type": "text",
+                  "validation": {
+                    "severity": "must",
+                    "severity_source": "judgment",
+                    "rationale_ar": "معرّف للربط مع kpi_alignment."
+                  }
+                },
+                {
+                  "key": "title_ar",
+                  "name_ar": "اسم المؤشر",
+                  "type": "text",
+                  "validation": {
+                    "severity": "must",
+                    "severity_source": "judgment",
+                    "rationale_ar": "مؤشر بلا اسم لا يُستخدم."
+                  }
+                },
+                {
+                  "key": "measurement_unit",
+                  "name_ar": "وحدة القياس",
+                  "type": "text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "judgment",
+                    "rationale_ar": "عملياً ضرورية لكن قد تُستنتج من البيانات في بعض الحالات (DD-23)."
+                  }
+                },
+                {
+                  "key": "baseline",
+                  "name_ar": "الخط الأساس",
+                  "type": "text",
+                  "validation": {
+                    "severity": "should",
+                    "severity_source": "judgment",
+                    "rationale_ar": "قد يُؤجَّل القياس الفعلي في وثيقة استراتيجية تطلعية (DD-23)."
+                  }
+                },
+                {
+                  "key": "target",
+                  "name_ar": "المستهدف",
+                  "type": "text",
+                  "validation": {
+                    "severity": "must",
+                    "severity_source": "judgment",
+                    "rationale_ar": "مؤشر بلا مستهدف ليس مؤشراً (DD-23)."
+                  }
+                }
               ]
             }
           ]
@@ -176,6 +614,8 @@
     {
       "key": "strategic_alignment",
       "name_ar": "تقاطعات الأهداف الاستراتيجية",
+      "weight": 14,
+      "weight_rationale_ar": "يحمل بند 2 الصريح من ص.6 — التقاطعات الإستراتيجية في ثلاث جبهات (أعمال، تحول رقمي، استراتيجيات رقمية مرتبطة) — وهو من أركان الوثيقة. وزن 14 يساوي identity ويعكس أهمية التقاطعات كمحور تكامل بين الإستراتيجية والمحيط، مع إبقاء وزن أعلى لـ strategic_goals (22) باعتباره المصدر الذي تُشتق منه التقاطعات.",
       "source_quote_ar": "تقاطعات الأهداف الاستراتيجية للبنية المؤسسية مع الأهداف الاستراتيجية للأعمال، والتحول الرقمي، والاستراتيجيات الرقمية ذات الصلة",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 2},
       "fields": [
@@ -183,31 +623,142 @@
           "key": "intersections_with_business_strategy",
           "name_ar": "التقاطع مع الأهداف الاستراتيجية للأعمال",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 2 ص.6 يسمّي 'الأهداف الاستراتيجية للأعمال' صراحةً.",
+            "source_quote_ar": "تقاطعات الأهداف الاستراتيجية للبنية المؤسسية مع الأهداف الاستراتيجية للأعمال، والتحول الرقمي، والاستراتيجيات الرقمية ذات الصلة",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 2}
+          },
           "item_fields": [
-            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
-            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
-            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+            {
+              "key": "ea_goal_id",
+              "name_ar": "رمز هدف البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل تقاطع فيجب الإحالة إلى هدف معلن (تكامل مرجعي مع goals[].goal_id)."
+              }
+            },
+            {
+              "key": "external_goal_ref",
+              "name_ar": "مرجع الهدف الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "لا تقاطع بلا الطرف الآخر."
+              }
+            },
+            {
+              "key": "intersection_description_ar",
+              "name_ar": "وصف التقاطع",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الوصف هو جوهر التقاطع — بدونه يصبح مجرد ربط رمزي."
+              }
+            }
           ]
         },
         {
           "key": "intersections_with_digital_transformation_strategy",
           "name_ar": "التقاطع مع استراتيجية التحول الرقمي",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 2 ص.6 يسمّي 'التحول الرقمي' صراحةً.",
+            "source_quote_ar": "تقاطعات الأهداف الاستراتيجية للبنية المؤسسية مع الأهداف الاستراتيجية للأعمال، والتحول الرقمي، والاستراتيجيات الرقمية ذات الصلة",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 2}
+          },
           "item_fields": [
-            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
-            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
-            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+            {
+              "key": "ea_goal_id",
+              "name_ar": "رمز هدف البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل تقاطع فيجب الإحالة إلى هدف معلن."
+              }
+            },
+            {
+              "key": "external_goal_ref",
+              "name_ar": "مرجع الهدف الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "لا تقاطع بلا الطرف الآخر."
+              }
+            },
+            {
+              "key": "intersection_description_ar",
+              "name_ar": "وصف التقاطع",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الوصف هو جوهر التقاطع."
+              }
+            }
           ]
         },
         {
           "key": "intersections_with_related_digital_strategies",
           "name_ar": "التقاطع مع الاستراتيجيات الرقمية ذات الصلة",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 2 ص.6 يسمّي 'الاستراتيجيات الرقمية ذات الصلة' صراحةً.",
+            "source_quote_ar": "تقاطعات الأهداف الاستراتيجية للبنية المؤسسية مع الأهداف الاستراتيجية للأعمال، والتحول الرقمي، والاستراتيجيات الرقمية ذات الصلة",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 2}
+          },
           "item_fields": [
-            {"key": "ea_goal_id", "name_ar": "رمز هدف البنية", "type": "text"},
-            {"key": "related_strategy_name_ar", "name_ar": "اسم الاستراتيجية الرقمية", "type": "text"},
-            {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
-            {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
+            {
+              "key": "ea_goal_id",
+              "name_ar": "رمز هدف البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل تقاطع فيجب الإحالة إلى هدف معلن."
+              }
+            },
+            {
+              "key": "related_strategy_name_ar",
+              "name_ar": "اسم الاستراتيجية الرقمية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "يجب تحديد أي استراتيجية رقمية تحديداً ضمن قائمة 'ذات الصلة'."
+              }
+            },
+            {
+              "key": "external_goal_ref",
+              "name_ar": "مرجع الهدف الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "لا تقاطع بلا الطرف الآخر."
+              }
+            },
+            {
+              "key": "intersection_description_ar",
+              "name_ar": "وصف التقاطع",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الوصف هو جوهر التقاطع."
+              }
+            }
           ]
         },
         {
@@ -217,15 +768,67 @@
           "added_in": "v0.2",
           "source_quote_ar": "التواؤم مع الأطر المرجعية الرقمية الصادرة من هيئة الحكومة الرقمية - يقوم فريق العمل بمواءمة مكونات استراتيجية البنية المؤسسية مع كافة الأطر المرجعية الصادرة من هيئة الحكومة الرقمية ومنها الإستراتيجية الوطنية للحكومة الرقمية",
           "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.5"},
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "إضافة v0.2 من الدليل §5.1.2.5، صيغة توجيهية ('يقوم...بمواءمة') لكنها غير مذكورة في ص.6؛ ترفيعه إلى must يتجاوز سقف الـ primary_spec (DD-24).",
+            "source_quote_ar": "التواؤم مع الأطر المرجعية الرقمية الصادرة من هيئة الحكومة الرقمية - يقوم فريق العمل بمواءمة مكونات استراتيجية البنية المؤسسية مع كافة الأطر المرجعية الصادرة من هيئة الحكومة الرقمية ومنها الإستراتيجية الوطنية للحكومة الرقمية",
+            "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.5"}
+          },
           "item_fields": [
-            {"key": "ea_component_ref", "name_ar": "مكوّن استراتيجية البنية المرتبط", "type": "text"},
-            {"key": "national_framework_name_ar", "name_ar": "اسم الإطار المرجعي الوطني", "type": "text"},
-            {"key": "framework_version", "name_ar": "إصدار الإطار", "type": "text"},
-            {"key": "framework_issuer", "name_ar": "الجهة المُصدِرة", "type": "enum",
-             "allowed_values": ["هيئة الحكومة الرقمية (DGA)", "هيئة الأمن السيبراني (NCA)", "مكتب إدارة البيانات الوطني (NDMO)"],
-             "extensible": true,
-             "extensibility_note_ar": "يمكن توسيع القائمة لاحقاً لتشمل جهات شبه تشريعية أخرى"},
-            {"key": "alignment_description_ar", "name_ar": "وصف التوافق", "type": "text"}
+            {
+              "key": "ea_component_ref",
+              "name_ar": "مكوّن استراتيجية البنية المرتبط",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "إن سُجِّل صف، يحيل لمكوّن استراتيجية معلن."
+              }
+            },
+            {
+              "key": "national_framework_name_ar",
+              "name_ar": "اسم الإطار المرجعي الوطني",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "اسم الإطار شرط لتسجيل الاتفاق."
+              }
+            },
+            {
+              "key": "framework_version",
+              "name_ar": "إصدار الإطار",
+              "type": "text",
+              "validation": {
+                "severity": "nice",
+                "severity_source": "judgment",
+                "rationale_ar": "كثير من الأطر الوطنية بلا إصدار رسمي أو تتطوّر باستمرار؛ غيابه لا يُسقط التسجيل (DD-25)."
+              }
+            },
+            {
+              "key": "framework_issuer",
+              "name_ar": "الجهة المُصدِرة",
+              "type": "enum",
+              "allowed_values": ["هيئة الحكومة الرقمية (DGA)", "هيئة الأمن السيبراني (NCA)", "مكتب إدارة البيانات الوطني (NDMO)"],
+              "extensible": true,
+              "extensibility_note_ar": "يمكن توسيع القائمة لاحقاً لتشمل جهات شبه تشريعية أخرى",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "تحديد الجهة المُصدِرة مفيد للفلترة الرقابية."
+              }
+            },
+            {
+              "key": "alignment_description_ar",
+              "name_ar": "وصف التوافق",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "جوهر التوافق."
+              }
+            }
           ]
         }
       ]
@@ -233,6 +836,8 @@
     {
       "key": "kpi_alignment",
       "name_ar": "ارتباط مؤشرات الأداء الاستراتيجية",
+      "weight": 10,
+      "weight_rationale_ar": "يحمل بند 3 الصريح من ص.6 — ارتباط المؤشرات في ثلاث جبهات. الوزن أقل من strategic_alignment (14) لأن المؤشرات تُشتق من الأهداف وسطح المحتوى أصغر (3 حاويات فرعية بنمط واحد، لا إضافات v0.2). يبقى 10 معتبراً لكون البند مستقلاً ومسمّى صراحةً في ص.6.",
       "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3},
       "v0_2_change_note": "No additions in v0.2 — supporting guides did not yield additional sub-fields beyond v0.1 structure. Re-evaluate when DEL-DOC-005/006 schemas surface KPI dependencies.",
@@ -241,31 +846,142 @@
           "key": "linkage_to_business_kpis",
           "name_ar": "الارتباط بمؤشرات أداء الأعمال",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 3 ص.6 يسمّي 'مؤشرات الأداء الاستراتيجية للأعمال' صراحةً.",
+            "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3}
+          },
           "item_fields": [
-            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
-            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
-            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+            {
+              "key": "ea_kpi_id",
+              "name_ar": "رمز مؤشر البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل ارتباط فيجب الإحالة لمؤشر معلن (تكامل مرجعي مع goals[].kpis[].kpi_id)."
+              }
+            },
+            {
+              "key": "external_kpi_ref",
+              "name_ar": "مرجع المؤشر الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الطرف الخارجي للارتباط شرط."
+              }
+            },
+            {
+              "key": "linkage_description_ar",
+              "name_ar": "وصف الارتباط",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "جوهر الارتباط."
+              }
+            }
           ]
         },
         {
           "key": "linkage_to_digital_transformation_kpis",
           "name_ar": "الارتباط بمؤشرات أداء التحول الرقمي",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 3 ص.6 يسمّي 'التحول الرقمي' صراحةً.",
+            "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3}
+          },
           "item_fields": [
-            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
-            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
-            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+            {
+              "key": "ea_kpi_id",
+              "name_ar": "رمز مؤشر البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل ارتباط فيجب الإحالة لمؤشر معلن."
+              }
+            },
+            {
+              "key": "external_kpi_ref",
+              "name_ar": "مرجع المؤشر الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الطرف الخارجي للارتباط شرط."
+              }
+            },
+            {
+              "key": "linkage_description_ar",
+              "name_ar": "وصف الارتباط",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "جوهر الارتباط."
+              }
+            }
           ]
         },
         {
           "key": "linkage_to_other_digital_strategy_kpis",
           "name_ar": "الارتباط بمؤشرات الاستراتيجيات الرقمية الأخرى",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 3 ص.6 يسمّي 'الاستراتيجيات الرقمية الأخرى' صراحةً.",
+            "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3}
+          },
           "item_fields": [
-            {"key": "ea_kpi_id", "name_ar": "رمز مؤشر البنية", "type": "text"},
-            {"key": "related_strategy_name_ar", "name_ar": "اسم الاستراتيجية الرقمية", "type": "text"},
-            {"key": "external_kpi_ref", "name_ar": "مرجع المؤشر الخارجي", "type": "text"},
-            {"key": "linkage_description_ar", "name_ar": "وصف الارتباط", "type": "text"}
+            {
+              "key": "ea_kpi_id",
+              "name_ar": "رمز مؤشر البنية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "إذا تم تسجيل ارتباط فيجب الإحالة لمؤشر معلن."
+              }
+            },
+            {
+              "key": "related_strategy_name_ar",
+              "name_ar": "اسم الاستراتيجية الرقمية",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "يجب تحديد أي استراتيجية رقمية تحديداً."
+              }
+            },
+            {
+              "key": "external_kpi_ref",
+              "name_ar": "مرجع المؤشر الخارجي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "الطرف الخارجي للارتباط شرط."
+              }
+            },
+            {
+              "key": "linkage_description_ar",
+              "name_ar": "وصف الارتباط",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "جوهر الارتباط."
+              }
+            }
           ]
         }
       ]
@@ -273,6 +989,8 @@
     {
       "key": "focus_areas",
       "name_ar": "محاور التركيز للبنية المؤسسية",
+      "weight": 14,
+      "weight_rationale_ar": "يحمل بندَين كاملين من ص.6 (4-5): محاور القدرات (محورية/داعمة) + محاور دعم المؤشرات الوطنية. وزن 14 يساوي strategic_alignment ويعكس مركزية المحاور في تحديد نطاق عمل البنية. الحاوية الرابعة (architecture_domain_axes) إضافة عمق تكميلية لا تستوجب رفع الوزن.",
       "source_quote_ar": "تعريف محاور التركيز المحورية والداعمة من قدرات الجهة + تعريف محاور تركيز واضحة للبنية المؤسسية تدعم المؤشرات الوطنية",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": "4-5"},
       "fields": [
@@ -280,33 +998,118 @@
           "key": "core_capability_axes",
           "name_ar": "محاور التركيز المحورية من قدرات الجهة",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 4 ص.6 يسمّي 'المحورية' صراحةً.",
+            "source_quote_ar": "تعريف محاور التركيز المحورية والداعمة من قدرات الجهة",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 4}
+          },
           "item_fields": [
-            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
-            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
-            {"key": "description_ar", "name_ar": "وصف المحور", "type": "text"},
-            {"key": "linked_capability_ref", "name_ar": "القدرة المرتبطة", "type": "text"}
+            {
+              "key": "axis_id",
+              "name_ar": "رمز المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "معرّف للإحالة من ربط القدرات."}
+            },
+            {
+              "key": "title_ar",
+              "name_ar": "اسم المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "محور بلا اسم لا يُستخدم."}
+            },
+            {
+              "key": "description_ar",
+              "name_ar": "وصف المحور",
+              "type": "text",
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "يضيف عمقاً لكن العنوان يحمل الجوهر."}
+            },
+            {
+              "key": "linked_capability_ref",
+              "name_ar": "القدرة المرتبطة",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "الربط بالقدرة هو سبب وجود المحور."}
+            }
           ]
         },
         {
           "key": "supporting_capability_axes",
           "name_ar": "محاور التركيز الداعمة من قدرات الجهة",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 4 ص.6 يسمّي 'الداعمة' صراحةً.",
+            "source_quote_ar": "تعريف محاور التركيز المحورية والداعمة من قدرات الجهة",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 4}
+          },
           "item_fields": [
-            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
-            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
-            {"key": "description_ar", "name_ar": "وصف المحور", "type": "text"},
-            {"key": "linked_capability_ref", "name_ar": "القدرة المرتبطة", "type": "text"}
+            {
+              "key": "axis_id",
+              "name_ar": "رمز المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "معرّف للإحالة."}
+            },
+            {
+              "key": "title_ar",
+              "name_ar": "اسم المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "محور بلا اسم لا يُستخدم."}
+            },
+            {
+              "key": "description_ar",
+              "name_ar": "وصف المحور",
+              "type": "text",
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "يضيف عمقاً لكن العنوان يحمل الجوهر."}
+            },
+            {
+              "key": "linked_capability_ref",
+              "name_ar": "القدرة المرتبطة",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "الربط بالقدرة هو سبب وجود المحور."}
+            }
           ]
         },
         {
           "key": "national_indicator_axes",
           "name_ar": "محاور التركيز الداعمة للمؤشرات الوطنية",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "بند 5 ص.6 — 'تدعم المؤشرات الوطنية'.",
+            "source_quote_ar": "تعريف محاور تركيز واضحة للبنية المؤسسية تدعم المؤشرات الوطنية",
+            "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 5}
+          },
           "item_fields": [
-            {"key": "axis_id", "name_ar": "رمز المحور", "type": "text"},
-            {"key": "title_ar", "name_ar": "اسم المحور", "type": "text"},
-            {"key": "national_indicator_ref", "name_ar": "المؤشر الوطني المرتبط", "type": "text"},
-            {"key": "support_description_ar", "name_ar": "آلية الدعم", "type": "text"}
+            {
+              "key": "axis_id",
+              "name_ar": "رمز المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "معرّف للإحالة."}
+            },
+            {
+              "key": "title_ar",
+              "name_ar": "اسم المحور",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "محور بلا اسم لا يُستخدم."}
+            },
+            {
+              "key": "national_indicator_ref",
+              "name_ar": "المؤشر الوطني المرتبط",
+              "type": "text",
+              "validation": {"severity": "must", "severity_source": "judgment", "rationale_ar": "بدون المؤشر المرتبط ينتفي مبرر المحور."}
+            },
+            {
+              "key": "support_description_ar",
+              "name_ar": "آلية الدعم",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "judgment",
+                "rationale_ar": "بند 5 ص.6 محوره 'تدعم المؤشرات' — وصف آلية الدعم هو الجوهر، ليس تفصيلاً تكميلياً."
+              }
+            }
           ]
         },
         {
@@ -316,20 +1119,48 @@
           "added_in": "v0.2",
           "source_quote_ar": "إدارة وتحديث مكونات البنية المؤسسية وتطوير مشهد شامل لجميع مجالات البنية المؤسسية (بنية الأعمال، بنية التجربة، بنية التطبيقات، بنية البيانات، البنية التقنية، والبنية الأمنية)",
           "source_ref": {"file": "practice-establishment", "page": 52, "section": "Procedures 10-15"},
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "إضافة v0.2 من الدليل §Procedures 10-15 — طبقة عمق على المجالات الستة، ليست مطلباً صريحاً في ص.6 (DD-26).",
+            "source_quote_ar": "إدارة وتحديث مكونات البنية المؤسسية وتطوير مشهد شامل لجميع مجالات البنية المؤسسية (بنية الأعمال، بنية التجربة، بنية التطبيقات، بنية البيانات، البنية التقنية، والبنية الأمنية)",
+            "source_ref": {"file": "practice-establishment", "page": 52, "section": "Procedures 10-15"}
+          },
           "item_fields": [
-            {"key": "domain", "name_ar": "المجال", "type": "enum",
-             "allowed_values": ["business", "experience", "applications", "data", "technical", "security"]},
-            {"key": "domain_name_ar", "name_ar": "اسم المجال", "type": "text",
-             "value_map": {
-               "business": "بنية الأعمال",
-               "experience": "بنية التجربة",
-               "applications": "بنية التطبيقات",
-               "data": "بنية البيانات",
-               "technical": "البنية التقنية",
-               "security": "البنية الأمنية"
-             }},
-            {"key": "focus_description_ar", "name_ar": "وصف التركيز ضمن هذا المجال", "type": "text"},
-            {"key": "priority", "name_ar": "الأولوية", "type": "enum", "allowed_values": ["high", "medium", "low"]}
+            {
+              "key": "domain",
+              "name_ar": "المجال",
+              "type": "enum",
+              "allowed_values": ["business", "experience", "applications", "data", "technical", "security"],
+              "validation": {"severity": "should", "severity_source": "guide", "rationale_ar": "إن سُجّل صف، يجب أن يحمل قيمة enum صحيحة."}
+            },
+            {
+              "key": "domain_name_ar",
+              "name_ar": "اسم المجال",
+              "type": "text",
+              "value_map": {
+                "business": "بنية الأعمال",
+                "experience": "بنية التجربة",
+                "applications": "بنية التطبيقات",
+                "data": "بنية البيانات",
+                "technical": "البنية التقنية",
+                "security": "البنية الأمنية"
+              },
+              "validation": {"severity": "nice", "severity_source": "judgment", "rationale_ar": "مشتق بالكامل من domain عبر value_map — تسجيله إعادة معلومة لا فقد عند غيابه (DD-27)."}
+            },
+            {
+              "key": "focus_description_ar",
+              "name_ar": "وصف التركيز ضمن هذا المجال",
+              "type": "text",
+              "validation": {"severity": "should", "severity_source": "guide", "rationale_ar": "جوهر المحور."}
+            },
+            {
+              "key": "priority",
+              "name_ar": "الأولوية",
+              "type": "enum",
+              "allowed_values": ["high", "medium", "low"],
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "إشارة تحديد أولويات — مفيدة لكنها ليست ملزمة."}
+            }
           ]
         }
       ]
@@ -337,33 +1168,53 @@
     {
       "key": "governance",
       "name_ar": "حوكمة الاعتماد",
+      "weight": 10,
+      "weight_rationale_ar": "حوكمة الاعتماد ركيزة لإقرار قانونية الوثيقة وتدقيق المسار الإداري. سطح المحتوى مُكثَّف (4 حقول) لكن الأثر الرقابي حادّ — غياب جهة الاعتماد أو الحالة يُسقط الوضع القانوني للوثيقة. وزن 10 يعكس هذه المركزية القانونية رغم ضِيق السطح. (محاور تركيز الحوكمة العامة للممارسة المؤسسية تُعالَج في EA-Operating-Model وفقاً لـ DD-29.)",
       "source_quote_ar": "لجنة التحول الرقمي / التعاملات الإلكترونية + لجنة حوكمة البنية المؤسسية",
       "source_ref": {"file": "primary-spec", "page": 6, "column": "مستوى الاعتماد"},
       "fields": [
-        {"key": "approval_authorities", "name_ar": "جهات الاعتماد", "type": "list_of_text"},
-        {"key": "approval_status", "name_ar": "حالة الاعتماد", "type": "enum", "allowed_values": ["draft", "in_review", "approved", "rejected"]},
-        {"key": "approval_date", "name_ar": "تاريخ الاعتماد", "type": "date"},
-        {"key": "approval_minutes_ref", "name_ar": "مرجع محضر الاعتماد", "type": "text"},
         {
-          "key": "governance_focus_axes",
-          "name_ar": "محاور تركيز الحوكمة",
-          "type": "list_of_objects",
-          "added_in": "v0.2",
-          "source_quote_ar": "تصميم محاور تركيز حوكمة البنية المؤسسية - محور حوكمة المواءمة الإستراتيجية وإدارة التغيير، محور إدارة المخاطر، محور حوكمة إدارة الإنفاق، محور حوكمة إدارة النزاع والتصعيدات",
-          "source_ref": {"file": "practice-establishment", "page": 33, "section": "5.5.3.2"},
-          "item_fields": [
-            {"key": "axis", "name_ar": "المحور", "type": "enum",
-             "allowed_values": ["strategic_alignment_and_change", "risk_management", "expenditure_management", "conflict_and_escalation"]},
-            {"key": "axis_name_ar", "name_ar": "اسم المحور", "type": "text",
-             "value_map": {
-               "strategic_alignment_and_change": "حوكمة المواءمة الإستراتيجية وإدارة التغيير",
-               "risk_management": "إدارة المخاطر",
-               "expenditure_management": "حوكمة إدارة الإنفاق",
-               "conflict_and_escalation": "حوكمة إدارة النزاع والتصعيدات"
-             }},
-            {"key": "responsible_committee", "name_ar": "اللجنة المسؤولة", "type": "text"},
-            {"key": "scope_description_ar", "name_ar": "نطاق المحور", "type": "text"}
-          ]
+          "key": "approval_authorities",
+          "name_ar": "جهات الاعتماد",
+          "type": "list_of_text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "عمود 'مستوى الاعتماد' في ص.6 يسمّي اللجنتين صراحةً.",
+            "source_quote_ar": "لجنة التحول الرقمي / التعاملات الإلكترونية + لجنة حوكمة البنية المؤسسية",
+            "source_ref": {"file": "primary-spec", "page": 6, "column": "مستوى الاعتماد"}
+          }
+        },
+        {
+          "key": "approval_status",
+          "name_ar": "حالة الاعتماد",
+          "type": "enum",
+          "allowed_values": ["draft", "in_review", "approved", "rejected"],
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "بدون حالة (مسودة/قيد المراجعة/معتمد) لا تُعرف قانونية الوثيقة. حالة استثنائية يرتفع فيها مصدر الحكم إلى must (DD-28)."
+          }
+        },
+        {
+          "key": "approval_date",
+          "name_ar": "تاريخ الاعتماد",
+          "type": "date",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "مهم للحوكمة لكن قد يكون غائباً قبل الاعتماد الفعلي."
+          }
+        },
+        {
+          "key": "approval_minutes_ref",
+          "name_ar": "مرجع محضر الاعتماد",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "قوي للمراجعة لكن قد يُستعاض عنه بقرار اعتماد مكتوب."
+          }
         }
       ]
     },
@@ -371,6 +1222,8 @@
       "key": "stakeholder_engagement",
       "name_ar": "إشراك أصحاب المصلحة",
       "added_in": "v0.2",
+      "weight": 8,
+      "weight_rationale_ar": "حاوية v0.2 لأثر إشراك أصحاب المصلحة في تشكيل الإستراتيجية. غير مذكورة في ص.6، لكنها سند تدقيقي للمسار التشاركي. وزن 8 يساوي metadata ويعكس كونها معلومة-سياق وليست محتوى استراتيجي، مع الإقرار بقيمتها كأثر ممارسة (DD-13 v0.2 + DD-30 v0.3).",
       "source_quote_ar": "إشراك أصحاب المصلحة في تصميم التوجهات الإستراتيجية: عقد ورش عمل/ اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية، والتطلعات الإستراتيجية",
       "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"},
       "fields": [
@@ -378,22 +1231,80 @@
           "key": "workshops_and_meetings",
           "name_ar": "ورش العمل والاجتماعات",
           "type": "list_of_objects",
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "الدليل ص.13 يصف الورش/الاجتماعات كأداة تصميم للتوجهات، لا كمخرج وثائقي ملزم في ص.6 (DD-30).",
+            "source_quote_ar": "إشراك أصحاب المصلحة في تصميم التوجهات الإستراتيجية: عقد ورش عمل/ اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية، والتطلعات الإستراتيجية",
+            "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"}
+          },
           "item_fields": [
-            {"key": "session_id", "name_ar": "رمز الجلسة", "type": "text"},
-            {"key": "session_type", "name_ar": "نوع الجلسة", "type": "enum",
-             "allowed_values": ["workshop", "meeting", "interview"]},
-            {"key": "session_date", "name_ar": "تاريخ الجلسة", "type": "date"},
-            {"key": "facilitator", "name_ar": "الميسّر / المُنظِّم", "type": "text"},
-            {"key": "stakeholders_attending", "name_ar": "أصحاب المصلحة المشاركون", "type": "list_of_text"},
-            {"key": "agenda_items_ar", "name_ar": "بنود جدول الأعمال", "type": "list_of_text",
-             "guide_recommended_items_ar": [
-               "التعريف بالمفاهيم الأساسية لممارسة البنية المؤسسية",
-               "تقديم لمحة عامة حول فوائد تبني وتفعيل ممارسة البنية المؤسسية",
-               "تقديم ملخص عالي المستوى حول رحلة التبني والتفعيل",
-               "تحديد ومناقشة أبرز المتطلبات من الحضور"
-             ]},
-            {"key": "outcomes_summary_ar", "name_ar": "ملخص المخرجات", "type": "text"},
-            {"key": "minutes_ref", "name_ar": "مرجع المحضر", "type": "text"}
+            {
+              "key": "session_id",
+              "name_ar": "رمز الجلسة",
+              "type": "text",
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "معرّف للإحالة من المحاضر."}
+            },
+            {
+              "key": "session_type",
+              "name_ar": "نوع الجلسة",
+              "type": "enum",
+              "allowed_values": ["workshop", "meeting", "interview"],
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "يميّز نوع الجلسة."}
+            },
+            {
+              "key": "session_date",
+              "name_ar": "تاريخ الجلسة",
+              "type": "date",
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "أساس التتبّع الزمني."}
+            },
+            {
+              "key": "facilitator",
+              "name_ar": "الميسّر / المُنظِّم",
+              "type": "text",
+              "validation": {"severity": "nice", "severity_source": "judgment", "rationale_ar": "اسم الميسّر تفصيل إداري لا يحمل جوهر الجلسة."}
+            },
+            {
+              "key": "stakeholders_attending",
+              "name_ar": "أصحاب المصلحة المشاركون",
+              "type": "list_of_text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "judgment",
+                "rationale_ar": "المشاركون هم جوهر الإدخال — يفقد المعنى بدونهم.",
+                "conditional_note_ar": "إن سُجّلت جلسة، فقائمة المشاركين ضرورية لاكتمال الإدخال (DD-21)."
+              }
+            },
+            {
+              "key": "agenda_items_ar",
+              "name_ar": "بنود جدول الأعمال",
+              "type": "list_of_text",
+              "guide_recommended_items_ar": [
+                "التعريف بالمفاهيم الأساسية لممارسة البنية المؤسسية",
+                "تقديم لمحة عامة حول فوائد تبني وتفعيل ممارسة البنية المؤسسية",
+                "تقديم ملخص عالي المستوى حول رحلة التبني والتفعيل",
+                "تحديد ومناقشة أبرز المتطلبات من الحضور"
+              ],
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "الدليل اقترح 4 بنود ضمن guide_recommended_items_ar — يوصى بتغطيتها لاكتمال جدول الأعمال.",
+                "source_quote_ar": "إشراك أصحاب المصلحة في تصميم التوجهات الإستراتيجية: عقد ورش عمل/ اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية، والتطلعات الإستراتيجية",
+                "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"}
+              }
+            },
+            {
+              "key": "outcomes_summary_ar",
+              "name_ar": "ملخص المخرجات",
+              "type": "text",
+              "validation": {"severity": "should", "severity_source": "judgment", "rationale_ar": "قيمة الجلسة الفعلية."}
+            },
+            {
+              "key": "minutes_ref",
+              "name_ar": "مرجع المحضر",
+              "type": "text",
+              "validation": {"severity": "nice", "severity_source": "judgment", "rationale_ar": "مرجع إداري؛ قد يُكتفى بـ outcomes_summary_ar."}
+            }
           ]
         }
       ]
@@ -404,6 +1315,12 @@
     "validation rules (must-have / should-have / nice-to-have)",
     "dependency edges to upstream (B) and downstream (D/E/F) deliverables",
     "evidence requirements per field"
+  ],
+  "out_of_scope_v03": [
+    "field-level scoring weights inside containers (top-level container weights only in v0.3)",
+    "dependency edges to upstream (B) and downstream (D/E/F) deliverables — deferred to S3",
+    "evidence requirements per field — deferred",
+    "automated scorer implementation — deferred to S4 (v0.3 only declares semantics in DD-16)"
   ],
   "design_decisions_v0_1": {
     "approved_at": "2026-04-27",
@@ -469,7 +1386,8 @@
         "id": "DD-8",
         "topic": "benchmark_study marked optional",
         "decision": "Practice-establishment p.12 explicitly marks دراسة المقارنة المعيارية as اختيارية. Schema preserves this with optional_per_guide: true and study_status enum allowing 'not_conducted'.",
-        "applies_to": "this deliverable"
+        "applies_to": "this deliverable",
+        "v0_3_revision_note": "DD-8 revised by DD-18 (v0.3): the optional_per_guide:true flag is deprecated and migrated into the validation block (severity=nice, severity_source=guide). Single source of truth per field."
       },
       {
         "id": "DD-9",
@@ -496,7 +1414,8 @@
         "id": "DD-12",
         "topic": "governance_focus_axes added (4 governance axes)",
         "decision": "The 4 axes from p.33 5.5.3.2 (strategic_alignment_and_change, risk_management, expenditure_management, conflict_and_escalation) are encoded as enum + value_map. Each can be assigned to a responsible_committee.",
-        "applies_to": "this deliverable"
+        "applies_to": "this deliverable",
+        "v0_3_revision_note": "DD-12 REVERSED by DD-29 (v0.3): governance_focus_axes removed from EA-Strategy. Fresh re-reading of practice-establishment p.33 §5.5.3.2 shows the 4 axes cover the WHOLE EA practice operationally (strategic + compliance + technical change management + enterprise modeling), not the strategy doc specifically. Migrated to EA-Operating-Model."
       },
       {
         "id": "DD-13",
@@ -537,6 +1456,123 @@
         "id": "DD-15",
         "topic": "kpi_alignment intentionally unchanged in v0.2",
         "decision": "Subagent found no justified additions in the read ranges. National-methodology p.114-143 (chapter on initiative evaluation) referenced KPIs but only in OPEX/CAPEX initiative-prioritization context, not in cross-strategy KPI alignment. Re-evaluate when D-phase deliverable schemas surface KPI-related dependencies.",
+        "applies_to": "this deliverable"
+      }
+    ]
+  },
+  "design_decisions_v0_3": {
+    "approved_at": "2026-04-29",
+    "approved_by": "Zidan (RMG Consulting)",
+    "synthesis_inputs": [
+      "Primary-spec p.6 verified — only 3 columns (اسم الوثيقة | محتوى الوثيقة | مستوى الاعتماد). No severity column for EA-Strategy. The 'الزامية / اختيارية' language exists but only for Building Blocks classification on p.8 (وثيقة النموذج العام للمكونات), not EA-Strategy. Implication: severity tagging dominated by judgment + guide modal verbs already embedded in v0.2 source quotes.",
+      "Existing v0.1 + v0.2 source_quote_ar fields (already embed modal verbs like 'من الممكن' for swot_analysis and 'خطوة اختيارية' for benchmark_study)",
+      "Consultant judgment for fields lacking direct source-text severity signal (KSA EA practice + audit risk)",
+      "DD-12 (v0.2) reversed via fresh re-reading of practice-establishment p.33 §5.5.3.2 — see DD-29"
+    ],
+    "approved_question_set": {
+      "granularity": "field-level (every leaf incl. item_fields tagged)",
+      "rule_source": "hybrid: spec + judgment (re-read of guides for modal verbs not needed; existing v0.2 quotes already capture the signals)",
+      "weighting": "sum=100, judgment-weighted (regulator-style rubric scale)"
+    },
+    "decisions": [
+      {
+        "id": "DD-16",
+        "topic": "severity scoring semantics",
+        "decision": "must = full container weight loss if absent; should = 50% partial credit possible; nice = 0 penalty for absence + bonus credit for presence. v0.3 declares these semantics; scorer implementation deferred to S4.",
+        "applies_to": "all deliverables (project convention)"
+      },
+      {
+        "id": "DD-17",
+        "topic": "weight scale (sum=100, judgment-weighted)",
+        "decision": "Container weights are integers summing to exactly 100 across all 8 top-level containers. Basis: consultant judgment about audit risk per container, anchored on primary_spec emphasis (e.g., strategic_goals=22 weights bullet 1's 'goals/KPIs' as the largest content surface). Sub-container weighting deferred.",
+        "applies_to": "this deliverable (template for others)",
+        "weights_landscape": {"metadata": 8, "identity": 14, "strategic_goals": 22, "strategic_alignment": 14, "kpi_alignment": 10, "focus_areas": 14, "governance": 10, "stakeholder_engagement": 8, "sum": 100}
+      },
+      {
+        "id": "DD-18",
+        "topic": "optional_per_guide deprecation/migration",
+        "decision": "The v0.2 inline flag optional_per_guide:true (used on benchmark_study) is deprecated in v0.3. Migrated into the new validation block as severity=nice, severity_source=guide, reusing the existing source_quote_ar. Single source of truth per field.",
+        "applies_to": "this deliverable (and any future use)",
+        "revises": "DD-8"
+      },
+      {
+        "id": "DD-19",
+        "topic": "language=should in metadata",
+        "decision": "metadata.language tagged should not must — disclosure-only field, doesn't hold strategic content; absence shouldn't fail the doc.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-20",
+        "topic": "asymmetric severity for success_factors vs vision/mission/pillars/values",
+        "decision": "vision/mission/pillars/values are must (primary_spec) because they are listed explicitly on p.6 bullet 1. success_factors is should (guide) because it appears only in البيت الإستراتيجي per guide §5.1.2.6 — primary_spec defines the regulator-citable must floor; guide-only items don't transit to must.",
+        "applies_to": "this deliverable",
+        "implication": "A doc missing success_factors is not non-compliant against primary_spec, but is incomplete against best-practice (guide). Partial scoring penalty, not total."
+      },
+      {
+        "id": "DD-21",
+        "topic": "conditional-must pattern for leaves inside optional/should containers",
+        "decision": "When a parent (e.g., swot_analysis=nice, benchmark_study=nice) is optional, leaves inherit the parent severity tag. To capture 'if-conducted-then-required' semantics, leaves carry a conditional_note_ar narrative attribute. Hard conditional logic (parent=conducted → leaf=required) deferred to scorer (S4); schema stays flat.",
+        "applies_to": "all deliverables (project convention)",
+        "scope_examples_in_v0_3": ["SWOT 4 quadrants under swot_analysis", "5 leaves under benchmark_study", "stakeholders_attending under workshops_and_meetings"]
+      },
+      {
+        "id": "DD-22",
+        "topic": "strategic_direction_analysis=should despite feeding must intersections",
+        "decision": "strategic_direction_analysis is the analytical input to strategic_alignment.intersections_*. The intersections themselves are must (primary_spec bullet 2), but the upstream input analysis is should (guide §5.1.2.4) — primary_spec must floor does not transit upstream to inputs.",
+        "applies_to": "this deliverable (and pattern reusable)"
+      },
+      {
+        "id": "DD-23",
+        "topic": "heterogeneous KPI leaf severities",
+        "decision": "kpis[] is must (primary_spec), but its leaves get explicit by-leaf severities: kpi_id=must, title_ar=must, target=must (KPI without target is not a KPI), measurement_unit=should (often inferable), baseline=should (may defer to first measurement). No uniform parent-inheritance for KPI leaves.",
+        "applies_to": "this deliverable",
+        "rationale": "Different leaves carry different audit weight; uniform inheritance would over- or under-claim severity."
+      },
+      {
+        "id": "DD-24",
+        "topic": "alignment_with_national_frameworks=should not must",
+        "decision": "Tagged should/guide because the content is from guide §5.1.2.5, not primary-spec p.6 bullet 2 (which names 3 specific intersection types). Promoting to must would over-claim severity beyond primary_spec; the field also overlaps in scope with intersections_with_related_digital_strategies (already must), which softens the audit gap.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-25",
+        "topic": "framework_version=nice within a should parent",
+        "decision": "alignment_with_national_frameworks[].framework_version is nice (judgment) — many national frameworks are versionless or evolving in practice; absence shouldn't degrade alignment quality. First explicit case where a leaf is more permissive than its parent.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-26",
+        "topic": "architecture_domain_axes=should despite encoding the 6 NORA domains",
+        "decision": "Tagged should/guide — primary-spec p.6 doesn't mandate per-domain focus declaration; the v0.2 addition encodes a depth layer from guide procedures 10-15. Parallel to DD-24 (national_frameworks).",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-27",
+        "topic": "domain_name_ar=nice (derivability degrades severity)",
+        "decision": "architecture_domain_axes[].domain_name_ar is fully derivable from the domain enum via value_map. Tagging as nice establishes the principle: when a leaf is fully determined by another leaf via a deterministic mapping, recording is convenience (human-readable artifacts) not information-bearing. Reusable for any 'derivable_name_ar' pattern across the schema family.",
+        "applies_to": "all deliverables (project convention)"
+      },
+      {
+        "id": "DD-28",
+        "topic": "approval_status=must with severity_source=judgment",
+        "decision": "First case where a judgment-anchored field rises to must severity. Rationale: governance.approval_status absence breaks the doc's legal state (no answer to 'is this draft or approved?'). Sets precedent: judgment-source can support must when absence makes the parent meaningless.",
+        "applies_to": "all deliverables (project convention)"
+      },
+      {
+        "id": "DD-29",
+        "topic": "governance_focus_axes removed from EA-Strategy (revises DD-12 v0.2)",
+        "decision": "v0.2 DD-12 had accepted governance_focus_axes (4 axes from practice-establishment p.33 §5.5.3.2) into EA-Strategy scope. Fresh re-reading shows the 4 axes cover the WHOLE EA practice operationally (strategic + compliance + technical change management + enterprise modeling), not the strategy doc specifically. Removed from EA-Strategy; migrates to EA-Operating-Model when that schema is built.",
+        "applies_to": "this deliverable",
+        "revises": "DD-12",
+        "user_quote_ar": "محاور تركيز حوكمة البنية المؤسسية لا تتعلق باستراتيجية البنية المؤسسية، إنما تهدف إلى تغطية جميع المهام المرتبطة بالممارسة من جهة ومن جهة أخرى تضمن تفعيل دور الممارسة على جميع المستويات في الجهة بما تقضيه متطلبات العمل بدايةً من الجانب الاستراتيجي والامتثال للضوابط والمعايير الوطنية ذات الصلة وحتى إدارة التغييرات التقنية ونمذجة العمل المؤسسي لممارسة البنية المؤسسية",
+        "source_ref": {"file": "practice-establishment", "page": 33, "section": "5.5.3.2"},
+        "migration_target": "EA-Operating-Model (deliverable not yet schematized)",
+        "removed_fields": ["governance.governance_focus_axes (entire sub-container with axis enum + value_map + responsible_committee + scope_description_ar)"]
+      },
+      {
+        "id": "DD-30",
+        "topic": "stakeholder_engagement=should as process-evidence",
+        "decision": "stakeholder_engagement and all its leaves stay at should/nice (no must) — process-evidence rather than strategic content. primary-spec floor doesn't apply here. DD-13 (v0.2) accepted the container into EA-Strategy scope for audit trail of strategy formation; DD-30 confirms it stays at should and does not elevate to must.",
         "applies_to": "this deliverable"
       }
     ]
