@@ -1,0 +1,92 @@
+{
+  "purpose": "EA-Strategy-relevant chapter ranges across supporting guides — input handoff for S2.2 deep read",
+  "generated_at": "2026-04-27",
+  "generated_during": "S2.1",
+  "method": {
+    "tool": "regex keyword sweep over extracted JSON",
+    "keywords_arabic": {
+      "doc_name": "استراتيجية البنية المؤسسية | وثيقة استراتيجية البنية",
+      "identity": "الرؤية | الرسالة | القيم | الركائز",
+      "goals": "الأهداف الاستراتيجية | أهداف البنية المؤسسية",
+      "focus_areas": "محاور التركيز | محور تركيز",
+      "strategic_kpis": "مؤشرات الأداء الاستراتيجية | مؤشرات أداء استراتيجية",
+      "alignment": "تقاطعات | مواءمة | الاستراتيجيات الرقمية",
+      "national": "المؤشرات الوطنية | مؤشر وطني"
+    },
+    "limitation": "Keyword regex is conservative — may miss synonyms (e.g., 'هدف استراتيجي' singular, 'الرؤية المستقبلية'). S2.2 should read full ranges, not just hot pages."
+  },
+  "guides": [
+    {
+      "guide_id": "practice-establishment",
+      "file": "extracted/guides/practice-establishment.extracted.json",
+      "source_pdf": "DGA-Resources/الدليل الاسترشادي لتأسيس ممارسة البنية المؤسسية.pdf",
+      "total_pages": 100,
+      "pages_with_hits": 39,
+      "priority_ranges": [
+        {
+          "pages": "10-22",
+          "primary_signals": ["doc_name", "identity"],
+          "interpretation": "Likely the chapter dedicated to 'وثيقة استراتيجية البنية المؤسسية' itself — highest priority for S2.2.",
+          "priority": "P1"
+        },
+        {
+          "pages": "27-34",
+          "primary_signals": ["focus_areas", "alignment"],
+          "interpretation": "Focus axes definition + alignment guidance — relevant to focus_areas + strategic_alignment containers.",
+          "priority": "P1"
+        },
+        {
+          "pages": "52-53",
+          "primary_signals": ["alignment"],
+          "interpretation": "Alignment cluster — likely cross-strategy linkage practice.",
+          "priority": "P2"
+        },
+        {
+          "pages": "63-78",
+          "primary_signals": ["identity", "alignment"],
+          "interpretation": "Scattered identity + alignment hits across governance/operating chapters.",
+          "priority": "P3"
+        }
+      ]
+    },
+    {
+      "guide_id": "national-methodology-v1",
+      "file": "extracted/guides/national-methodology-v1.extracted.json",
+      "source_pdf": "DGA-Resources/الدليل الاسترشادي لتطبيق المنهجية الوطنية للبنية المؤسسية-V1_0.pdf",
+      "total_pages": 313,
+      "pages_with_hits": 70,
+      "extraction_note": "Required NFKC post-processing (presentation-forms PDF) — see meta.post_processed in the JSON.",
+      "priority_ranges": [
+        {
+          "pages": "114-143",
+          "primary_signals": ["alignment"],
+          "interpretation": "Heavy 30-page concentration of alignment terms — almost certainly the chapter on cross-strategy alignment / intersections. Direct input for strategic_alignment + kpi_alignment containers.",
+          "priority": "P1"
+        },
+        {
+          "pages": "163-175",
+          "primary_signals": ["identity", "alignment"],
+          "interpretation": "Identity references + alignment — likely strategic-pillars or vision chapter.",
+          "priority": "P2"
+        },
+        {
+          "pages": "240-250",
+          "primary_signals": ["identity"],
+          "interpretation": "Identity-only hits — possibly a values/vision template section.",
+          "priority": "P3"
+        },
+        {
+          "pages": "53, 119, 130, 133, 291",
+          "primary_signals": ["identity", "alignment"],
+          "interpretation": "Scattered hits — verify in S2.2 whether substantive or incidental references.",
+          "priority": "P3"
+        }
+      ]
+    }
+  ],
+  "s2_2_reading_plan": {
+    "estimated_pages_to_read": "~75 pages (P1 ranges only) or ~120 pages (P1+P2)",
+    "recommendation": "Start with P1 ranges in main context; delegate P2/P3 to a subagent for summary if context budget allows.",
+    "subagent_strategy": "If using subagent: hand it the chapter-map + the relevant extracted-JSON page slices; ask for: (a) new field candidates per container, (b) source quotes verbatim, (c) page citations."
+  }
+}
