@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "F=.claude/.turn-counter; N=$(cat \"$F\" 2>/dev/null || echo 0); N=$((N+1)); echo \"$N\" > \"$F\"; if [ \"$N\" -eq 25 ]; then printf '%s' '{\"systemMessage\":\"⚠ 25 turns reached on this session — consider /clear (with handoff summary) or /compact <focus> before context bloats (CLAUDE.md §11)\",\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Turn count reached 25 in this session. Per CLAUDE.md §11 advise the user to run /clear (with handoff summary) or /compact (with focus) before continuing.\"}}'; fi"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "echo 0 > .claude/.turn-counter"
+          }
+        ]
+      }
+    ]
+  }
+}
