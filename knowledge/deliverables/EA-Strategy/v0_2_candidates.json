@@ -1,0 +1,295 @@
+﻿{
+    "discovery_notes":  {
+                            "key_findings":  [
+                                                 "Strategic house (البيت الإستراتيجي) p.13 groups 5 core identity elements",
+                                                 "Benchmark study section 5.1.2.3: 5 study domains + 3 selection criteria",
+                                                 "Governance focus axes p.33: 4 major axes including strategic alignment, risk, expenditure, conflict",
+                                                 "Architecture domains p.52-53: 6 pillars (business, experience, applications, data, technical, security)",
+                                                 "Stakeholder engagement p.13 5.1.2.6 with structured workshop agenda"
+                                             ],
+                            "enrichments_from_v01":  [
+                                                         "strategic_goals.current_state_assessment: expanded with 3 sub-components (document_review, stakeholder_meetings, swot_analysis) from p.11"
+                                                     ],
+                            "new_containers_added":  [
+                                                         "stakeholder_engagement: new container for explicit workshops/meetings from p.13"
+                                                     ]
+                        },
+    "previous_candidates_preserved":  true,
+    "pass_number":  2,
+    "summary_statistics":  {
+                               "total_fields":  17,
+                               "by_container":  {
+                                                    "governance":  3,
+                                                    "strategic_alignment":  1,
+                                                    "kpi_alignment":  0,
+                                                    "strategic_goals":  3,
+                                                    "identity":  3,
+                                                    "stakeholder_engagement":  1,
+                                                    "metadata":  0,
+                                                    "focus_areas":  3
+                                                },
+                               "containers_with_candidates":  7,
+                               "confidence_breakdown":  {
+                                                            "low":  0,
+                                                            "medium":  1,
+                                                            "high":  16
+                                                        }
+                           },
+    "candidates":  [
+                       {
+                           "confidence":  "high",
+                           "candidate_id":  "identity-001",
+                           "notes":  "Explicitly mentioned as component of strategic house; already in v0.1",
+                           "container_key":  "identity",
+                           "source":  {
+                                          "section":  "5.1.2.6",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  13
+                                      },
+                           "field_name_ar":  "عوامل النجاح",
+                           "field_key":  "success_factors",
+                           "evidence_quote_ar":  "وتطوير مكونات البيت الإستراتيجي والتي تشمل على الرؤية، والرسالة، والركائز الإستراتيجية، والأهداف الإستراتيجية، وعوامل النجاح"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.1.1",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  10
+                                      },
+                           "field_key":  "strategic_intent_purpose",
+                           "type":  "object",
+                           "evidence_quote_ar":  "ويهدف تعريف استراتيجية البنية المؤسسية إلى تحقيق الغايات الآتية",
+                           "candidate_id":  "identity-002",
+                           "confidence":  "high",
+                           "notes":  "THREE stated purposes of EA strategy; from p.10",
+                           "container_key":  "identity",
+                           "field_name_ar":  "الغايات الاستراتيجية",
+                           "nested_items":  [
+                                                {
+                                                    "evidence_quote_ar":  "الوصول إلى اتفاق مشترك حول الأهداف والتطلعات الإستراتيجية من تطبيق ممارسة البنية المؤسسية في الجهة",
+                                                    "key":  "shared_agreement_on_objectives",
+                                                    "name_ar":  "الاتفاق المشترك"
+                                                },
+                                                {
+                                                    "evidence_quote_ar":  "ضمان الموائمة المستمرة مع التوجهات والأهداف الإستراتيجية والمبادرات التي ترتبط بأعمال البنية المؤسسية",
+                                                    "key":  "continuous_alignment",
+                                                    "name_ar":  "الموائمة المستمرة"
+                                                },
+                                                {
+                                                    "evidence_quote_ar":  "تحقيق الكفاءة التشغيلية لممارسة البنية المؤسسية عن طريق تركيز الجهود حول التوجهات الإستراتيجية للجهة",
+                                                    "key":  "operational_efficiency",
+                                                    "name_ar":  "الكفاءة التشغيلية"
+                                                }
+                                            ]
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.1.2.2",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  11
+                                      },
+                           "field_key":  "current_state_assessment",
+                           "type":  "object",
+                           "evidence_quote_ar":  "تحليل الوضع الراهن لفهم الجوانب الخاصة بالجهة لتفعيل ممارسة البنية المؤسسية",
+                           "candidate_id":  "strategic_goals-001",
+                           "confidence":  "high",
+                           "notes":  "Enriched v0.1 with 3 explicit sub-components; p.11",
+                           "container_key":  "strategic_goals",
+                           "field_name_ar":  "تقييم الوضع الراهن",
+                           "item_fields":  [
+                                               {
+                                                   "evidence_quote_ar":  "مراجعة الوثائق ذات الصلة مثل: (نتائج قياس للتحول الرقمي، نتائج التقييم الذاتي)",
+                                                   "key":  "document_review",
+                                                   "name_ar":  "مراجعة الوثائق"
+                                               },
+                                               {
+                                                   "evidence_quote_ar":  "عقد اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية",
+                                                   "key":  "stakeholder_meetings",
+                                                   "name_ar":  "اجتماعات أصحاب المصلحة"
+                                               },
+                                               {
+                                                   "evidence_quote_ar":  "استخدام أداة التحليل الرباعي (SWOT Analysis) لتحديد نقاط القوة والضعف",
+                                                   "key":  "swot_analysis",
+                                                   "name_ar":  "تحليل SWOT"
+                                               }
+                                           ]
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.1.2.3",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  12
+                                      },
+                           "field_key":  "benchmark_study",
+                           "type":  "object",
+                           "evidence_quote_ar":  "عمل دراسة مقارنة معيارية ألفضل الممارسات في مجال البنية المؤسسية",
+                           "candidate_id":  "strategic_goals-002",
+                           "confidence":  "high",
+                           "notes":  "Section 5.1.2.3 p.12; 5 domains + 3 selection criteria",
+                           "container_key":  "strategic_goals",
+                           "field_name_ar":  "دراسة مقارنة معيارية"
+                       },
+                       {
+                           "confidence":  "high",
+                           "candidate_id":  "strategic_goals-003",
+                           "notes":  "Section 5.1.2.4 p.12-13; links EA pillars to current strategy",
+                           "container_key":  "strategic_goals",
+                           "source":  {
+                                          "section":  "5.1.2.4",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  12
+                                      },
+                           "field_name_ar":  "تحليل التوجهات الإستراتيجية الحالية",
+                           "field_key":  "strategic_direction_analysis",
+                           "evidence_quote_ar":  "تحليل التوجهات الإستراتيجية الحالية في الجهة - مراجعة استراتيجية الأعمال"
+                       },
+                       {
+                           "confidence":  "high",
+                           "candidate_id":  "strategic_alignment-001",
+                           "notes":  "Already in v0.1; confirmed p.13 5.1.2.5",
+                           "container_key":  "strategic_alignment",
+                           "source":  {
+                                          "section":  "5.1.2.5",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  13
+                                      },
+                           "field_name_ar":  "التوافق مع الأطر المرجعية الوطنية",
+                           "field_key":  "alignment_with_national_frameworks",
+                           "evidence_quote_ar":  "التواؤم مع الأطر المرجعية الرقمية الصادرة من هيئة الحكومة الرقمية"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.1.2.6",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  13
+                                      },
+                           "field_key":  "strategic_house_diagram",
+                           "type":  "object",
+                           "evidence_quote_ar":  "بناء البيت الاستراتيجي لممارسة البنية المؤسسية - تطوير مكونات البيت الإستراتيجي والتي تشمل على الرؤية، والرسالة، والركائز الإستراتيجية، والأهداف الإستراتيجية، وعوامل النجاح",
+                           "candidate_id":  "identity-003",
+                           "confidence":  "high",
+                           "description":  "Strategic house concept grouping 5 core identity elements",
+                           "container_key":  "identity",
+                           "field_name_ar":  "البيت الإستراتيجي",
+                           "notes":  "p.13 5.1.2.6; explicit reference to strategic house"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.5.3.2",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  33
+                                      },
+                           "field_key":  "governance_focus_axes",
+                           "type":  "list_of_objects",
+                           "evidence_quote_ar":  "تصميم محاور تركيز حوكمة البنية المؤسسية - محور حوكمة المواءمة الإستراتيجية وإدارة التغيير، محور إدارة المخاطر، محور حوكمة إدارة الإنفاق، محور حوكمة إدارة النزاع والتصعيدات",
+                           "candidate_id":  "governance-001",
+                           "confidence":  "high",
+                           "notes":  "p.33 5.5.3.2; 4 governance axes",
+                           "container_key":  "governance",
+                           "field_name_ar":  "محاور تركيز الحوكمة"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.1.2.6",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  13
+                                      },
+                           "field_key":  "workshops_and_meetings",
+                           "type":  "object",
+                           "evidence_quote_ar":  "إشراك أصحاب المصلحة في تصميم التوجهات الإستراتيجية: عقد ورش عمل/ اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية، والتطلعات الإستراتيجية",
+                           "candidate_id":  "stakeholder_engagement-001",
+                           "confidence":  "high",
+                           "notes":  "New container; p.13 5.1.2.6",
+                           "container_key":  "stakeholder_engagement",
+                           "field_name_ar":  "ورش العمل والاجتماعات"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "Procedures 10-15",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  52
+                                      },
+                           "field_key":  "architecture_domain_axes",
+                           "type":  "list_of_text",
+                           "evidence_quote_ar":  "إدارة وتحديث مكونات البنية المؤسسية وتطوير مشهد شامل لجميع مجالات البنية المؤسسية (بنية الأعمال، بنية التجربة، بنية التطبيقات، بنية البيانات، البنية التقنية، والبنية الأمنية)",
+                           "candidate_id":  "focus_areas-001",
+                           "confidence":  "high",
+                           "notes":  "p.52-53; 6 EA domains",
+                           "container_key":  "focus_areas",
+                           "field_name_ar":  "محاور مجالات البنية المؤسسية",
+                           "values":  [
+                                          "بنية الأعمال",
+                                          "بنية التجربة",
+                                          "بنية التطبيقات",
+                                          "بنية البيانات",
+                                          "البنية التقنية",
+                                          "البنية الأمنية"
+                                      ]
+                       },
+                       {
+                           "confidence":  "high",
+                           "candidate_id":  "focus_areas-002",
+                           "notes":  "p.53 procedure 16",
+                           "container_key":  "focus_areas",
+                           "source":  {
+                                          "section":  "Procedure 16",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  53
+                                      },
+                           "field_name_ar":  "تحديد الفجوات وتحسين إعادة الاستخدام",
+                           "field_key":  "gap_identification_and_reuse",
+                           "evidence_quote_ar":  "تحديد الفجوات للبنية المؤسسية - يجب أن يركز هذا الإجراء بتسليط الضوء على مجالات البنية المؤسسية \u0027القابلة لإعادة الاستخدام\u0027"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.4.3.3",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  27
+                                      },
+                           "field_key":  "organizational_structure_placement",
+                           "type":  "object",
+                           "evidence_quote_ar":  "تحديد موقع الهيكل التنظيمي وراعي ممارسة للبنية المؤسسية - أن يكون موقع الوحدة التنظيمية مرتكز حول تمكين الجهة من تنفيذ أنشطة التحول الاستراتيجي (Strategy focused) أو مرتكز حول تقنية المعلومات (IT focused)",
+                           "candidate_id":  "governance-002",
+                           "confidence":  "high",
+                           "notes":  "p.27-29 5.4.3.3; two placement models + sponsor",
+                           "container_key":  "governance",
+                           "field_name_ar":  "موقع الهيكل التنظيمي"
+                       },
+                       {
+                           "confidence":  "medium",
+                           "candidate_id":  "governance-003",
+                           "notes":  "p.53 procedure 17",
+                           "container_key":  "governance",
+                           "source":  {
+                                          "section":  "Procedure 17",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  53
+                                      },
+                           "field_name_ar":  "إجراءات قياس مستوى النضج",
+                           "field_key":  "maturity_assessment_procedures",
+                           "evidence_quote_ar":  "قياس مستوى نضج - إجراء عمل يهدف إلى توضيح آلية العمل المتبعة من فريق ممارسة البنية المؤسسية"
+                       },
+                       {
+                           "source":  {
+                                          "section":  "5.3",
+                                          "guide_id":  "practice-establishment",
+                                          "page":  20
+                                      },
+                           "field_key":  "service_delivery_areas",
+                           "type":  "list_of_objects",
+                           "evidence_quote_ar":  "تمثل نتائج تنفيذ مجموعة من أنشطة الأعمال التي تعود بفائدة أو قيمة ملموسة إلى المستفيدين الداخليين في الجهة من ممارسة البنية المؤسسية",
+                           "candidate_id":  "focus_areas-003",
+                           "confidence":  "high",
+                           "notes":  "p.20-22; core vs supporting services; Table 2 shows examples",
+                           "container_key":  "focus_areas",
+                           "field_name_ar":  "مجالات تقديم الخدمات"
+                       }
+                   ],
+    "discovery_metadata":  {
+                               "total_candidates":  17,
+                               "pages_scanned":  "10-15, 16-22, 27-34, 52-53",
+                               "scan_date":  "2026-04-29",
+                               "enrichments":  1,
+                               "new_candidates_found":  13
+                           }
+}

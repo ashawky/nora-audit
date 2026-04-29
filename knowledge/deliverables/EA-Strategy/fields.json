@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "deliverable_id": "DEL-DOC-004",
-  "scaffold_status": "v0.1_pending_review",
-  "design_anchor": "Primary spec page 6 only — supporting guides intentionally deferred to S2.",
+  "scaffold_status": "v0.2_pending_review",
+  "design_anchor": "Primary spec page 6 + practice-establishment guide pages 10-22, 27-34, 52-53 (S2.2 deep read).",
   "containers": [
     {
       "key": "metadata",
@@ -13,7 +13,35 @@
         {"key": "version", "name_ar": "إصدار الوثيقة", "type": "text"},
         {"key": "issue_date", "name_ar": "تاريخ الإصدار", "type": "date"},
         {"key": "authoring_unit", "name_ar": "الوحدة المُعِدّة", "type": "text"},
-        {"key": "language", "name_ar": "لغة الوثيقة", "type": "text"}
+        {"key": "language", "name_ar": "لغة الوثيقة", "type": "text"},
+        {
+          "key": "document_purpose_statement",
+          "name_ar": "بيان غرض الوثيقة (الغايات الإستراتيجية الثلاث)",
+          "type": "object",
+          "added_in": "v0.2",
+          "source_quote_ar": "ويهدف تعريف استراتيجية البنية المؤسسية إلى تحقيق الغايات الآتية",
+          "source_ref": {"file": "practice-establishment", "page": 10, "section": "5.1.1"},
+          "item_fields": [
+            {
+              "key": "shared_agreement_on_objectives",
+              "name_ar": "الاتفاق المشترك حول الأهداف والتطلعات",
+              "type": "text",
+              "fixed_intent_ar": "الوصول إلى اتفاق مشترك حول الأهداف والتطلعات الإستراتيجية من تطبيق ممارسة البنية المؤسسية في الجهة"
+            },
+            {
+              "key": "continuous_alignment",
+              "name_ar": "الموائمة المستمرة مع التوجهات والمبادرات",
+              "type": "text",
+              "fixed_intent_ar": "ضمان الموائمة المستمرة مع التوجهات والأهداف الإستراتيجية والمبادرات التي ترتبط بأعمال البنية المؤسسية"
+            },
+            {
+              "key": "operational_efficiency",
+              "name_ar": "الكفاءة التشغيلية لممارسة البنية المؤسسية",
+              "type": "text",
+              "fixed_intent_ar": "تحقيق الكفاءة التشغيلية لممارسة البنية المؤسسية عن طريق تركيز الجهود حول التوجهات الإستراتيجية للجهة"
+            }
+          ]
+        }
       ]
     },
     {
@@ -25,7 +53,15 @@
         {"key": "vision", "name_ar": "الرؤية", "type": "text"},
         {"key": "mission", "name_ar": "الرسالة", "type": "text"},
         {"key": "values", "name_ar": "القيم", "type": "list_of_text"},
-        {"key": "pillars", "name_ar": "الركائز", "type": "list_of_text"}
+        {"key": "pillars", "name_ar": "الركائز", "type": "list_of_text"},
+        {
+          "key": "success_factors",
+          "name_ar": "عوامل النجاح",
+          "type": "list_of_text",
+          "added_in": "v0.2",
+          "source_quote_ar": "تطوير مكونات البيت الإستراتيجي والتي تشمل على الرؤية، والرسالة، والركائز الإستراتيجية، والأهداف الإستراتيجية، وعوامل النجاح",
+          "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"}
+        }
       ]
     },
     {
@@ -34,6 +70,85 @@
       "source_quote_ar": "الأهداف، المؤشرات",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 1},
       "fields": [
+        {
+          "key": "current_state_assessment",
+          "name_ar": "تقييم الوضع الراهن",
+          "type": "object",
+          "added_in": "v0.2",
+          "source_quote_ar": "تحليل الوضع الراهن لفهم الجوانب الخاصة بالجهة لتفعيل ممارسة البنية المؤسسية",
+          "source_ref": {"file": "practice-establishment", "page": 11, "section": "5.1.2.2"},
+          "item_fields": [
+            {
+              "key": "document_review",
+              "name_ar": "مراجعة الوثائق ذات الصلة",
+              "type": "object",
+              "source_quote_ar": "مراجعة الوثائق ذات الصلة مثل: نتائج قياس للتحول الرقمي، نتائج التقييم الذاتي لمستوى نضج ممارسة البنية المؤسسية",
+              "fields": [
+                {"key": "reviewed_documents", "name_ar": "الوثائق المُراجَعة", "type": "list_of_text"},
+                {"key": "key_findings_ar", "name_ar": "أهم النتائج", "type": "text"}
+              ]
+            },
+            {
+              "key": "stakeholder_meetings",
+              "name_ar": "اجتماعات أصحاب المصلحة",
+              "type": "object",
+              "source_quote_ar": "عقد اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية بما يخص ممارسات البنية المؤسسية",
+              "fields": [
+                {"key": "stakeholders_consulted", "name_ar": "أصحاب المصلحة المُستَشارون", "type": "list_of_text"},
+                {"key": "challenges_identified_ar", "name_ar": "التحديات المُحدَّدة", "type": "list_of_text"}
+              ]
+            },
+            {
+              "key": "swot_analysis",
+              "name_ar": "التحليل الرباعي (SWOT)",
+              "type": "object",
+              "source_quote_ar": "ومن الممكن استخدام أداة التحليل الرباعي (SWOT Analysis) لتحديد نقاط القوة والضعف الداخلية، بالإضافة إلى التهديدات والفرص التحسينية الخارجية",
+              "fields": [
+                {"key": "strengths_ar", "name_ar": "نقاط القوة", "type": "list_of_text"},
+                {"key": "weaknesses_ar", "name_ar": "نقاط الضعف", "type": "list_of_text"},
+                {"key": "opportunities_ar", "name_ar": "الفرص", "type": "list_of_text"},
+                {"key": "threats_ar", "name_ar": "التهديدات", "type": "list_of_text"}
+              ]
+            }
+          ]
+        },
+        {
+          "key": "benchmark_study",
+          "name_ar": "دراسة المقارنة المعيارية",
+          "type": "object",
+          "added_in": "v0.2",
+          "optional_per_guide": true,
+          "source_quote_ar": "عمل دراسة مقارنة معيارية لأفضل الممارسات في مجال البنية المؤسسية (خطوة اختيارية للجهة)",
+          "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.3"},
+          "item_fields": [
+            {"key": "study_status", "name_ar": "حالة الدراسة", "type": "enum", "allowed_values": ["not_conducted", "in_progress", "completed"]},
+            {"key": "selected_entities", "name_ar": "الجهات المختارة للمقارنة", "type": "list_of_text"},
+            {"key": "selection_criteria", "name_ar": "معايير اختيار الجهات", "type": "list_of_text",
+             "default_options_ar": ["الموقع الجغرافي (DGI مرتفع)", "درجة النضج الرقمي محلياً", "ملاءمة طبيعة الأنشطة والقطاع"]},
+            {"key": "study_domains", "name_ar": "مجالات الدراسة", "type": "list_of_text",
+             "default_options_ar": ["استراتيجية البنية المؤسسية", "خدمات البنية المؤسسية", "مؤشرات قياس الأداء", "الهيكل التنظيمي والأدوار", "عوامل النجاح"]},
+            {"key": "key_takeaways_ar", "name_ar": "أهم المخرجات والاستفادات", "type": "text"}
+          ]
+        },
+        {
+          "key": "strategic_direction_analysis",
+          "name_ar": "تحليل التوجهات الإستراتيجية الحالية في الجهة",
+          "type": "object",
+          "added_in": "v0.2",
+          "source_quote_ar": "تحليل التوجهات الإستراتيجية الحالية في الجهة - مراجعة استراتيجية الأعمال في الجهة والاستراتيجيات الأخرى",
+          "source_ref": {"file": "practice-establishment", "page": 12, "section": "5.1.2.4"},
+          "item_fields": [
+            {"key": "entity_strategic_directions_ar", "name_ar": "التوجهات الإستراتيجية للجهة", "type": "list_of_text"},
+            {"key": "current_strategic_projects", "name_ar": "المشاريع الإستراتيجية الحالية", "type": "list_of_objects",
+             "fields": [
+               {"key": "project_name_ar", "name_ar": "اسم المشروع", "type": "text"},
+               {"key": "complexity_level", "name_ar": "مستوى التعقيد", "type": "enum", "allowed_values": ["low", "medium", "high"]},
+               {"key": "ea_relevance_ar", "name_ar": "صلة المشروع بالبنية المؤسسية", "type": "text"}
+             ]},
+            {"key": "reviewed_strategies", "name_ar": "الاستراتيجيات المُراجَعة", "type": "list_of_text",
+             "default_options_ar": ["استراتيجية الأعمال", "استراتيجية تحول الأعمال", "استراتيجية التحول الرقمي", "استراتيجية إدارة البيانات", "استراتيجية الأمن السيبراني", "استراتيجية التقنيات الناشئة"]}
+          ]
+        },
         {
           "key": "goals",
           "name_ar": "قائمة الأهداف الاستراتيجية",
@@ -94,6 +209,24 @@
             {"key": "external_goal_ref", "name_ar": "مرجع الهدف الخارجي", "type": "text"},
             {"key": "intersection_description_ar", "name_ar": "وصف التقاطع", "type": "text"}
           ]
+        },
+        {
+          "key": "alignment_with_national_frameworks",
+          "name_ar": "التوافق مع الأطر المرجعية الوطنية",
+          "type": "list_of_objects",
+          "added_in": "v0.2",
+          "source_quote_ar": "التواؤم مع الأطر المرجعية الرقمية الصادرة من هيئة الحكومة الرقمية - يقوم فريق العمل بمواءمة مكونات استراتيجية البنية المؤسسية مع كافة الأطر المرجعية الصادرة من هيئة الحكومة الرقمية ومنها الإستراتيجية الوطنية للحكومة الرقمية",
+          "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.5"},
+          "item_fields": [
+            {"key": "ea_component_ref", "name_ar": "مكوّن استراتيجية البنية المرتبط", "type": "text"},
+            {"key": "national_framework_name_ar", "name_ar": "اسم الإطار المرجعي الوطني", "type": "text"},
+            {"key": "framework_version", "name_ar": "إصدار الإطار", "type": "text"},
+            {"key": "framework_issuer", "name_ar": "الجهة المُصدِرة", "type": "enum",
+             "allowed_values": ["هيئة الحكومة الرقمية (DGA)", "هيئة الأمن السيبراني (NCA)", "مكتب إدارة البيانات الوطني (NDMO)"],
+             "extensible": true,
+             "extensibility_note_ar": "يمكن توسيع القائمة لاحقاً لتشمل جهات شبه تشريعية أخرى"},
+            {"key": "alignment_description_ar", "name_ar": "وصف التوافق", "type": "text"}
+          ]
         }
       ]
     },
@@ -102,6 +235,7 @@
       "name_ar": "ارتباط مؤشرات الأداء الاستراتيجية",
       "source_quote_ar": "مؤشرات الأداء الاستراتيجية وارتباطها بمؤشرات الأداء الاستراتيجية للأعمال والتحول الرقمي والاستراتيجيات الرقمية الأخرى",
       "source_ref": {"file": "primary-spec", "page": 6, "bullet_index": 3},
+      "v0_2_change_note": "No additions in v0.2 — supporting guides did not yield additional sub-fields beyond v0.1 structure. Re-evaluate when DEL-DOC-005/006 schemas surface KPI dependencies.",
       "fields": [
         {
           "key": "linkage_to_business_kpis",
@@ -174,6 +308,29 @@
             {"key": "national_indicator_ref", "name_ar": "المؤشر الوطني المرتبط", "type": "text"},
             {"key": "support_description_ar", "name_ar": "آلية الدعم", "type": "text"}
           ]
+        },
+        {
+          "key": "architecture_domain_axes",
+          "name_ar": "محاور مجالات البنية المؤسسية",
+          "type": "list_of_objects",
+          "added_in": "v0.2",
+          "source_quote_ar": "إدارة وتحديث مكونات البنية المؤسسية وتطوير مشهد شامل لجميع مجالات البنية المؤسسية (بنية الأعمال، بنية التجربة، بنية التطبيقات، بنية البيانات، البنية التقنية، والبنية الأمنية)",
+          "source_ref": {"file": "practice-establishment", "page": 52, "section": "Procedures 10-15"},
+          "item_fields": [
+            {"key": "domain", "name_ar": "المجال", "type": "enum",
+             "allowed_values": ["business", "experience", "applications", "data", "technical", "security"]},
+            {"key": "domain_name_ar", "name_ar": "اسم المجال", "type": "text",
+             "value_map": {
+               "business": "بنية الأعمال",
+               "experience": "بنية التجربة",
+               "applications": "بنية التطبيقات",
+               "data": "بنية البيانات",
+               "technical": "البنية التقنية",
+               "security": "البنية الأمنية"
+             }},
+            {"key": "focus_description_ar", "name_ar": "وصف التركيز ضمن هذا المجال", "type": "text"},
+            {"key": "priority", "name_ar": "الأولوية", "type": "enum", "allowed_values": ["high", "medium", "low"]}
+          ]
         }
       ]
     },
@@ -186,16 +343,67 @@
         {"key": "approval_authorities", "name_ar": "جهات الاعتماد", "type": "list_of_text"},
         {"key": "approval_status", "name_ar": "حالة الاعتماد", "type": "enum", "allowed_values": ["draft", "in_review", "approved", "rejected"]},
         {"key": "approval_date", "name_ar": "تاريخ الاعتماد", "type": "date"},
-        {"key": "approval_minutes_ref", "name_ar": "مرجع محضر الاعتماد", "type": "text"}
+        {"key": "approval_minutes_ref", "name_ar": "مرجع محضر الاعتماد", "type": "text"},
+        {
+          "key": "governance_focus_axes",
+          "name_ar": "محاور تركيز الحوكمة",
+          "type": "list_of_objects",
+          "added_in": "v0.2",
+          "source_quote_ar": "تصميم محاور تركيز حوكمة البنية المؤسسية - محور حوكمة المواءمة الإستراتيجية وإدارة التغيير، محور إدارة المخاطر، محور حوكمة إدارة الإنفاق، محور حوكمة إدارة النزاع والتصعيدات",
+          "source_ref": {"file": "practice-establishment", "page": 33, "section": "5.5.3.2"},
+          "item_fields": [
+            {"key": "axis", "name_ar": "المحور", "type": "enum",
+             "allowed_values": ["strategic_alignment_and_change", "risk_management", "expenditure_management", "conflict_and_escalation"]},
+            {"key": "axis_name_ar", "name_ar": "اسم المحور", "type": "text",
+             "value_map": {
+               "strategic_alignment_and_change": "حوكمة المواءمة الإستراتيجية وإدارة التغيير",
+               "risk_management": "إدارة المخاطر",
+               "expenditure_management": "حوكمة إدارة الإنفاق",
+               "conflict_and_escalation": "حوكمة إدارة النزاع والتصعيدات"
+             }},
+            {"key": "responsible_committee", "name_ar": "اللجنة المسؤولة", "type": "text"},
+            {"key": "scope_description_ar", "name_ar": "نطاق المحور", "type": "text"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "stakeholder_engagement",
+      "name_ar": "إشراك أصحاب المصلحة",
+      "added_in": "v0.2",
+      "source_quote_ar": "إشراك أصحاب المصلحة في تصميم التوجهات الإستراتيجية: عقد ورش عمل/ اجتماعات مع أصحاب المصلحة لمناقشة التحديات الحالية، والتطلعات الإستراتيجية",
+      "source_ref": {"file": "practice-establishment", "page": 13, "section": "5.1.2.6"},
+      "fields": [
+        {
+          "key": "workshops_and_meetings",
+          "name_ar": "ورش العمل والاجتماعات",
+          "type": "list_of_objects",
+          "item_fields": [
+            {"key": "session_id", "name_ar": "رمز الجلسة", "type": "text"},
+            {"key": "session_type", "name_ar": "نوع الجلسة", "type": "enum",
+             "allowed_values": ["workshop", "meeting", "interview"]},
+            {"key": "session_date", "name_ar": "تاريخ الجلسة", "type": "date"},
+            {"key": "facilitator", "name_ar": "الميسّر / المُنظِّم", "type": "text"},
+            {"key": "stakeholders_attending", "name_ar": "أصحاب المصلحة المشاركون", "type": "list_of_text"},
+            {"key": "agenda_items_ar", "name_ar": "بنود جدول الأعمال", "type": "list_of_text",
+             "guide_recommended_items_ar": [
+               "التعريف بالمفاهيم الأساسية لممارسة البنية المؤسسية",
+               "تقديم لمحة عامة حول فوائد تبني وتفعيل ممارسة البنية المؤسسية",
+               "تقديم ملخص عالي المستوى حول رحلة التبني والتفعيل",
+               "تحديد ومناقشة أبرز المتطلبات من الحضور"
+             ]},
+            {"key": "outcomes_summary_ar", "name_ar": "ملخص المخرجات", "type": "text"},
+            {"key": "minutes_ref", "name_ar": "مرجع المحضر", "type": "text"}
+          ]
+        }
       ]
     }
   ],
-  "out_of_scope_v01": [
+  "out_of_scope_v02": [
     "scoring weights for containers/fields",
     "validation rules (must-have / should-have / nice-to-have)",
     "dependency edges to upstream (B) and downstream (D/E/F) deliverables",
-    "evidence requirements per field",
-    "deeper field expansion driven by supporting guides (تأسيس الممارسة + المنهجية الوطنية)"
+    "evidence requirements per field"
   ],
   "design_decisions_v0_1": {
     "approved_at": "2026-04-27",
@@ -211,7 +419,8 @@
         "id": "DD-2",
         "topic": "focus_areas axis taxonomy",
         "decision": "Three axis types are sufficient: core_capability_axes, supporting_capability_axes, national_indicator_axes.",
-        "applies_to": "this deliverable"
+        "applies_to": "this deliverable",
+        "v0_2_revision_note": "DD-2 revised by DD-11: a fourth axis type (architecture_domain_axes) added in v0.2 based on practice-establishment p.52."
       },
       {
         "id": "DD-3",
@@ -224,6 +433,111 @@
         "topic": "field key naming convention",
         "decision": "All field/container keys use snake_case English; every leaf and container carries name_ar with the original Arabic label.",
         "applies_to": "all deliverables (project convention)"
+      }
+    ]
+  },
+  "design_decisions_v0_2": {
+    "approved_at": "2026-04-29",
+    "approved_by": "Zidan (RMG Consulting)",
+    "synthesis_inputs": [
+      "practice-establishment p.10-22 (chapter 5.1: EA-Strategy definition)",
+      "practice-establishment p.27-34 (chapter 5.4-5.5: organizational placement + governance)",
+      "practice-establishment p.52-53 (procedures 10-17: domains + maturity)",
+      "national-methodology-v1 p.114-143 — checked, content is business architecture implementation, NOT EA-Strategy fields, intentionally skipped"
+    ],
+    "decisions": [
+      {
+        "id": "DD-5",
+        "topic": "success_factors as 6th identity element",
+        "decision": "Add success_factors to identity. Justified by البيت الإستراتيجي (strategic house) on practice-establishment p.13 5.1.2.6 explicitly listing 5 components ending with عوامل النجاح.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-6",
+        "topic": "document_purpose_statement placement",
+        "decision": "The 3 stated غايات (purposes) of EA strategy definition belong in metadata (not identity) as document_purpose_statement, since they describe why-the-document-exists rather than the entity's strategic content.",
+        "applies_to": "this deliverable",
+        "user_choice": "Gate 1 — chose metadata over identity over reject"
+      },
+      {
+        "id": "DD-7",
+        "topic": "current_state_assessment as object with 3 sub-tasks",
+        "decision": "current_state_assessment is a structured object with document_review + stakeholder_meetings + swot_analysis. Each sub-task has its own evidence quote from p.11.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-8",
+        "topic": "benchmark_study marked optional",
+        "decision": "Practice-establishment p.12 explicitly marks دراسة المقارنة المعيارية as اختيارية. Schema preserves this with optional_per_guide: true and study_status enum allowing 'not_conducted'.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-9",
+        "topic": "strategic_direction_analysis kept separate from strategic_alignment",
+        "decision": "strategic_direction_analysis is a preparatory step (input documents review) that feeds the alignment work. Not merged into strategic_alignment because the latter holds the final intersection matrix; the former holds the analysis trail.",
+        "applies_to": "this deliverable",
+        "user_choice": "Gate 2 — chose 'add as separate field'"
+      },
+      {
+        "id": "DD-10",
+        "topic": "alignment_with_national_frameworks issuer enum is extensible",
+        "decision": "framework_issuer is an enum starting with DGA + NCA + NDMO (per user input on KSA quasi-regulatory bodies). Marked extensible: true with a note for future additions.",
+        "applies_to": "this deliverable",
+        "user_input": "Gate 3 — user noted: هيئة الأمن السيبراني ومكتب إدارة البيانات الوطني بالإضافة إلى هيئة الحكومة الرقمية"
+      },
+      {
+        "id": "DD-11",
+        "topic": "architecture_domain_axes added as 4th sub-container in focus_areas",
+        "decision": "The 6 NORA architecture domains (business/experience/applications/data/technical/security) are an orthogonal focus dimension to capability/national-indicator axes. Domain enum + Arabic value_map preserves bilingual integrity.",
+        "applies_to": "this deliverable",
+        "revises": "DD-2"
+      },
+      {
+        "id": "DD-12",
+        "topic": "governance_focus_axes added (4 governance axes)",
+        "decision": "The 4 axes from p.33 5.5.3.2 (strategic_alignment_and_change, risk_management, expenditure_management, conflict_and_escalation) are encoded as enum + value_map. Each can be assigned to a responsible_committee.",
+        "applies_to": "this deliverable"
+      },
+      {
+        "id": "DD-13",
+        "topic": "stakeholder_engagement added as 8th top-level container",
+        "decision": "Despite being process-evidence rather than strategic content, stakeholder workshops are explicit in p.13 5.1.2.6 with a recommended agenda. Promoting to its own container keeps governance focused on approval and preserves audit trail of who shaped the strategy.",
+        "applies_to": "this deliverable",
+        "user_choice": "Gate 6 — chose 'new container' over 'merge into governance' over 'reject'"
+      },
+      {
+        "id": "DD-14",
+        "topic": "rejected candidates and rationale",
+        "decision": "5 candidates explicitly rejected as out-of-scope for EA-Strategy document; documented here for audit trail.",
+        "applies_to": "this deliverable",
+        "rejected": [
+          {
+            "candidate": "strategic_house_diagram_ref",
+            "rationale": "Reference to a derived view (Figure 5). The components (vision/mission/pillars/goals/success_factors) are already individual fields in identity; the diagram is a presentation artifact, not data."
+          },
+          {
+            "candidate": "gap_identification_and_reuse",
+            "rationale": "Out of scope — belongs to EA-Roadmap (DEL-DOC-005) or Gap Analysis report (DEL-RPT). EA-Strategy declares direction; gap analysis evaluates current vs target."
+          },
+          {
+            "candidate": "service_delivery_areas",
+            "rationale": "Out of scope — describes services delivered by the EA practice itself (what the EA unit produces). Belongs to EA-Operating-Model deliverable."
+          },
+          {
+            "candidate": "organizational_structure_placement",
+            "rationale": "Out of scope per user decision (Gate 5) — placement model (Strategy-focused vs IT-focused) and sponsor role belong to EA-Operating-Model. Governance container in EA-Strategy stays focused on approval flow."
+          },
+          {
+            "candidate": "maturity_assessment_procedures",
+            "rationale": "Out of scope — operational procedure that belongs to a dedicated EA-Maturity-Assessment deliverable. Medium confidence in source text also weakened the case."
+          }
+        ]
+      },
+      {
+        "id": "DD-15",
+        "topic": "kpi_alignment intentionally unchanged in v0.2",
+        "decision": "Subagent found no justified additions in the read ranges. National-methodology p.114-143 (chapter on initiative evaluation) referenced KPIs but only in OPEX/CAPEX initiative-prioritization context, not in cross-strategy KPI alignment. Re-evaluate when D-phase deliverable schemas surface KPI-related dependencies.",
+        "applies_to": "this deliverable"
       }
     ]
   }
