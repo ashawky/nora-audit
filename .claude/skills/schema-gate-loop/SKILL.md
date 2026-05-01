@@ -19,6 +19,27 @@ The repeatable, gate-driven workflow that produced EA-Strategy v0.2 and v0.3. Ea
 
 ---
 
+## Step 0a — Pre-step: structure map for existing-schema extensions
+
+**Skip this step if greenfield (creating a new `fields.json` from scratch).** Otherwise binding.
+
+If the sprint **extends** an existing `fields.json`, launch a **single Explore subagent** at sprint start to compress the schema before designing Gate 0. Target the agent at:
+
+- All containers (`key` + `name_ar` + `weight`) in source order
+- Per-container direct children: leaf vs sub-container vs `list_of_objects`; severity tag if leaf; child keys if nested (one level deep)
+- Total leaves with `validation` blocks per container
+- Existing `design_decisions_v*` IDs and one-line topics
+- Contents of `out_of_scope_v*` arrays (cumulative across versions)
+- Spot-check: confirm any field/key the sprint plans to add is currently absent (avoid duplicate-add bugs)
+
+Cap report at ~600 words. This map feeds Gate 0's "schema shape" decisions — without it, sub-weight scope (selective vs all) and evidence coverage decisions are uninformed.
+
+> **Why a subagent and not direct Read?** Existing schemas grow past 1500 lines quickly (EA-Strategy v0.3 = 1580 lines, v0.4 = 2069 lines). Loading the full file into main context bloats it for the rest of the sprint. The Explore agent returns a structured summary; main context stays clean for gate decisions.
+>
+> **Battle-tested precedent:** S2.4 used this pattern at sprint start to identify 4 of 8 containers as candidates for sub-weighting and to confirm `evidence_requirements` wasn't already present. Compressed 1580 lines → ~600 words.
+
+---
+
 ## Step 0 — Sprint scoping (Gate 0: schema shape)
 
 Before opening `fields.json`:
