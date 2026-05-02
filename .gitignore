@@ -32,11 +32,13 @@ logs/
 .claude/settings.local.json
 .claude/.turn-counter
 
-# --- Tenant isolation (per-agency private working areas) ---
-# Per master plan §3.3: meta.json + practice-scenario/ + submission-package/
-# remain trackable on client/* branches. The patterns below catch raw inbox,
-# structured intake, and Claude-Design workspace — none of these should ever
-# land on main.
-agencies/*/_inbox/**
-agencies/*/intake/**
-agencies/*/workspace/**
+# --- Tenant isolation (CLIENT/ETEC BRANCH OVERRIDE) ---
+# This branch (client/etec) intentionally diverges from main here.
+# Master plan §9 requires _inbox/, intake/, workspace/ to be trackable on
+# the client branch. The three patterns that catch them are present on main
+# but removed here. Tenant isolation guarantees on this branch rest on:
+#   1. Branch policy (master plan §3.4) — client/* never merges to main.
+#   2. PreToolUse hook (.claude/hooks/tenant-boundary-check.py) — blocks
+#      Edit/Write/MultiEdit on core paths (knowledge/, scripts/,
+#      DGA-Resources/, extracted/) from client/* branches.
+# DO NOT MERGE THIS .gitignore TO MAIN. The patterns must remain on main.
