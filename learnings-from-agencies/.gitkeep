@@ -1,0 +1,3 @@
+# Keep this directory tracked. Tenant-derived learning candidates land here under
+# subfolders <agency>-<YYYY-MM-DD>/candidates.md (created via tenant-learning-capture
+# skill on client/* branches). Promoted to core via /promote-learning from main.

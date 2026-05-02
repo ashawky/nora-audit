@@ -1,0 +1,41 @@
+{
+  "agency_id": "etec",
+  "agency_name_ar": "هيئة تقويم التعليم والتدريب",
+  "agency_name_en": "Education and Training Evaluation Commission",
+  "submission_target": {
+    "regulator": "DGA",
+    "framework": "NORA 2.0",
+    "evaluation_window": "2026-07",
+    "submission_deadline_iso": "2026-07-01"
+  },
+  "contacts": [
+    {
+      "role": "<to-be-filled-on-client-branch>",
+      "name": "<...>",
+      "email": "<...>"
+    }
+  ],
+  "engagement_scope": {
+    "summary_ar": "<to-be-filled-on-client-branch>",
+    "summary_en": "<to-be-filled-on-client-branch>",
+    "primary_deliverables_to_generate": [
+      "DEL-DOC-015",
+      "DEL-DOC-016",
+      "DEL-DOC-017"
+    ],
+    "supporting_deliverables_referenced": [
+      "DEL-DOC-004 (EA-Strategy v0.4 — landed on main at commit 014ee65)"
+    ]
+  },
+  "branch_policy": {
+    "skeleton_tracked_on": "main",
+    "tenant_data_tracked_on": "client/etec",
+    "warning_to_main_readers": "This file is a STRUCTURAL skeleton on main. Real tenant data (filled contacts, detailed scope, intake artifacts) lives on client/etec only. Per master plan §3.4: client branches never merge back to main; tenant insights flow via /promote-learning only."
+  },
+  "_meta": {
+    "schema_version": "0.1",
+    "created_at": "2026-05-01",
+    "created_by_sprint": "M0",
+    "master_plan_ref": "C:\\Users\\USER\\.claude\\plans\\nifty-skipping-glacier.md §3.2"
+  }
+}

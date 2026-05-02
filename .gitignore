@@ -31,3 +31,12 @@ logs/
 # (auto-memory lives outside the repo at ~/.claude/projects/<hash>/memory/)
 .claude/settings.local.json
 .claude/.turn-counter
+
+# --- Tenant isolation (per-agency private working areas) ---
+# Per master plan §3.3: meta.json + practice-scenario/ + submission-package/
+# remain trackable on client/* branches. The patterns below catch raw inbox,
+# structured intake, and Claude-Design workspace — none of these should ever
+# land on main.
+agencies/*/_inbox/**
+agencies/*/intake/**
+agencies/*/workspace/**
