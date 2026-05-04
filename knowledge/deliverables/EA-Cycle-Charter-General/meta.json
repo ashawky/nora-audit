@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "scaffold_status": "v0.1_pending_review",
+  "deliverable_id": "DEL-DOC-015",
+  "code": "DOC-15",
+  "name_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+  "name_en": "General Charter for Enterprise Architecture Development Cycles",
+  "category_id": "DOC",
+  "category_name_ar": "الوثائق",
+  "phase_abcdef": "D",
+  "serial_in_category": 15,
+  "approval_authorities": [
+    "لجنة حوكمة البنية المؤسسية"
+  ],
+  "primary_source": {
+    "file": "DGA-Resources/مخرجات ممارسة البنية المؤسسية - مارس 2026.pdf",
+    "extracted_path": "extracted/primary-spec/primary-spec.extracted.json",
+    "section": ".02 الوثائق",
+    "start_page": 8,
+    "end_page": 8,
+    "row_label_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+    "row_number": 15,
+    "bullet_count": 6,
+    "note": "الفهرس الخام يشير إلى صفحات 6-10 لأن جدول الوثائق ممتد، لكن صف هذه الوثيقة فعليًا على ص.8 فقط (مكون من 6 نقاط في عمود محتوى الوثيقة). محتوى content_preview في الفهرس يتضمن خطأً نصوصًا من صف DOC-16 على ص.9 (نطاق العمل الأفقي/الرأسي والبطاقة التفصيلية) — لذا نعتمد على ص.8 صف 15 فقط كأرضية المواصفة (must-floor)."
+  },
+  "supporting_sources": [
+    {
+      "file": "DGA-Resources/الدليل الاسترشادي لتطبيق المنهجية الوطنية للبنية المؤسسية-V1_0.pdf",
+      "extracted_path": "extracted/guides/national-methodology-v1.extracted.json",
+      "start_page": 46,
+      "end_page": 55,
+      "role": "canonical_depth",
+      "note": "نطاق المرحلة الأولى لدورة التطوير + مصفوفة المسؤوليات (RACI) + بوابات بدء الدورة. مصدر العمق الأساسي للحقول التي تكون severity_source=guide."
+    },
+    {
+      "file": "DGA-Resources/الدليل الاسترشادي لتأسيس ممارسة البنية المؤسسية.pdf",
+      "extracted_path": "extracted/guides/practice-establishment.extracted.json",
+      "start_page": 63,
+      "end_page": 80,
+      "role": "skim_oos_check",
+      "note": "تصفح عابر فقط؛ المحتوى المتعلق في هذا النطاق هو ميثاق/متطلبات لجنة الحوكمة (مرتبط بـ DEL-PRE-002 من حيث المفهوم) وليس ميثاق دورة التطوير. أي مرشح من هذا النطاق يُسجَّل في v0_1_candidates.json كـ status=rejected مع rejection_rationale_ar."
+    }
+  ],
+  "lineage": {
+    "extracted_from_index": "knowledge/deliverables-index.json",
+    "index_curated_at": "2026-04-25T12:02:51+00:00",
+    "scaffold_created_at": "2026-05-04",
+    "sprint": "M3.1",
+    "convention_baseline": "v0.4",
+    "convention_baseline_note": "v0.1 schema with all v0.4 conventions baked in from day 1 (no v0.1→v0.4 evolution path; mirrors EA-Strategy v0.4 conventions battle-tested across S2.2/S2.3/S2.4)."
+  }
+}

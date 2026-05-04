@@ -1,0 +1,339 @@
+{
+  "schema_version": "0.1",
+  "deliverable_id": "DEL-DOC-015",
+  "code": "DOC-15",
+  "sprint": "M3.1",
+  "captured_at": "2026-05-04",
+  "harvest_method": "deep-read-arabic-guides skill, single Explore subagent (pass-1 only; pass-2 not triggered — yield 14/12 = 117% above 70% threshold per User Gate 2 ruling)",
+  "sources_deep_read": [
+    {
+      "file": "extracted/guides/national-methodology-v1.extracted.json",
+      "page_range_start": 46,
+      "page_range_end": 55,
+      "role": "canonical_depth",
+      "section_primary": "6.1.3.1 المرحلة الأولى: تحديد نطاق عمل دورة تطوير مكونات البنية المؤسسية"
+    },
+    {
+      "file": "extracted/guides/practice-establishment.extracted.json",
+      "page_range_start": 63,
+      "page_range_end": 80,
+      "role": "skim_oos_check",
+      "note_ar": "تصفّح فقط؛ المحتوى مرتبط بميثاق لجنة الحوكمة لا بميثاق دورة التطوير. 0 مرشحات مأخوذة منه."
+    }
+  ],
+  "primary_spec_floor": {
+    "file": "extracted/primary-spec/primary-spec.extracted.json",
+    "page": 8,
+    "section": ".02 الوثائق",
+    "row": 15,
+    "bullet_count": 6,
+    "bullets_ar": [
+      "الاثر الاستراتيجي المتوقع من جميع دورات التطوير.",
+      "ارتباط جميع دورات التطوير بتحقيق التوجهات الاستراتيجية للبنية المؤسسية، واستراتيجية الأعمال، واستراتيجية التحول الرقمي، والاستراتيجيات الرقمية الأخرى ذات العلاقة.",
+      "مدى تأثير الاحتياج أو المتطلب على أعمال الجهة وخدماتها",
+      "الأثر المتوقَّع من تنفيذ كل دورة تطوير البنية المؤسسية",
+      "بطاقة لكل دورات تطوير مكونات البنية المؤسسية.",
+      "قرار بالحاجة إلى تنفيذ دورة تطوير مكونات البنية المؤسسية من عدمه."
+    ]
+  },
+  "promotion_summary": {
+    "total_candidates": 15,
+    "promoted": 6,
+    "rejected_oos_doc16": 8,
+    "rejected_non_oos": 1,
+    "promotion_rate_pct": 40,
+    "by_container_promoted": {
+      "metadata": 0,
+      "identity": 0,
+      "strategic_alignment": 1,
+      "impact_assessment_framework": 1,
+      "cycle_decision_framework": 2,
+      "cycle_card_specification": 1,
+      "governance": 1,
+      "relationship_to_per_cycle_documents": 0
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cycle_decision_framework-001",
+      "field_name_ar": "معايير قرار تنفيذ دورة التطوير (مسار عدم التنفيذ)",
+      "field_key": "cycle_initiation_decision_criteria_no_path",
+      "evidence_quote_ar": "في حال كانت نتائج التقييم هي عدم ضرورة تنفيذ دورة تطوير البنية المؤسسية، فيعمل فريق عمل البنية المؤسسية على توثيق جميع المدخلات التي سبق جمعها، وتوضيح مبررات عدم تنفيذ دورة التطوير وأرشفة نتائج الطلب.",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 48,
+        "section": "6.1.3.1"
+      },
+      "container_key": "cycle_decision_framework",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "Anchored secondarily to bullet 6 of must-floor (الأرضية تنزل على decision_outcomes_enumeration؛ هذا الاقتباس يصف مسار not_execute في إطار القرار). Promoted to cycle_decision_framework.not_execute_path_procedure (object wrapper, weight=4, severity=should/guide). The wrapper's 2 item_fields (required_inputs_documentation_ar + required_justification_and_archival_ar) split the 3 procedural actions: documentation-of-inputs + justification-and-archival.",
+      "status": "promoted",
+      "promoted_to_field_path": "containers[cycle_decision_framework].fields[not_execute_path_procedure]",
+      "promoted_into_dd": "DD-9"
+    },
+    {
+      "candidate_id": "cycle_decision_framework-002",
+      "field_name_ar": "أنواع قرارات تنفيذ الدورة (مسار التنفيذ)",
+      "field_key": "cycle_execution_decision_types_yes_path",
+      "evidence_quote_ar": "في حال كانت نتائج التقييم هي ضرورة تنفيذ دورة تطوير البنية المؤسسية، فيعمل فريق عمل البنية المؤسسية على إصدار مسودة قرار تنفيذ دورة التطوير واعتمادها من أصحاب العلاقة المعنيين.",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 48,
+        "section": "6.1.3.1"
+      },
+      "container_key": "cycle_decision_framework",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "Same anchor logic as candidate 001 (bullet 6 secondary). Promoted to cycle_decision_framework.execute_path_procedure (object wrapper, weight=4, severity=should/guide). The wrapper's 2 item_fields capture: draft-decision-artifact + stakeholder-approvals.",
+      "status": "promoted",
+      "promoted_to_field_path": "containers[cycle_decision_framework].fields[execute_path_procedure]",
+      "promoted_into_dd": "DD-9"
+    },
+    {
+      "candidate_id": "governance-001",
+      "field_name_ar": "مصفوفة المسؤوليات (RACI) لمرحلة تحديد النطاق",
+      "field_key": "raci_matrix_scope_definition_phase",
+      "evidence_quote_ar": "مصفوفة توزيع المسؤوليات المسؤوليات (R) المساءلة (A) الاستشارة (C) الاطلاع (I)",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 48,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "RACI matrix for cycle phase 1 scope-definition. Per-cycle execution governance, not charter-level governance. DOC-15 governance container holds raci_for_charter_level_decisions (different scope: who decides on the charter itself); per-cycle phase RACI belongs in DOC-16 (per-cycle charter) or DOC-17 (cycle execution document). Preserve for M3.2 inheritance.",
+      "status": "rejected",
+      "rejection_rationale_ar": "RACI لمرحلة تحديد النطاق هي حوكمة على مستوى تنفيذ الدورة الفردية، لا على مستوى الميثاق العام نفسه. DOC-15 governance يحمل raci_for_charter_level_decisions (مَن يقرر على الميثاق ذاته)؛ RACI لمراحل الدورة محتوى DOC-16/17. تحفظ هنا كأثر تدقيقي لـ M3.2.",
+      "rejected_in_dd": "DD-11"
+    },
+    {
+      "candidate_id": "impact_assessment_framework-001",
+      "field_name_ar": "معايير تقييم الأثر الاستراتيجي والتشغيلي",
+      "field_key": "impact_assessment_criteria",
+      "evidence_quote_ar": "يحدد فريق عمل البنية المؤسسية معايير تنفيذ دورة تطوير البنية المؤسسية، والتي تشمل (على سبيل المثال): مدى تأثير الاحتياج أو المتطلب على أعمال الجهة وخدماتها، الأثر المتوقع من تنفيذ دورة تطوير البنية المؤسسية على نتائج الأعمال ونتائج الجهة",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 48,
+        "section": "6.1.3.1"
+      },
+      "container_key": "impact_assessment_framework",
+      "confidence": "high",
+      "type_hints": "list_of_objects",
+      "notes": "The quote spans bullets 3 + 4 of must-floor explicitly (impact-of-need + per-cycle-expected-impact). Bullet 1 (aggregate strategic) is primary-spec only — no guide reinforcement at pp.46-55. Promoted holistically: provides the guide-source measurement_method_ar item_field across all 3 sub-fields (strategic_aggregate_impact_criteria + needs_driven_impact_criteria + per_cycle_execution_impact_criteria). The 'على سبيل المثال' framing in the quote justifies the extensibility of criteria lists.",
+      "status": "promoted",
+      "promoted_to_field_path": "containers[impact_assessment_framework].fields[*].item_fields[measurement_method_ar]",
+      "promoted_into_dd": "DD-8"
+    },
+    {
+      "candidate_id": "strategic_alignment-001",
+      "field_name_ar": "معايير الارتباط بالاستراتيجيات الوطنية",
+      "field_key": "strategic_alignment_criteria",
+      "evidence_quote_ar": "ضمان موائمة نطاق عمل دورة تطوير البنية المؤسسية مع إستراتيجية الأعمال في الجهة أو إستراتيجية التحول الرقمي أو إستراتيجيات أخرى ذات العلاقة في الجهة، وعدم وجود أي تعارض بينهما",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 51,
+        "section": "6.1.3.1"
+      },
+      "container_key": "strategic_alignment",
+      "confidence": "high",
+      "type_hints": "list_of_objects",
+      "notes": "Anchored to bullet 2 of must-floor. The quote explicitly mentions 3 of the 4 strategy types (business + digital_transformation + other_related); EA strategic directions is implicit. The 'وعدم وجود أي تعارض' clause spawns cross_strategy_conflict_avoidance_rule as a separate field within strategic_alignment.",
+      "status": "promoted",
+      "promoted_to_field_path": "containers[strategic_alignment].fields[mandatory_strategy_alignment_dimensions] + containers[strategic_alignment].fields[cross_strategy_conflict_avoidance_rule]",
+      "promoted_into_dd": "DD-7"
+    },
+    {
+      "candidate_id": "cycle_scope_specification-001",
+      "field_name_ar": "نطاق العمل الأفقي والرأسي للدورة",
+      "field_key": "cycle_scope_breadth_and_depth",
+      "evidence_quote_ar": "بناء على نتائج ذلك يتم تحديد نطاق العمل الأفقي (Breadth) والرأسي (Depth) لدورة التطوير كما يأتي",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 49,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "Per-cycle scope specification. DOC-15 (meta-charter) governs RULES for breadth/depth scoping; DOC-16 (per-cycle charter) records SPECIFIC cycle's breadth/depth. Same content matches DOC-16 primary-spec floor (p.9 row 16). Preserved for M3.2 inheritance.",
+      "status": "rejected",
+      "rejection_rationale_ar": "محتوى تخصيص نطاق دورة فردية (per-cycle). الميثاق العام (DOC-15) يحمل قواعد الترميز لكن لا يحمل قيم النطاق لكل دورة. تحفظ لـ DOC-16 (M3.2).",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "oos-doc16-002",
+      "field_name_ar": "قدرات الأعمال المسؤولة في نطاق العمل",
+      "field_key": "responsible_work_scope_capabilities",
+      "evidence_quote_ar": "قدرات الأعمال المسؤولة في نطاق العمل: تحديد نطاق العمل من قائمة قدرات الأعمال التي تسعى دورة التطوير إلى دراستها وتحليلها وتطويرها",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 50,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "list_of_objects",
+      "notes": "Per-cycle scoping content — specific business capabilities scoped per cycle. Maps to DOC-16 primary-spec scope specification (p.9 row 16).",
+      "status": "rejected",
+      "rejection_rationale_ar": "تخصيص قدرات أعمال على مستوى دورة فردية. يقع في DOC-16. تحفظ لـ M3.2.",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "oos-doc16-003",
+      "field_name_ar": "كيانات البيانات المسؤولة في نطاق العمل",
+      "field_key": "responsible_work_scope_data_entities",
+      "evidence_quote_ar": "كيانات البيانات المسؤولة في نطاق العمل: تحديد نطاق العمل من قائمة البيانات التي تسعى دورة التطوير إلى دراستها وتحليلها وتطويرها",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 50,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "list_of_objects",
+      "notes": "Per-cycle data scope specification. Instance-level scoping for individual cycles, not meta-charter framework.",
+      "status": "rejected",
+      "rejection_rationale_ar": "تخصيص كيانات بيانات على مستوى دورة فردية. يقع في DOC-16. تحفظ لـ M3.2.",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "oos-doc16-004",
+      "field_name_ar": "مكونات البنية التقنية والأمنية المسؤولة",
+      "field_key": "responsible_technical_security_components",
+      "evidence_quote_ar": "مكونات البنية التقنية والأمنية المسؤولة في نطاق العمل: تحديد نطاق العمل من قائمة مكونات بنية التقنية والأمن التي تسعى دورة التطوير إلى دراستها وتحليلها وتطويرها",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 50,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "list_of_objects",
+      "notes": "Per-cycle technical/security architecture scope. Per-cycle instance determination, not meta-charter governance.",
+      "status": "rejected",
+      "rejection_rationale_ar": "تخصيص مكونات تقنية/أمنية على مستوى دورة فردية. يقع في DOC-16. تحفظ لـ M3.2.",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "cycle_scope_specification-002",
+      "field_name_ar": "مراحل تطوير مكونات البنية المسؤولة",
+      "field_key": "development_phases_for_cycle_scope",
+      "evidence_quote_ar": "تحديد مراحل تطوير مكونات البنية المؤسسية المسؤولة: يحدد فريق عمل البنية المؤسسية المراحل المتضمنة ضمن دورة التطوير (لا تتطلب دورة تطوير مكونات البنية المؤسسية تنفيذ جميع المراحل، وقد يكتفي بعدد محدد منها)",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 50,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "medium",
+      "type_hints": "list_of_objects",
+      "notes": "Per-cycle phase selection. Specific phase choice for a given cycle = DOC-16 territory. Note: the meta-rule (cyclical framework supports partial phases) is implicitly DOC-15 territory but is so embedded in the quote that splitting is over-engineering for v0.1.",
+      "status": "rejected",
+      "rejection_rationale_ar": "اختيار مراحل دورة فردية. يقع في DOC-16. تحفظ لـ M3.2.",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "governance-002",
+      "field_name_ar": "مصفوفة المسؤوليات لمرحلة تأطير نطاق الدورة",
+      "field_key": "raci_matrix_scope_refinement_phase",
+      "evidence_quote_ar": "مصفوفة توزيع المسؤوليات [RACI matrix with roles: كبير مهندسي البنية، أصحاب العلاقة، الإدارة العليا]",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 49,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "Same logic as governance-001 — per-cycle phase RACI (phase 1.2 scope refinement). DOC-16 territory. Note: the agent's quote uses brackets to abstract the role list; verbatim extraction at gate-time may show different role names — preserved as-captured for audit fidelity.",
+      "status": "rejected",
+      "rejection_rationale_ar": "RACI لمرحلة تأطير نطاق الدورة. حوكمة على مستوى تنفيذ الدورة الفردية. تحفظ لـ DOC-16.",
+      "rejected_in_dd": "DD-11"
+    },
+    {
+      "candidate_id": "cycle_card_specification-001",
+      "field_name_ar": "محتويات بطاقة دورة التطوير",
+      "field_key": "cycle_card_contents_template",
+      "evidence_quote_ar": "يعمل فريق عمل البنية المؤسسية على إعداد ميثاق دورة تطوير البنية المؤسسية بما يشمل نطاق العمل الأفقي (Breadth) والرأسي (Depth)، وقائمة أصحاب العلاقة وخطة العمل التفصيلية لتنفيذ دورة التطوير.",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 50,
+        "section": "6.1.3.1"
+      },
+      "container_key": "cycle_card_specification",
+      "confidence": "high",
+      "type_hints": "object",
+      "notes": "Anchored to bullet 5 of must-floor. The quote uses 'ميثاق دورة' (per-cycle charter = DOC-16) but the listed contents (breadth/depth/stakeholders/plan) ARE the meta-spec for what each per-cycle card/charter must contain — so the same quote serves DUAL roles: (a) DOC-15 cycle_card_specification specification (severity=should, guide-source) and (b) DOC-16 primary-spec floor (severity=must, primary_spec — to be set in M3.2). The 4 attributes seeded into attribute_label enum (extensible per DD-10 family) at item_fields level.",
+      "status": "promoted",
+      "promoted_to_field_path": "containers[cycle_card_specification].fields[mandatory_card_attributes]",
+      "promoted_into_dd": "DD-10"
+    },
+    {
+      "candidate_id": "cycle_planning-001",
+      "field_name_ar": "آليات دمج أصحاب العلاقة في التخطيط",
+      "field_key": "stakeholder_engagement_mechanisms",
+      "evidence_quote_ar": "يجب اختيار آليات دمج أصحاب العلاقة الأمثل لكل نوع من أنواع أصحاب العلاقة، بحيث تحقق الموازنة بين جميع المدخلات اللازمة لدورة التطوير مع تجنب التأثير على خطط العمل أو الإضرار بدورة التطوير عامة.",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 52,
+        "section": "6.1.3.1"
+      },
+      "container_key": "governance",
+      "confidence": "medium",
+      "type_hints": "text",
+      "notes": "Originally tagged container_key='cycle_planning' (not in 8-container hypothesis). REASSIGNED to governance.cross_cycle_stakeholder_engagement_principles per User Gate 2 ruling — the principle (optimal engagement mechanism + balance) is meta-level applicable across all cycles, not per-cycle execution detail. type_hints adjusted from list_of_objects (agent's original) to text leaf at promotion (one principle, one paragraph).",
+      "status": "promoted",
+      "reassigned_from_original_container_key": "cycle_planning",
+      "promoted_to_field_path": "containers[governance].fields[cross_cycle_stakeholder_engagement_principles]",
+      "promoted_into_dd": "DD-11"
+    },
+    {
+      "candidate_id": "cycle_scope_specification-003",
+      "field_name_ar": "اعتبارات تحديد الاتساع والعمق للنطاق",
+      "field_key": "scope_breadth_depth_considerations",
+      "evidence_quote_ar": "حجم الجهة ومدى تنوع قدراتها وخدماتها، حيث كلما ازداد حجم الجهة ازدادت درجة التعقيد والمدة اللازمة لتنفيذ دورة التطوير",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 53,
+        "section": "6.1.3.1"
+      },
+      "container_key": null,
+      "out_of_scope_target": "DEL-DOC-016",
+      "confidence": "medium",
+      "type_hints": "list_of_objects",
+      "notes": "Per-cycle scope sizing guidance (factors: agency size, capability diversity, time constraints). Practical heuristics for breadth/depth determination at per-cycle level — not meta-charter rule.",
+      "status": "rejected",
+      "rejection_rationale_ar": "اعتبارات تحديد نطاق دورة فردية (حجم الجهة، تعقيد، مدة). يقع في DOC-16. تحفظ لـ M3.2.",
+      "rejected_in_dd": "DD-4"
+    },
+    {
+      "candidate_id": "identity-001",
+      "field_name_ar": "نطاق تطبيق الميثاق العام",
+      "field_key": "charter_applicability_scope",
+      "evidence_quote_ar": "تهدف هذه المرحلة إلى دراسة وتقييم الحاجة إلى البدء بدورة تطوير مكونات البنية المؤسسية وفقًا لاحتياجات ومتغيرات الجهة",
+      "evidence_quote_note_ar": "الاقتباس الأصلي في pass-1 كان متضرراً بترميز خاطئ (UTF-8 → cp1252 mojibake). أُعيدت قراءته من ص.47 من ملف JSON المستخرج، والقيمة المعروضة هنا هي النص الصحيح من المصدر.",
+      "source": {
+        "file": "extracted/guides/national-methodology-v1.extracted.json",
+        "page": 47,
+        "section": "6.1.3.1"
+      },
+      "container_key": "identity",
+      "confidence": "medium",
+      "type_hints": "leaf",
+      "notes": "After re-reading the verbatim quote from p.47, the source describes the OBJECTIVE of cycle phase 1 (assess need + determine scope) — not the applicability scope of the meta-charter itself. The intended field 'charter_applicability_scope' has no direct guide anchor; it was re-instantiated in fields.json as a judgment-source field (severity=should) without this candidate as guide backing. Candidate preserved here with status=rejected for audit trail per skill anti-pattern (no fields without verbatim guide anchor) — DD-29 reversal lesson from EA-Strategy v0.3 underlies this rigor.",
+      "status": "rejected",
+      "rejection_rationale_ar": "الاقتباس عند إعادة قراءته يصف هدف المرحلة الأولى للدورة (تقييم الحاجة + تحديد النطاق)، لا نطاق تطبيق الميثاق العام. الحقل 'charter_applicability_scope' أُعيد إنشاؤه في fields.json كحقل judgment-source (should) دون ركيزة من هذا المرشح — لا يوجد اقتباس صريح في pp.46-55 يدعم نطاق تطبيق الميثاق نفسه. مبدأ skill anti-pattern: لا تحويل حقل بلا ركيزة لفظية.",
+      "rejected_in_dd": "DD-6",
+      "lesson_carried_forward_ar": "نمط DD-29 reversal من S2.3: إعادة قراءة الاقتباس قبل الترقية ضرورية. هذا المرشح كان سيُروَّج لو اعتمدنا على الـ pass-1 subagent claim دون تحقق."
+    }
+  ]
+}

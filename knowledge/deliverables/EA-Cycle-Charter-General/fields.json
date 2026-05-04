@@ -1,0 +1,1107 @@
+{
+  "schema_version": "0.1",
+  "scaffold_status": "v0.1_pending_review",
+  "deliverable_id": "DEL-DOC-015",
+  "code": "DOC-15",
+  "name_ar": "وثيقة الميثاق العام لدورات تطوير مكونات البنية المؤسسية",
+  "name_en": "General Charter for Enterprise Architecture Development Cycles",
+  "convention_baseline": "v0.4",
+  "convention_baseline_note_ar": "إصدار v0.1 يتبنى أعراف v0.4 من اليوم الأول دون مرحلية v0.1→v0.4 (DD-1). الأعراف مستقرّة بعد S2.4 وموثَّقة في schema-gate-loop + verify_schema.py.",
+  "containers": [
+    {
+      "key": "metadata",
+      "name_ar": "البيانات التعريفية للوثيقة",
+      "kind": "boilerplate",
+      "weight": 8,
+      "weight_rationale_ar": "العنصر بمعظمه تعريفي/إجرائي. الوزن 8 يطابق نمط EA-Strategy v0.4 (DD-31 selective: حاوية مسطّحة بلا أوزان فرعية).",
+      "fields": [
+        {
+          "key": "document_title",
+          "name_ar": "عنوان الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "بدون عنوان لا يمكن تعريف الوثيقة."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "يظهر عنوان الوثيقة بصيغة محدّدة على صفحة الغلاف أو ضمن قسم البيانات التعريفية، ويطابق العنوان المعتمد رسمياً."
+          }
+        },
+        {
+          "key": "version",
+          "name_ar": "إصدار الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "لا يصح تدقيق وثيقة بلا تتبّع إصدار."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "يُذكر رقم الإصدار صراحةً (مثال: v1.0، v2.1) في صفحة الغلاف أو سجل التغييرات."
+          }
+        },
+        {
+          "key": "issue_date",
+          "name_ar": "تاريخ الإصدار",
+          "type": "date",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "مطلوب لتتبّع مسار الاعتماد والحوكمة الزمني."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "تاريخ إصدار محدّد (يوم/شهر/سنة) في صفحة الغلاف أو ضمن البيانات التعريفية."
+          }
+        },
+        {
+          "key": "authoring_unit",
+          "name_ar": "الوحدة المُعِدّة",
+          "type": "text",
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "يحدّد المسؤولية والمساءلة عن إعداد الوثيقة."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "تحديد صريح للوحدة/الإدارة المُعِدّة (مثال: 'إدارة البنية المؤسسية') على صفحة الغلاف أو في قسم البيانات التعريفية."
+          }
+        },
+        {
+          "key": "language",
+          "name_ar": "لغة الوثيقة",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "حقل إفصاح شائع لكنه ليس عنصر محتوى؛ غيابه لا يُسقط الوثيقة. (DD-19 carryover from EA-Strategy v0.3)"
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "ذكر صريح للغة الوثيقة الأساسية (عربي/إنجليزي/ثنائي) في البيانات التعريفية."
+          }
+        }
+      ]
+    },
+    {
+      "key": "identity",
+      "name_ar": "هوية الوثيقة وغرضها",
+      "kind": "definitional",
+      "weight": 12,
+      "weight_rationale_ar": "هوية الميثاق (تعريف، غرض، نطاق التطبيق، مرجعية نظامية) أكبر من boilerplate-metadata لكنها أصغر من حاويات المحتوى الجوهري. لا يوجد اقتباس صريح من pp.46-55 يحمل هوية الميثاق ذاتها (المرشح identity-001 مرفوض — انظر candidates file)؛ كل الحقول judgment-source.",
+      "fields": [
+        {
+          "key": "charter_definition",
+          "name_ar": "تعريف الميثاق",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "الميثاق العام بطبيعته عنصر إفصاحي مرجعي. غيابه لا يُسقط الوثيقة لكن يُفقدها الإطار التعريفي."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "نص يعرّف الميثاق العام بوصفه الإطار المرجعي الذي يحكم جميع دورات تطوير مكونات البنية المؤسسية في الجهة."
+          }
+        },
+        {
+          "key": "charter_purpose_statement",
+          "name_ar": "غرض الميثاق العام",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "بيان الغرض الاسترشادي يوضح موقع الميثاق ضمن منظومة حوكمة البنية المؤسسية؛ ليس عنصر محتوى من المواصفة الأم (ص.8 صف 15) لذا يقف عند should وفق DD-2/DD-3."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قسم تعريفي صريح يبين الغرض من الميثاق العام (مثال: \"يحدد هذا الميثاق الإطار العام لإطلاق وتقييم دورات تطوير مكونات البنية المؤسسية في الجهة\")، يأتي عادةً في صفحات الواجهة أو القسم التعريفي."
+          }
+        },
+        {
+          "key": "charter_applicability_scope",
+          "name_ar": "نطاق تطبيق الميثاق على دورات التطوير",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "تحديد ما إذا كان الميثاق يحكم جميع دورات التطوير في الجهة أم فئات محددة منها. لا يوجد اقتباس صريح في pp.46-55 يحكم هذا (الاقتباس الذي رشحه pass-1 يصف هدف المرحلة الأولى للدورة، لا نطاق تطبيق الميثاق نفسه — رفض identity-001، انظر candidates file)."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "بيان صريح بنطاق تطبيق الميثاق العام (مثال: \"يطبَّق هذا الميثاق على جميع دورات تطوير مكونات البنية المؤسسية في الجهة بصرف النظر عن مجال البنية أو حجم الدورة\")."
+          }
+        },
+        {
+          "key": "charter_authority_basis",
+          "name_ar": "المرجعية النظامية للميثاق",
+          "type": "text",
+          "validation": {
+            "severity": "nice",
+            "severity_source": "judgment",
+            "rationale_ar": "إشارة إلى السلطة المعتمدة (لجنة حوكمة البنية المؤسسية) ومستوى الالزام. حقل إفصاح اختياري؛ معلومة الاعتماد الأساسية في governance.charter_approval_authority."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "إشارة موجزة إلى المرجعية النظامية للميثاق (مثال: \"يستند هذا الميثاق إلى تفويض لجنة حوكمة البنية المؤسسية واشتراطات DGA الصادرة في مارس 2026\")."
+          }
+        }
+      ]
+    },
+    {
+      "key": "strategic_alignment",
+      "name_ar": "الارتباط بالاستراتيجيات والتوجهات",
+      "kind": "content",
+      "weight": 14,
+      "weight_rationale_ar": "حاوية مرتبطة بالبند 2 من أرضية المواصفة (ص.8 صف 15) — أحد ستة بنود إلزامية. الوزن 14 يضع الحاوية ضمن النطاق المتوسط-الثقيل (مع governance + cycle_decision_framework). أوزان فرعية 10/4 تعكس أولوية تعداد أبعاد الارتباط (must/primary_spec) فوق قاعدة تجنّب التعارض (should/guide).",
+      "fields": [
+        {
+          "key": "mandatory_strategy_alignment_dimensions",
+          "name_ar": "الأبعاد الإلزامية للارتباط الاستراتيجي",
+          "type": "list_of_objects",
+          "weight": 10,
+          "source_quote_ar": "ارتباط جميع دورات التطوير بتحقيق التوجهات الاستراتيجية للبنية المؤسسية، واستراتيجية الأعمال، واستراتيجية التحول الرقمي، والاستراتيجيات الرقمية الأخرى ذات العلاقة.",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 2
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 2 من أرضية المواصفة (ص.8 صف 15) يُعدد صراحةً الاستراتيجيات الأربع التي يجب على كل دورة تطوير الارتباط بها."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة بأبعاد الارتباط الاستراتيجي تشمل بحد أدنى الأنواع الأربعة (التوجهات الاستراتيجية للبنية المؤسسية، استراتيجية الأعمال، استراتيجية التحول الرقمي، الاستراتيجيات الرقمية الأخرى ذات العلاقة) — في قسم الارتباط الاستراتيجي من الميثاق.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 2"
+          },
+          "item_fields": [
+            {
+              "key": "strategy_type",
+              "name_ar": "نوع الاستراتيجية",
+              "type": "enum",
+              "enum_values": [
+                "ea_strategic_directions",
+                "business_strategy",
+                "digital_transformation_strategy",
+                "other_related_digital_strategy"
+              ],
+              "enum_extensible": true,
+              "extensibility_note_ar": "قابلة للتوسعة وفقًا لـ DD-10 family لاستيعاب استراتيجيات رقمية أخرى ذات علاقة (NCA/NDMO/إلخ).",
+              "value_map_ar": {
+                "ea_strategic_directions": "التوجهات الاستراتيجية للبنية المؤسسية",
+                "business_strategy": "استراتيجية الأعمال",
+                "digital_transformation_strategy": "استراتيجية التحول الرقمي",
+                "other_related_digital_strategy": "استراتيجيات رقمية أخرى ذات العلاقة"
+              },
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "أنواع الاستراتيجيات الأربع منصوص عليها صراحةً في البند 2.",
+                "source_quote_ar": "التوجهات الاستراتيجية للبنية المؤسسية، واستراتيجية الأعمال، واستراتيجية التحول الرقمي، والاستراتيجيات الرقمية الأخرى ذات العلاقة"
+              },
+              "evidence_requirements": {
+                "artifact_type": "structured_list",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "قيمة معتمدة من قائمة الأنواع الأربع — أو نوع موسَّع موثَّق ضمن extensibility_note_ar."
+              }
+            },
+            {
+              "key": "alignment_evidence_required_ar",
+              "name_ar": "وصف دليل الارتباط الإلزامي",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "بند 2 يفرض الارتباط؛ ضمنيًّا يفرض وجود دليل لكل بُعد. غياب الدليل = غياب الالتزام بالبند."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يوضح كيفية إثبات الارتباط بالاستراتيجية المعنية (مثال: مرجعية وثيقة الاستراتيجية + المقطع المحدد + كيف تخدم الدورة هذا التوجه)."
+              }
+            },
+            {
+              "key": "conflict_status_required",
+              "name_ar": "حالة فحص التعارض المطلوب توثيقها",
+              "type": "enum",
+              "enum_values": ["no_conflict", "conflict_resolved", "conflict_pending"],
+              "enum_extensible": false,
+              "value_map_ar": {
+                "no_conflict": "لا تعارض",
+                "conflict_resolved": "تعارض تم حلّه",
+                "conflict_pending": "تعارض قيد المعالجة"
+              },
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "p.51 §6.1.3.1 من المنهجية الوطنية يفرض غياب التعارض؛ ليس عنصر محتوى من المواصفة الأم لذا يقف عند should.",
+                "source_quote_ar": "ضمان موائمة نطاق عمل دورة تطوير البنية المؤسسية مع إستراتيجية الأعمال في الجهة أو إستراتيجية التحول الرقمي أو إستراتيجيات أخرى ذات العلاقة في الجهة، وعدم وجود أي تعارض بينهما",
+                "source_ref": {
+                  "file": "national-methodology-v1",
+                  "page": 51,
+                  "section": "6.1.3.1"
+                }
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "بيان صريح بحالة فحص التعارض لكل بُعد ارتباط استراتيجي."
+              }
+            }
+          ]
+        },
+        {
+          "key": "cross_strategy_conflict_avoidance_rule",
+          "name_ar": "قاعدة تجنّب التعارض بين الدورة والاستراتيجيات",
+          "type": "text",
+          "weight": 4,
+          "source_quote_ar": "ضمان موائمة نطاق عمل دورة تطوير البنية المؤسسية مع إستراتيجية الأعمال في الجهة أو إستراتيجية التحول الرقمي أو إستراتيجيات أخرى ذات العلاقة في الجهة، وعدم وجود أي تعارض بينهما",
+          "source_ref": {
+            "file": "national-methodology-v1",
+            "page": 51,
+            "section": "6.1.3.1"
+          },
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "قاعدة المنهجية الوطنية ص.51 تفرض غياب التعارض. ليست في أرضية المواصفة الأم لذا تقف عند should بدلاً من must."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "نص يوثق قاعدة الميثاق العام لتجنب التعارض بين دورة التطوير وأي استراتيجية رقمية مرتبطة، وآلية رفع التعارضات."
+          }
+        }
+      ]
+    },
+    {
+      "key": "impact_assessment_framework",
+      "name_ar": "إطار تقييم الأثر",
+      "kind": "content",
+      "weight": 18,
+      "weight_rationale_ar": "أثقل الحاويات. ترتبط بثلاثة بنود من أرضية المواصفة (1، 3، 4 من أصل 6) — نصف الأرضية تنزل هنا. أوزان فرعية 6/6/6 (متساوية) لأن البنود الثلاثة على نفس مستوى المواصفة الأم بلا تراتب صريح.",
+      "fields": [
+        {
+          "key": "strategic_aggregate_impact_criteria",
+          "name_ar": "معايير الأثر الاستراتيجي على مستوى المنظومة",
+          "type": "list_of_objects",
+          "weight": 6,
+          "source_quote_ar": "الاثر الاستراتيجي المتوقع من جميع دورات التطوير.",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 1
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 1 من أرضية المواصفة يفرض وجود معايير لتقييم الأثر الاستراتيجي على مستوى مجموع دورات التطوير (لا فرديًّا)."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة معايير لتقييم الأثر الاستراتيجي الإجمالي عبر جميع دورات التطوير في الجهة — كل معيار له تسمية ووصف صريح؛ يُفضَّل ذكر طريقة قياس.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 1"
+          },
+          "item_fields": [
+            {
+              "key": "criterion_label_ar",
+              "name_ar": "تسمية المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "كل معيار يحتاج إلى تسمية لتمييزه ومرجعيته في القرار."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "تسمية موجزة وموحَّدة لكل معيار ضمن القائمة."
+              }
+            },
+            {
+              "key": "criterion_description_ar",
+              "name_ar": "وصف المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "وصف المعيار هو محتواه؛ بدونه يصبح المعيار اسمًا فارغًا."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يصف المعيار بدقة كافية لتطبيقه على مستوى المنظومة — متضمنًا نطاق التطبيق ومحاور التقييم."
+              }
+            },
+            {
+              "key": "measurement_method_ar",
+              "name_ar": "طريقة قياس المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "المنهجية الوطنية ص.48 تذكر معايير دون أن تفرض صراحةً طريقة قياس، لذا يقف عند should وليس must.",
+                "source_quote_ar": "يحدد فريق عمل البنية المؤسسية معايير تنفيذ دورة تطوير البنية المؤسسية",
+                "source_ref": {
+                  "file": "national-methodology-v1",
+                  "page": 48,
+                  "section": "6.1.3.1"
+                }
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "وصف لطريقة قياس المعيار — كمية أو نوعية، أداة القياس، حدود قبول/رفض إن وجدت."
+              }
+            }
+          ]
+        },
+        {
+          "key": "needs_driven_impact_criteria",
+          "name_ar": "معايير أثر الاحتياج/المتطلب على أعمال الجهة وخدماتها",
+          "type": "list_of_objects",
+          "weight": 6,
+          "source_quote_ar": "مدى تأثير الاحتياج أو المتطلب على أعمال الجهة وخدماتها",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 3
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 3 من أرضية المواصفة (ص.8 صف 15) يفرض وجود معايير لتقييم أثر الاحتياج/المتطلب على أعمال الجهة وخدماتها."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة معايير لتقييم تأثير الاحتياج أو المتطلب الذي يطلق دورة التطوير على أعمال الجهة وخدماتها — كل معيار له تسمية ووصف صريح؛ يُفضَّل ذكر طريقة قياس.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 3 + national-methodology v1 ص.48 §6.1.3.1"
+          },
+          "item_fields": [
+            {
+              "key": "criterion_label_ar",
+              "name_ar": "تسمية المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "كل معيار يحتاج إلى تسمية لتمييزه ومرجعيته في القرار."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "تسمية موجزة وموحَّدة لكل معيار ضمن القائمة."
+              }
+            },
+            {
+              "key": "criterion_description_ar",
+              "name_ar": "وصف المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "وصف المعيار هو محتواه؛ بدونه يصبح المعيار اسمًا فارغًا."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يصف المعيار بدقة كافية لتطبيقه — متضمنًا نطاق التطبيق ومحاور التقييم على أعمال/خدمات الجهة."
+              }
+            },
+            {
+              "key": "measurement_method_ar",
+              "name_ar": "طريقة قياس المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "المنهجية الوطنية ص.48 تذكر معايير دون أن تفرض صراحةً طريقة قياس، لذا يقف عند should وليس must.",
+                "source_quote_ar": "يحدد فريق عمل البنية المؤسسية معايير تنفيذ دورة تطوير البنية المؤسسية",
+                "source_ref": {
+                  "file": "national-methodology-v1",
+                  "page": 48,
+                  "section": "6.1.3.1"
+                }
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "وصف لطريقة قياس المعيار — كمية أو نوعية، أداة القياس، حدود قبول/رفض إن وجدت."
+              }
+            }
+          ]
+        },
+        {
+          "key": "per_cycle_execution_impact_criteria",
+          "name_ar": "معايير الأثر المتوقَّع من تنفيذ كل دورة",
+          "type": "list_of_objects",
+          "weight": 6,
+          "source_quote_ar": "الأثر المتوقَّع من تنفيذ كل دورة تطوير البنية المؤسسية",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 4
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 4 من أرضية المواصفة (ص.8 صف 15) يفرض وجود معايير لتقييم الأثر المتوقَّع من كل دورة تطوير على حدة (مستوى الدورة الفردية، خلافًا للبند 1 الذي يخص المستوى الإجمالي)."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة معايير لتقييم الأثر المتوقَّع من تنفيذ دورة فردية — كل معيار له تسمية ووصف صريح؛ يُفضَّل ذكر طريقة قياس.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 4 + national-methodology v1 ص.48 §6.1.3.1"
+          },
+          "item_fields": [
+            {
+              "key": "criterion_label_ar",
+              "name_ar": "تسمية المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "كل معيار يحتاج إلى تسمية لتمييزه ومرجعيته في القرار."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "تسمية موجزة وموحَّدة لكل معيار ضمن القائمة."
+              }
+            },
+            {
+              "key": "criterion_description_ar",
+              "name_ar": "وصف المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "وصف المعيار هو محتواه؛ بدونه يصبح المعيار اسمًا فارغًا."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يصف المعيار بدقة كافية لتطبيقه على دورة فردية — متضمنًا نطاق التطبيق ومحاور التقييم."
+              }
+            },
+            {
+              "key": "measurement_method_ar",
+              "name_ar": "طريقة قياس المعيار",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "المنهجية الوطنية ص.48 تذكر معايير دون أن تفرض صراحةً طريقة قياس، لذا يقف عند should وليس must.",
+                "source_quote_ar": "يحدد فريق عمل البنية المؤسسية معايير تنفيذ دورة تطوير البنية المؤسسية",
+                "source_ref": {
+                  "file": "national-methodology-v1",
+                  "page": 48,
+                  "section": "6.1.3.1"
+                }
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "وصف لطريقة قياس المعيار — كمية أو نوعية، أداة القياس، حدود قبول/رفض إن وجدت."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cycle_decision_framework",
+      "name_ar": "إطار قرار تنفيذ الدورة",
+      "kind": "content",
+      "weight": 14,
+      "weight_rationale_ar": "حاوية مرتبطة بالبند 6 (وحيد من أرضية المواصفة هنا). الوزن 14 ضمن النطاق المتوسط-الثقيل، مع أوزان فرعية 6/4/4: تعداد المخرجات (must/primary_spec) أعلى وزنًا، ومسارَا الإجراءات (should/guide) متساويان لأن أرضية المواصفة لا تفضّل مسارًا على آخر.",
+      "fields": [
+        {
+          "key": "decision_outcomes_enumeration",
+          "name_ar": "تعداد مخرجات قرار الدورة",
+          "type": "list_of_objects",
+          "weight": 6,
+          "source_quote_ar": "قرار بالحاجة إلى تنفيذ دورة تطوير مكونات البنية المؤسسية من عدمه.",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 6
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 6 من أرضية المواصفة (ص.8 صف 15) ينص صراحةً على أن الميثاق يحتوي قرار الحاجة لتنفيذ الدورة من عدمها — وهذا يفرض تعداد المخرجات الممكنة (تنفيذ / عدم تنفيذ)."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة صريحة بالمخرجات الممكنة لقرار إطلاق الدورة (تنفيذ / عدم تنفيذ) في القسم المخصص لإطار قرار تنفيذ الدورة.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 6"
+          },
+          "item_fields": [
+            {
+              "key": "outcome_label",
+              "name_ar": "تسمية المخرج",
+              "type": "enum",
+              "enum_values": ["execute", "not_execute"],
+              "enum_extensible": false,
+              "value_map_ar": {
+                "execute": "تنفيذ دورة التطوير",
+                "not_execute": "عدم تنفيذ دورة التطوير"
+              },
+              "validation": {
+                "severity": "must",
+                "severity_source": "primary_spec",
+                "rationale_ar": "ثنائية القرار (تنفيذ/عدم تنفيذ) منصوص عليها في البند 6 صراحةً (\"من عدمه\")."
+              },
+              "evidence_requirements": {
+                "artifact_type": "structured_list",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "قيمة من القائمة الثنائية المعتمدة لكل عنصر في تعداد المخرجات."
+              }
+            }
+          ]
+        },
+        {
+          "key": "execute_path_procedure",
+          "name_ar": "إجراءات مسار قرار التنفيذ",
+          "type": "object",
+          "weight": 4,
+          "source_quote_ar": "في حال كانت نتائج التقييم هي ضرورة تنفيذ دورة تطوير البنية المؤسسية، فيعمل فريق عمل البنية المؤسسية على إصدار مسودة قرار تنفيذ دورة التطوير واعتمادها من أصحاب العلاقة المعنيين.",
+          "source_ref": {
+            "file": "national-methodology-v1",
+            "page": 48,
+            "section": "6.1.3.1"
+          },
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "إجراءات مسار التنفيذ مصدرها المنهجية الوطنية ص.48 (لا في أرضية المواصفة). تقف عند should وفق DD-3."
+          },
+          "evidence_skipped_per_dd_36": "object wrapper without standalone scalar content; evidence flows to item_fields children (DD-36).",
+          "item_fields": [
+            {
+              "key": "required_draft_decision_artifact_ar",
+              "name_ar": "متطلب إصدار مسودة قرار التنفيذ",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "ص.48 يفرض إصدار مسودة قرار تنفيذ — متطلَّب إجرائي مصدره المنهجية. DD-21 conditional-must: ابن لـ wrapper بـ should فيرث should.",
+                "source_quote_ar": "إصدار مسودة قرار تنفيذ دورة التطوير"
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يفرض إعداد مسودة قرار التنفيذ كوثيقة إجرائية ضمن مسار قرار الإطلاق.",
+                "source_authority_ar": "national-methodology v1 ص.48 §6.1.3.1"
+              }
+            },
+            {
+              "key": "required_stakeholder_approvals_ar",
+              "name_ar": "متطلب اعتماد أصحاب العلاقة",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "اعتماد أصحاب العلاقة المعنيين شرط مذكور صراحةً في ص.48.",
+                "source_quote_ar": "اعتمادها من أصحاب العلاقة المعنيين"
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يحدد متطلَّب الحصول على اعتماد أصحاب العلاقة المعنيين قبل اعتبار قرار التنفيذ نافذًا.",
+                "source_authority_ar": "national-methodology v1 ص.48 §6.1.3.1"
+              }
+            }
+          ]
+        },
+        {
+          "key": "not_execute_path_procedure",
+          "name_ar": "إجراءات مسار قرار عدم التنفيذ",
+          "type": "object",
+          "weight": 4,
+          "source_quote_ar": "في حال كانت نتائج التقييم هي عدم ضرورة تنفيذ دورة تطوير البنية المؤسسية، فيعمل فريق عمل البنية المؤسسية على توثيق جميع المدخلات التي سبق جمعها، وتوضيح مبررات عدم تنفيذ دورة التطوير وأرشفة نتائج الطلب.",
+          "source_ref": {
+            "file": "national-methodology-v1",
+            "page": 48,
+            "section": "6.1.3.1"
+          },
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "إجراءات مسار عدم التنفيذ مصدرها ص.48 — توثيق المدخلات + تبرير + أرشفة. ليست في أرضية المواصفة لذا should."
+          },
+          "evidence_skipped_per_dd_36": "object wrapper without standalone scalar content; evidence flows to item_fields children (DD-36).",
+          "item_fields": [
+            {
+              "key": "required_inputs_documentation_ar",
+              "name_ar": "متطلب توثيق المدخلات المجمَّعة",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "توثيق المدخلات المجمَّعة شرط إجرائي صريح في ص.48.",
+                "source_quote_ar": "توثيق جميع المدخلات التي سبق جمعها"
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يفرض توثيق المدخلات المُجمَّعة قبل قرار عدم التنفيذ — لاستخدامها في طلبات لاحقة محتملة.",
+                "source_authority_ar": "national-methodology v1 ص.48 §6.1.3.1"
+              }
+            },
+            {
+              "key": "required_justification_and_archival_ar",
+              "name_ar": "متطلب تبرير عدم التنفيذ وأرشفة نتائج الطلب",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "تبرير عدم التنفيذ وأرشفة نتائج الطلب شرطان مذكوران معًا في ص.48 — يُجمَعان في حقل واحد لتسلسلهما الإجرائي الطبيعي.",
+                "source_quote_ar": "توضيح مبررات عدم تنفيذ دورة التطوير وأرشفة نتائج الطلب"
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص يفرض إعداد مستند تبرير لعدم التنفيذ وأرشفة كامل ملف الطلب — كأثر إجرائي مرجعي للقرار.",
+                "source_authority_ar": "national-methodology v1 ص.48 §6.1.3.1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cycle_card_specification",
+      "name_ar": "مواصفات بطاقة الدورة",
+      "kind": "content",
+      "weight": 12,
+      "weight_rationale_ar": "حاوية مرتبطة بالبند 5 من أرضية المواصفة. أوزان فرعية 9/3: قائمة العناصر الإلزامية للبطاقة (must/primary_spec للعموم + should/guide للعناصر التفصيلية الأربعة من ص.50) أعلى وزنًا من بيان غرض البطاقات (judgment-source). البند 5 يفرض وجود البطاقة (must)؛ تحديد عناصرها يأتي من المنهجية الوطنية ص.50 (should/guide).",
+      "fields": [
+        {
+          "key": "mandatory_card_attributes",
+          "name_ar": "العناصر الإلزامية لبطاقة دورة التطوير",
+          "type": "list_of_objects",
+          "weight": 9,
+          "source_quote_ar": "بطاقة لكل دورات تطوير مكونات البنية المؤسسية.",
+          "source_ref": {
+            "file": "primary-spec",
+            "page": 8,
+            "section": ".02 الوثائق",
+            "row": 15,
+            "bullet": 5
+          },
+          "validation": {
+            "severity": "must",
+            "severity_source": "primary_spec",
+            "rationale_ar": "البند 5 من أرضية المواصفة (ص.8 صف 15) ينص على وجود بطاقة لكل دورة تطوير. هذا يفرض وجود مواصفة مرفقة في الميثاق العام تُعدد العناصر الإلزامية للبطاقة (وإن كان البند نفسه لا يُسمي العناصر — تُستمد من المنهجية الوطنية ص.50)."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_list",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قائمة العناصر الإلزامية لبطاقة دورة التطوير تظهر في قسم مواصفات البطاقة من الميثاق — بحد أدنى تتضمن العناصر الأربعة المنصوص عليها في المنهجية الوطنية ص.50 (نطاق أفقي/رأسي، قائمة أصحاب العلاقة، خطة العمل).",
+            "source_authority_ar": "primary-spec ص.8 صف 15 بند 5 + national-methodology v1 ص.50 §6.1.3.1"
+          },
+          "item_fields": [
+            {
+              "key": "attribute_label",
+              "name_ar": "تسمية العنصر",
+              "type": "enum",
+              "enum_values": [
+                "scope_breadth",
+                "scope_depth",
+                "stakeholders_list",
+                "detailed_execution_plan"
+              ],
+              "enum_extensible": true,
+              "extensibility_note_ar": "قابلة للتوسعة وفقًا لـ DD-10 family لاستيعاب عناصر إضافية تفرضها الجهة (مثال: مدير الدورة، تاريخ الانطلاق، حالة الاعتماد).",
+              "value_map_ar": {
+                "scope_breadth": "نطاق العمل الأفقي (Breadth)",
+                "scope_depth": "نطاق العمل الرأسي (Depth)",
+                "stakeholders_list": "قائمة أصحاب العلاقة",
+                "detailed_execution_plan": "خطة العمل التفصيلية لتنفيذ الدورة"
+              },
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "العناصر الأربعة المعلَّمة بالـ enum مذكورة صراحةً في المنهجية الوطنية ص.50. ليست في أرضية المواصفة الأم لذا تقف عند should وفق DD-3.",
+                "source_quote_ar": "نطاق العمل الأفقي (Breadth) والرأسي (Depth)، وقائمة أصحاب العلاقة وخطة العمل التفصيلية لتنفيذ دورة التطوير",
+                "source_ref": {
+                  "file": "national-methodology-v1",
+                  "page": 50,
+                  "section": "6.1.3.1"
+                }
+              },
+              "evidence_requirements": {
+                "artifact_type": "structured_list",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "قيمة معتمدة من قائمة العناصر الأربعة (أو عنصر موسَّع موثَّق ضمن extensibility_note_ar) لكل صف في قائمة العناصر الإلزامية."
+              }
+            },
+            {
+              "key": "attribute_meaning_ar",
+              "name_ar": "معنى العنصر ومبرراته",
+              "type": "text",
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "وصف العنصر/مبرراته يُساعد فِرق الدورات على فهم الغاية. مصدره استرشادي (المنهجية الوطنية)؛ ليس في أرضية المواصفة لذا should."
+              },
+              "evidence_requirements": {
+                "artifact_type": "narrative_section",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "نص مختصر يوضح معنى العنصر ضمن سياق بطاقة الدورة، ولماذا هو إلزامي/اختياري — يُساعد فرق الدورات على ملء البطاقة بشكل متسق."
+              }
+            },
+            {
+              "key": "required_or_optional",
+              "name_ar": "حالة الإلزام",
+              "type": "enum",
+              "enum_values": ["required", "optional", "conditional"],
+              "enum_extensible": false,
+              "value_map_ar": {
+                "required": "إلزامي",
+                "optional": "اختياري",
+                "conditional": "مشروط (وفق سياق الدورة)"
+              },
+              "validation": {
+                "severity": "should",
+                "severity_source": "guide",
+                "rationale_ar": "تحديد إلزامية كل عنصر بطاقة من اختصاص مواصفة البطاقة في الميثاق العام. مصدره اجتهادي/استرشادي."
+              },
+              "evidence_requirements": {
+                "artifact_type": "structured_list",
+                "document_class": "charter_section",
+                "acceptance_criteria_ar": "قيمة من القائمة الثلاثية المعتمدة (إلزامي/اختياري/مشروط) لكل عنصر في قائمة العناصر الإلزامية."
+              }
+            }
+          ]
+        },
+        {
+          "key": "card_purpose_statement_ar",
+          "name_ar": "بيان الغرض من بطاقات الدورات",
+          "type": "text",
+          "weight": 3,
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "بيان موجز يوضح وظيفة بطاقات الدورات (تتبُّع، شفافية، توحيد العرض، إلخ). لا يوجد اقتباس صريح في pp.46-55 يحدد غرض البطاقة، لذا judgment-source ويقف عند should."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "نص موجز (1–3 جمل) يبين غرض بطاقات الدورات ضمن منظومة الميثاق العام (مثال: \"تتيح البطاقات نظرة شاملة موحَّدة على دورات التطوير الجارية والمنتهية\")، يأتي عادةً في مقدمة قسم مواصفات البطاقة."
+          }
+        }
+      ]
+    },
+    {
+      "key": "governance",
+      "name_ar": "الحوكمة",
+      "kind": "content",
+      "weight": 14,
+      "weight_rationale_ar": "حاوية إلزامية على المستوى الأعلى وفق DD-3 (carryover from project-wide invariant). أوزان فرعية 4/3/4/3: السلطة المعتمدة (must/judgment) + حالة الاعتماد (must/judgment) — كلاهما يرتفع إلى must وفق DD-28. مصفوفة المسؤوليات للقرارات الميثاقية (should/judgment) ومبادئ إشراك أصحاب العلاقة (should/guide) فروع تكميلية. البند يحتوي على 4 حقول مسطحة بأوزان مرتبة ترتيبًا متوازيًا.",
+      "fields": [
+        {
+          "key": "charter_approval_authority",
+          "name_ar": "السلطة المعتمدة للميثاق العام",
+          "type": "text",
+          "weight": 4,
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "السلطة المعتمدة عنصر هيكلي للوثيقة؛ غيابها يُسقط هوية الميثاق كأداة حوكمة. judgment يرتفع إلى must وفق DD-28 (carryover from S2.3) — الغياب يجعل الحاوية بلا معنى. أرضية المواصفة (ص.8 صف 15) تذكر صراحةً \"لجنة حوكمة البنية المؤسسية\" كسلطة الاعتماد."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "بيان صريح للسلطة المعتمدة (مثال: \"لجنة حوكمة البنية المؤسسية\")، مع توقيع/طابع الجهة المُعتمِدة على صفحة الاعتماد أو خاتمة الوثيقة.",
+            "source_authority_ar": "primary-spec ص.8 صف 15 (عمود مستوى الاعتماد)"
+          }
+        },
+        {
+          "key": "charter_approval_status",
+          "name_ar": "حالة اعتماد الميثاق العام",
+          "type": "enum",
+          "enum_values": [
+            "draft",
+            "under_review",
+            "approved",
+            "superseded",
+            "withdrawn"
+          ],
+          "enum_extensible": false,
+          "value_map_ar": {
+            "draft": "مسودة",
+            "under_review": "قيد المراجعة",
+            "approved": "معتمد",
+            "superseded": "مُستبدَل بإصدار لاحق",
+            "withdrawn": "مسحوب من التداول"
+          },
+          "weight": 3,
+          "validation": {
+            "severity": "must",
+            "severity_source": "judgment",
+            "rationale_ar": "حالة الاعتماد عنصر تدقيقي أساسي؛ غيابها يجعل قابلية تنفيذ الميثاق غير محددة. DD-28 (carryover): judgment يرتفع إلى must عند انعدام المعنى بالغياب."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "قيمة من القائمة الخمسية المعتمدة (مسودة/قيد المراجعة/معتمد/مُستبدَل/مسحوب)، تظهر في صفحة البيانات التعريفية أو سجل تتبع الإصدار."
+          }
+        },
+        {
+          "key": "raci_for_charter_level_decisions",
+          "name_ar": "مصفوفة المسؤوليات لقرارات الميثاق العام",
+          "type": "text",
+          "weight": 4,
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "مصفوفة RACI لقرارات الميثاق نفسه (إقرار/تعديل/إلغاء) عنصر حوكمي مفيد، لكنه غير منصوص في أرضية المواصفة ولم تُلتقط له اقتباسات صريحة في pp.46-55 (المرشحان governance-001/002 من المنهجية الوطنية كانا لمراحل الدورة لا للميثاق ذاته — يُحالان إلى DEL-DOC-016 في v0_1_candidates.json). judgment-source ويقف عند should."
+          },
+          "evidence_requirements": {
+            "artifact_type": "structured_table",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "مصفوفة أو نص يصف توزيع أدوار R/A/C/I لقرارات الميثاق على مستوى الجهة (مثال: من يقترح تعديل الميثاق، من يعتمد التعديل، من يُستشار، من يُبلَّغ)."
+          }
+        },
+        {
+          "key": "cross_cycle_stakeholder_engagement_principles",
+          "name_ar": "مبادئ إشراك أصحاب العلاقة عبر دورات التطوير",
+          "type": "text",
+          "weight": 3,
+          "source_quote_ar": "يجب اختيار آليات دمج أصحاب العلاقة الأمثل لكل نوع من أنواع أصحاب العلاقة، بحيث تحقق الموازنة بين جميع المدخلات اللازمة لدورة التطوير مع تجنب التأثير على خطط العمل أو الإضرار بدورة التطوير عامة.",
+          "source_ref": {
+            "file": "national-methodology-v1",
+            "page": 52,
+            "section": "6.1.3.1"
+          },
+          "validation": {
+            "severity": "should",
+            "severity_source": "guide",
+            "rationale_ar": "المنهجية الوطنية ص.52 ترسم مبدأ اختيار آليات الإشراك الأمثل وتحقيق التوازن. كمبدأ ميثاقي، يحكم جميع الدورات (لذا ينتمي للحوكمة وليس لـ cycle_card_specification أو cycle_decision_framework). مصدره guide وليس primary_spec لذا يقف عند should وفق DD-3."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "بيان مبادئ الميثاق العام لإشراك أصحاب العلاقة عبر جميع دورات التطوير — يتضمن مبدأ اختيار الآلية الأمثل لكل نوع من أصحاب العلاقة، ومبدأ الموازنة بين المدخلات وخطط العمل.",
+            "source_authority_ar": "national-methodology v1 ص.52 §6.1.3.1"
+          }
+        }
+      ]
+    },
+    {
+      "key": "relationship_to_per_cycle_documents",
+      "name_ar": "علاقة الميثاق بوثائق الدورات الفردية",
+      "kind": "structural",
+      "weight": 8,
+      "weight_rationale_ar": "حاوية مسطّحة بدون أوزان فرعية (DD-31 selective: leaves فقط). بدون حاوية صريحة لربط DOC-15 بـ DOC-16 وDOC-17، تفتقد منظومة الوثائق إلى رابط هرمي رسمي على مستوى الميثاق. لا يوجد مرشح من pp.46-55 (المنهجية الوطنية لا تتناول الربط صراحةً، يُستنتج من تسلسل الوثائق في المواصفة الأم).",
+      "fields": [
+        {
+          "key": "doc_16_inheritance_relationship",
+          "name_ar": "علاقة الميثاق العام بميثاق دورة التطوير (DOC-16)",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "بيان العلاقة الوراثية بين الميثاق العام والميثاق الفردي لكل دورة (DEL-DOC-016) عنصر هيكلي مفيد لتوضيح آلية تطبيق الميثاق على دورات بعينها. لا يرد في أرضية المواصفة (ص.8 صف 15) ولا في pp.46-55 من المنهجية كاقتباس صريح، لذا judgment-source ويقف عند should وفق DD-3. العلاقة مستمدة ضمنيًّا من تسلسل الوثائق في المواصفة الأم: DOC-15 ميثاق عام، DOC-16 ميثاق دورة، DOC-17 وثيقة دورة."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "نص يوضح أن كل ميثاق دورة فردية (DOC-16) يرث الإطار الحوكمي للميثاق العام، ويلتزم بالمعايير المنصوص عليها فيه (الارتباط الاستراتيجي، تقييم الأثر، إجراءات قرار الإطلاق، عناصر بطاقة الدورة، الحوكمة). يأتي عادةً في القسم الختامي للميثاق العام تحت عنوان \"العلاقة بوثائق الدورات الفردية\"."
+          }
+        },
+        {
+          "key": "doc_17_traceability_relationship",
+          "name_ar": "علاقة الميثاق العام بوثيقة دورة التطوير (DOC-17)",
+          "type": "text",
+          "validation": {
+            "severity": "should",
+            "severity_source": "judgment",
+            "rationale_ar": "بيان علاقة التتبُّع بين الميثاق العام ووثيقة الدورة الفردية (DEL-DOC-017) — التي تحتوي مخرجات تنفيذ الدورة فعليًا — يربط بين المستوى الميثاقي والمستوى التنفيذي. ضمني وليس منصوصًا في الأرضية، لذا judgment-source و should."
+          },
+          "evidence_requirements": {
+            "artifact_type": "narrative_section",
+            "document_class": "charter_section",
+            "acceptance_criteria_ar": "نص يوضح أن وثيقة دورة التطوير الفردية (DOC-17) تتتبَّع نتائجها وامتثالها إلى المعايير الواردة في الميثاق العام، عبر الميثاق الفردي للدورة (DOC-16) كحلقة وسيطة. يبيِّن آلية ربط نتائج الدورة (تحليلات، فجوات، مبادرات) بالأبعاد الاستراتيجية ومعايير الأثر المنصوص عليها في الميثاق العام."
+          }
+        }
+      ]
+    }
+  ],
+  "out_of_scope_v0_1": [
+    {
+      "item": "DOC-16 per-cycle charter content",
+      "rationale_ar": "محتوى ميثاق الدورة الفردية (نطاق breadth/depth، قدرات الأعمال المسؤولة، كيانات البيانات، مكونات التقنية والأمن، اختيار مراحل التطوير، اعتبارات الحجم) منصوص في primary-spec ص.9 صف 16 ويُحال إلى DEL-DOC-016. ثمانية مرشحين من deep-read pp.46-55 موسومون out_of_scope_target=DEL-DOC-016 في v0_1_candidates.json — يرثها M3.2."
+    },
+    {
+      "item": "DOC-17 per-cycle development document content",
+      "rationale_ar": "محتوى وثيقة دورة التطوير الفردية (مخرجات تنفيذ الدورة: توثيق الوضع الحالي، تحليل الفجوات، التوصيات، إلخ) منصوص في primary-spec ص.9 صف 17 ويُحال إلى DEL-DOC-017. M3.3."
+    },
+    {
+      "item": "Governance-committee charter content",
+      "rationale_ar": "محتوى ميثاق لجنة حوكمة البنية المؤسسية (في practice-establishment pp.63-80) ليس له DEL-ID مطابق في فهرس 49 العنصر؛ أقرب وثيقة هي DEL-PRE-002 (اشتراطات لجنة حوكمة البنية المؤسسية) لكنها اشتراطات هيكلية، ليست ميثاقًا. أي مرشح من هذا النطاق سُجِّل status=rejected في candidates file."
+    },
+    {
+      "item": "Per-item array weighting inside list_of_objects",
+      "rationale_ar": "وزن لكل عنصر في القوائم (خلافًا لوزن قائمة كاملة) مؤجل إلى S4 (مهندس التقييم). نفس نمط EA-Strategy out_of_scope_v04."
+    },
+    {
+      "item": "Dependency edges to upstream/downstream deliverables",
+      "rationale_ar": "DOC-15 في المرحلة D — مدخلاته من المراحل A/B/C (مثال: DEL-DOC-004 EA-Strategy) ومخرجاته إلى المراحل E/F. الحواف بين الوثائق في S3."
+    },
+    {
+      "item": "Automated scorer implementation",
+      "rationale_ar": "تنفيذ المدقق الآلي (severity scoring + evidence checking + sub-weight rollup) في S4 (carryover from EA-Strategy DD-32/DD-33 follow-ups). DOC-15 v0.1 يوفر القاعدة المعرفية فقط."
+    },
+    {
+      "item": "Evidence weighting per artifact_type or document_class",
+      "rationale_ar": "ترجيح الأدلة حسب نوع الأثر (artifact_type) أو فئة الوثيقة (document_class) في S4. v0.1 يستخدم enum extensibility فقط."
+    },
+    {
+      "item": "DOC-15 self-revision (supersession) governance",
+      "rationale_ar": "حوكمة مراجعة الميثاق ذاته (آلية التعديل، تأثيره على الدورات الجارية، تتبُّع الإصدارات) مؤجلة. v0.1 يكتفي بحقل charter_approval_status enum يتضمن قيمة superseded. توسعة محتملة في v0.2 أو عند بزوغ سيناريو حوكمي يستدعيها."
+    }
+  ],
+  "design_decisions_v0_1": {
+    "block_kind": "audit_trail",
+    "intent_ar": "سجل القرارات التصميمية لإصدار v0.1 من مخطط DEL-DOC-015. مقسَّم إلى قرارات تأسيسية (DD-1 إلى DD-4، مشتركة عرضيًا) وقرارات لكل حاوية (DD-5 إلى DD-12، تخص حاوية واحدة لكل قرار).",
+    "decisions": [
+      {
+        "id": "DD-1",
+        "scope": "foundational",
+        "title_ar": "تبني أعراف v0.4 من اليوم الأول دون مرحلية إصدارية",
+        "decision_ar": "إصدار v0.1 من DEL-DOC-015 يتبنى مجموعة أعراف v0.4 الكاملة من اليوم الأول: snake_case + name_ar في كل المفاتيح، governance حاوية على المستوى الأعلى (DD-3 مشروع), أوزان حاويات صحيحة مجموعها 100, blocks الـ validation و evidence_requirements لكل ورقة, severity-floor heuristic, sub-weight selectivity (DD-31), مفتاح evidence_skipped_per_dd_36 على object wrappers, conditional patterns (DD-21/DD-33), out_of_scope_v0_1 array, design_decisions_v0_1 audit block.",
+        "rationale_ar": "M3.1 يبدأ بعد S2.4 — الأعراف مختبرة عبر S2.2/S2.3/S2.4 على EA-Strategy. DOC-15 هو أول وثيقة تستخدم أعراف v0.4 من اليوم الأول؛ الـ 47 وثيقة المتبقية ستتبع هذا النموذج بدلًا من مسار التطور S1→S2.4. هذه الأعراف موثَّقة في .claude/skills/schema-gate-loop + scripts/verify_schema.py.",
+        "outcome_ar": "نقطة بداية قابلة لإعادة الاستخدام للوثائق الـ 47 المتبقية. meta.json يوثِّق convention_baseline=v0.4 في lineage."
+      },
+      {
+        "id": "DD-2",
+        "scope": "foundational",
+        "title_ar": "تصحيح أرضية المواصفة من 5 بنود إلى 6 بنود",
+        "decision_ar": "primary-spec ص.8 صف 15 (DEL-DOC-015) يحتوي على 6 بنود — وليس 5 كما ورد في الموجز الأولي. كل البنود الستة تحمل severity=must, severity_source=primary_spec. البند 6 (\"قرار بالحاجة إلى تنفيذ دورة تطوير مكونات البنية المؤسسية من عدمه\") تم وسمه أيضًا كمرشح out_of_scope_target=DEL-DOC-016 في v0_1_candidates.json — تستفيد منه M3.2 كإشارة عبر-وثائقية (تسجيل قرار الدورة الفردية يقع في وثيقة الدورة الفردية لا في الميثاق العام).",
+        "rationale_ar": "تحقّق المصدر في Gate 0 كشف البند السادس: content_preview للفهرس ضغط خلايا متعددة من الجدول وأسقط بندًا. كل البنود الستة جزء من البند 15 على ص.8 وتصلح كأرضية للحاويات strategic_alignment (b2) / impact_assessment_framework (b1, b3, b4) / cycle_card_specification (b5) / cycle_decision_framework (b6).",
+        "outcome_ar": "21 ورقة must بدلًا من ~17 (لو 5 بنود فقط). توزيع should/nice يبقى الأغلبية (24 من 45 ورقة، 53%)."
+      },
+      {
+        "id": "DD-3",
+        "scope": "foundational",
+        "title_ar": "سياسة إسناد الـ severity (carryover من S2.3)",
+        "decision_ar": "severity=must محصور في الحقول القابلة للتتبع إلى أرضية المواصفة (carryover من DD-16 لـ EA-Strategy). guide-source يقف عند should/nice (carryover من DD-26). judgment-source يرتفع إلى must فقط حين يجعل الغياب الحاوية الأم بلا معنى (carryover من DD-28؛ نادر — مطبَّق هنا على charter_approval_authority + charter_approval_status في governance).",
+        "rationale_ar": "ثابت على مستوى المشروع منذ S2.3؛ يُعاد استخدامه دون تعديل في DOC-15.",
+        "outcome_ar": "توزيع severity: 21 must / 23 should / 1 nice عبر 45 ورقة. توزيع severity_source: 15 primary_spec / 15 guide / 15 judgment (تماثل تلقائي لا مستهدَف)."
+      },
+      {
+        "id": "DD-4",
+        "scope": "foundational",
+        "title_ar": "سياسة تصنيف المصادر — أرضية + عمق + تصفّح-OOS",
+        "decision_ar": "تصنيف مصادر deep-read لـ DOC-15: (1) primary-spec ص.8 صف 15 = أرضية (must-floor، 6 بنود) (2) national-methodology v1 pp.46-55 = العمق المرجعي (مرشحات severity_source=guide) (3) practice-establishment pp.63-80 = تصفّح OOS فقط — لا يُحصد أي مرشح؛ المحتوى مرتبط بميثاق لجنة الحوكمة لا بميثاق دورة التطوير؛ أقرب deliverable موجود هو DEL-PRE-002 (اشتراطات اللجنة) لكن لا توجد وثيقة \"ميثاق لجنة\" مطابقة في فهرس 49 العنصر (4) المرشحات عبر-وثائقية (محتوى نطاق/RACI/مراحل-الدورة لكل دورة) موسومة out_of_scope_target=DEL-DOC-016 في candidates file.",
+        "rationale_ar": "يُلزم تصنيف المصادر في الموجز الأصلي للمستخدم بقرار رسمي؛ يخدم M3.2/M3.3 في الوراثة عبر-الوثائق.",
+        "outcome_ar": "8 من أصل 15 مرشح pass-1 موسومة لـ DOC-16 (out_of_scope_target=DEL-DOC-016)؛ 1 مرشح مرفوض غير-OOS (identity-001 — اقتباس يُؤطّر المرحلة الأولى للدورة لا هوية الميثاق)."
+      },
+      {
+        "id": "DD-5",
+        "scope": "per_container",
+        "container_key": "metadata",
+        "title_ar": "حاوية البيانات التعريفية (metadata) — وزن 8، 5 حقول، document_class=charter_section",
+        "decision_ar": "حاوية metadata بوزن 8 (مطابق لـ EA-Strategy v0.4)، 5 حقول مسطحة (document_title، version، issue_date، authoring_unit مع severity=must/judgment لكل منها، language=should/judgment لـ DD-19 carryover). لا أوزان فرعية (DD-31 selective: leaves مسطحة). document_class=charter_section كامتداد لـ DD-32 enum للتمييز عن strategy_section الخاص بـ EA-Strategy.",
+        "rationale_ar": "metadata في كل وثيقة boilerplate-thin — العناصر تعريفية أكثر منها محتواية. الأرضية لا تنزل هنا، فالكل judgment-source. document_class محدد لكل وثيقة لتجنب التطابق العرضي عند الترجيح في S4.",
+        "outcome_ar": "5 أوراق: 4 must + 1 should، كلها severity_source=judgment."
+      },
+      {
+        "id": "DD-6",
+        "scope": "per_container",
+        "container_key": "identity",
+        "title_ar": "حاوية الهوية والغرض (identity) — وزن 12، 4 حقول، رفض identity-001",
+        "decision_ar": "حاوية identity بوزن 12 (أعلى من metadata قليلًا لأنها تحمل تأطيرًا تعريفيًا لا مجرد boilerplate)، 4 حقول مسطحة (charter_definition + charter_purpose_statement + charter_applicability_scope كلها should/judgment، charter_authority_basis nice/judgment). لا أوزان فرعية (DD-31 selective). pass-1 candidate identity-001 مرفوض: اقتباسه يصف هدف المرحلة الأولى للدورة (\"تهدف هذه المرحلة إلى دراسة وتقييم الحاجة...\") لا نطاق تطبيق الميثاق — preserved في v0_1_candidates.json بـ status=rejected.",
+        "rationale_ar": "هوية الميثاق مقيدة حالياً بمجموعة بسيطة من حقول التأطير الإفصاحية. لا أرضية مواصفة هنا (الأرضية محتوى، لا هوية). charter_applicability_scope بقي في identity (وليس governance) لأنه إفصاح تعريفي لا تخصيص حوكمي.",
+        "outcome_ar": "4 أوراق: 3 should + 1 nice، كلها severity_source=judgment. مرشح pass-1 واحد مرفوض (audit trail in candidates file)."
+      },
+      {
+        "id": "DD-7",
+        "scope": "per_container",
+        "container_key": "strategic_alignment",
+        "title_ar": "حاوية الارتباط الاستراتيجي — وزن 14، أوزان فرعية 10/4، البند 2",
+        "decision_ar": "حاوية strategic_alignment بوزن 14 وأوزان فرعية 10/4 (DD-31 applied: list_of_objects child triggers sub-weighting). الحقل الرئيسي mandatory_strategy_alignment_dimensions (list_of_objects, weight=10, must, primary_spec) anchored to bullet 2، item_fields ثلاثة: strategy_type (enum أربعي extensible per DD-10 family), alignment_evidence_required_ar (must/primary_spec), conflict_status_required (should/guide). الحقل الثاني cross_strategy_conflict_avoidance_rule (text, weight=4, should, guide) من ص.51. promoted candidate strategic_alignment-001.",
+        "rationale_ar": "البند 2 يُعدد صراحةً 4 أنواع استراتيجيات → enum بـ 4 قيم. \"الاستراتيجيات الرقمية الأخرى ذات العلاقة\" يفرض extensibility (DD-10 family). قاعدة تجنّب التعارض من ص.51 من المنهجية الوطنية، لا من الأرضية، لذا تقف عند should.",
+        "outcome_ar": "5 أوراق: 3 must + 2 should؛ 3 primary_spec + 2 guide."
+      },
+      {
+        "id": "DD-8",
+        "scope": "per_container",
+        "container_key": "impact_assessment_framework",
+        "title_ar": "حاوية إطار تقييم الأثر — أثقل حاوية بوزن 18، أوزان فرعية متساوية 6/6/6، البنود 1+3+4",
+        "decision_ar": "حاوية impact_assessment_framework بوزن 18 (الأعلى) وأوزان فرعية 6/6/6 (DD-31 applied: ثلاثة list_of_objects children). ثلاثة حقول رئيسية متوازية البنية، كل واحد بنفس item_fields shape (criterion_label_ar must/primary_spec, criterion_description_ar must/primary_spec, measurement_method_ar should/guide): strategic_aggregate_impact_criteria (bullet 1) / needs_driven_impact_criteria (bullet 3) / per_cycle_execution_impact_criteria (bullet 4). promoted candidate impact_assessment_framework-001 (الاقتباس يمتد عبر البنود 3+4؛ البند 1 من الأرضية فقط بلا ركيزة guide).",
+        "rationale_ar": "ثلاثة بنود من أرضية المواصفة (نصف الـ 6) تنزل هنا — الحاوية تستحق الوزن الأعلى. أوزان فرعية متساوية لأن الأرضية لا تفضّل بندًا على آخر. ثلاث حاويات منفصلة بدلًا من قائمة واحدة بـ category enum للحفاظ على وضوح كل بند كقاعدة عليا (meta-rule explicitness).",
+        "outcome_ar": "12 ورقة: 9 must + 3 should؛ 9 primary_spec + 3 guide."
+      },
+      {
+        "id": "DD-9",
+        "scope": "per_container",
+        "container_key": "cycle_decision_framework",
+        "title_ar": "حاوية إطار قرار تنفيذ الدورة — وزن 14، أوزان فرعية 6/4/4، البند 6",
+        "decision_ar": "حاوية cycle_decision_framework بوزن 14 وأوزان فرعية 6/4/4 (DD-31 applied: list_of_objects + 2 object wrappers). الحقل الرئيسي decision_outcomes_enumeration (list_of_objects, weight=6, must, primary_spec, bullet 6) بـ item_fields واحد فقط: outcome_label (enum ثنائي: execute/not_execute). الحقلان التكميليان execute_path_procedure + not_execute_path_procedure (object wrappers, weight=4 each, should, guide, p.48) كلاهما يحمل evidence_skipped_per_dd_36 وله item_fields داخلية (DD-21 conditional-must مطبق: أبناء wrapper بـ should يرثون should). promoted candidates: cycle_decision_framework-001 → not_execute_path_procedure؛ cycle_decision_framework-002 → execute_path_procedure.",
+        "rationale_ar": "البند 6 يفرض ثنائية القرار. مساران إجرائيان من المنهجية الوطنية ص.48 (مسار التنفيذ + مسار عدم التنفيذ) يكتمل بهما الإطار. أوزان فرعية متوازية بين المسارين (4/4) لأن الأرضية لا تفضّل أحدهما. wrapper-vs-list dichotomy من DD-36 مطبق على الـ object wrappers.",
+        "outcome_ar": "8 أوراق: 2 must + 6 should؛ 2 primary_spec + 6 guide."
+      },
+      {
+        "id": "DD-10",
+        "scope": "per_container",
+        "container_key": "cycle_card_specification",
+        "title_ar": "حاوية مواصفات بطاقة الدورة — وزن 12، أوزان فرعية 9/3، البند 5",
+        "decision_ar": "حاوية cycle_card_specification بوزن 12 وأوزان فرعية 9/3 (DD-31 applied: list_of_objects + leaf). الحقل الرئيسي mandatory_card_attributes (list_of_objects, weight=9, must, primary_spec — البند 5 يفرض وجود البطاقة) بـ item_fields ثلاثة: attribute_label (enum بـ 4 قيم extensible per DD-10 family، seeded من المنهجية ص.50 — scope_breadth/depth/stakeholders_list/detailed_execution_plan), attribute_meaning_ar (should/guide), required_or_optional (enum ثلاثي should/guide). الحقل الثاني card_purpose_statement_ar (text, weight=3, should, judgment). promoted candidate cycle_card_specification-001.",
+        "rationale_ar": "البند 5 يفرض وجود البطاقة (الأرضية تنزل على parent severity=must)، لكنه لا يُسمي عناصر البطاقة. العناصر الأربعة من المنهجية الوطنية ص.50 (severity_source=guide، severity=should على item_fields). cross-deliverable scoping: DOC-15 يحمل المواصفة (specification)؛ DOC-16 يحمل الـ instances (severity=must per primary-spec ص.9 صف 16، يُعالج في M3.2). تسمية DD-10 family هي تماثل في الترقيم لا أكثر — DD-10 الحالي عن مواصفات البطاقة، DD-10 family عن enum extensibility هي قاعدة شاملة.",
+        "outcome_ar": "5 أوراق: 1 must + 4 should؛ 1 primary_spec + 3 guide + 1 judgment."
+      },
+      {
+        "id": "DD-11",
+        "scope": "per_container",
+        "container_key": "governance",
+        "title_ar": "حاوية الحوكمة — وزن 14، أوزان فرعية 4/3/4/3، رفض RACI candidates",
+        "decision_ar": "حاوية governance بوزن 14 وأوزان فرعية 4/3/4/3 (DD-31 applied على leaves متوازية مع أوزان). أربعة حقول مسطحة: charter_approval_authority (must/judgment, DD-28 carryover) + charter_approval_status (must/judgment enum خماسي, DD-28) + raci_for_charter_level_decisions (should/judgment) + cross_cycle_stakeholder_engagement_principles (should/guide, p.52 — reassigned from cycle_planning-001 per User Gate 2). pass-1 candidates governance-001 + governance-002 (RACI لمراحل الدورة) مرفوضان مع out_of_scope_target=DEL-DOC-016 — RACI على مستوى مراحل الدورة الفردية لا على مستوى قرارات الميثاق نفسه.",
+        "rationale_ar": "DD-3 يُلزم governance كحاوية على المستوى الأعلى (project-wide). DD-28 يطبَّق مرتين هنا (السلطة + الحالة) لأن غياب أي منهما يُسقط الحاوية. RACI candidates الإثنان من pass-1 يصفان توزيع المسؤوليات لمراحل تنفيذ الدورة (تحديد النطاق + تأطيره) — هذا محتوى DOC-16 لا DOC-15.",
+        "outcome_ar": "4 أوراق مسطحة: 2 must + 2 should؛ 3 judgment + 1 guide. مرشحان مرفوضان OOS DOC-16، مرشح واحد reassigned (cycle_planning-001 → cross_cycle_stakeholder_engagement_principles)."
+      },
+      {
+        "id": "DD-12",
+        "scope": "per_container",
+        "container_key": "relationship_to_per_cycle_documents",
+        "title_ar": "حاوية العلاقة بوثائق الدورات الفردية — وزن 8، 0 مرشحات pass-1، 2 حقول judgment-source",
+        "decision_ar": "حاوية relationship_to_per_cycle_documents بوزن 8، حاوية مسطحة بدون أوزان فرعية (DD-31 selective: leaves فقط). حقلان: doc_16_inheritance_relationship + doc_17_traceability_relationship، كلاهما text/should/judgment. 0 مرشحات من deep-read pp.46-55 (المنهجية لا تتناول الربط الميثاقي بـ DOC-16/17 صراحةً). بنية متوازنة بين الحقلين (لا أوزان فرعية).",
+        "rationale_ar": "العلاقة بين DOC-15 (ميثاق عام) و DOC-16 (ميثاق دورة) و DOC-17 (وثيقة دورة) ضمنية في تسلسل الوثائق في الأرضية لكنها غير منصوصة كاقتباس. يُكتفى بحقلَي judgment-source لتجسير الميثاق نحو الوثائق التابعة. الحاوية موجودة لأن غيابها يجعل M3.2/M3.3 بلا مرجعية صعودية لـ DOC-15.",
+        "outcome_ar": "ورقتان: 0 must + 2 should؛ 2 judgment."
+      }
+    ]
+  }
+}
